@@ -1,0 +1,1307 @@
+﻿Log file open, 02/26/18 20:49:32
+LogInit:Display: Running engine for game: GalaxyGangGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(821729747) SRandInit(821729747).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.165051
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.27-02.49.35:338][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.27-02.49.35:338][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.27-02.49.35:385][  0]LogInit: Computer: DESKTOP-SSSFMAE
+[2018.02.27-02.49.35:385][  0]LogInit: User: Richa
+[2018.02.27-02.49.35:385][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.02.27-02.49.35:385][  0]LogInit: High frequency timer resolution =2.343751 MHz
+[2018.02.27-02.49.35:386][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.27-02.49.35:386][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.27-02.49.35:386][  0]LogMemory: Process Physical Memory: 268.83 MB used, 268.83 MB peak
+[2018.02.27-02.49.35:386][  0]LogMemory: Process Virtual Memory: 275.20 MB used, 275.20 MB peak
+[2018.02.27-02.49.35:386][  0]LogMemory: Physical Memory: 3662.74 MB used,  4433.92 MB free, 8096.66 MB total
+[2018.02.27-02.49.35:386][  0]LogMemory: Virtual Memory: 694.10 MB used,  4433.92 MB free, 134217728.00 MB total
+[2018.02.27-02.49.35:684][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.02.27-02.49.37:067][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.27-02.49.37:147][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.02.27-02.49.37:147][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.02.27-02.49.37:181][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.27-02.49.37:181][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.27-02.49.37:181][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.27-02.49.37:190][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.27-02.49.37:190][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.27-02.49.37:190][  0]LogWindows: EnumDisplayDevices:
+[2018.02.27-02.49.37:191][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.02.27-02.49.37:191][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.02.27-02.49.37:191][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.02.27-02.49.37:191][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.27-02.49.37:191][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.02.27-02.49.37:191][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.27-02.49.37:191][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.27-02.49.37:191][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.27-02.49.37:288][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.27-02.49.37:296][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.02.27-02.49.37:298][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Users/Richa/Desktop/GalaxyGang/Intermediate/Shaders/WorkingDirectory/7720/).
+[2018.02.27-02.49.37:298][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Richa/AppData/Local/Temp/UnrealShaderWorkingDir/6BEE6F374CBF6218757A5AAA249DA32A/'.
+[2018.02.27-02.49.37:298][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.27-02.49.40:934][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.27-02.49.41:032][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.27-02.49.41:131][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.27-02.49.41:230][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.27-02.49.41:327][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.27-02.49.41:438][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.27-02.49.41:538][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.27-02.49.41:637][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.27-02.49.41:715][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.27-02.49.41:814][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.27-02.49.41:914][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.27-02.49.42:011][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.27-02.49.42:108][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.27-02.49.42:206][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.27-02.49.42:302][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.27-02.49.42:495][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.27-02.49.42:495][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.27-02.49.42:559][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.27-02.49.42:714][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.27-02.49.42:784][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.27-02.49.42:883][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.27-02.49.42:978][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.27-02.49.43:075][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.27-02.49.43:171][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.27-02.49.43:171][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.27-02.49.43:951][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.27-02.49.44:037][  0]LogDerivedDataCache: Loaded boot cache 0.08s 52MB C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.02.27-02.49.44:037][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.02.27-02.49.44:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Richa/Desktop/GalaxyGang/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.27-02.49.44:037][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.27-02.49.44:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Richa/Desktop/GalaxyGang/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.27-02.49.44:037][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.27-02.49.44:065][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.27-02.49.44:079][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Richa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.27-02.49.44:096][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.27-02.49.44:097][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.27-02.49.44:097][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.27-02.49.44:589][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.27-02.49.44:593][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.27-02.49.45:062][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.27-02.49.45:195][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.27-02.49.45:305][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.27-02.49.45:305][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.27-02.49.45:305][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.27-02.49.46:606][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: galaxyganggame, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3878788453
+[2018.02.27-02.49.46:715][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2018.02.27-02.49.46:861][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.111606 seconds
+[2018.02.27-02.49.46:870][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.02.27-02.49.46:870][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2018.02.27-02.49.46:870][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.27-02.49.47:054][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.27-02.49.50:884][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.27-02.49.50:976][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.27-02.49.52:063][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.27-02.49.52:881][  0]SourceControl: Info Source control is disabled
+[2018.02.27-02.49.54:548][  0]SourceControl: Info Source control is disabled
+[2018.02.27-02.49.54:670][  0]SourceControl: Info Source control is disabled
+[2018.02.27-02.49.54:809][  0]SourceControl: Info Source control is disabled
+[2018.02.27-02.49.58:123][  0]LogEngine: Initializing Engine...
+[2018.02.27-02.49.58:125][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.27-02.49.58:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.27-02.49.58:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.27-02.49.58:637][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.27-02.49.58:792][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.27-02.49.59:514][  0]LogInit: FAudioDevice initialized.
+[2018.02.27-02.49.59:820][  0]LogDerivedDataCache: Saved boot cache 0.31s 52MB C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.02.27-02.49.59:830][  0]LogInit: Texture streaming: Enabled
+[2018.02.27-02.50.00:122][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.27-02.50.00:399][  0]LogInit: Transaction tracking system initialized
+[2018.02.27-02.50.01:238][  0]BlueprintLog: New page: Editor Load
+[2018.02.27-02.50.03:696][  0]LocalizationService: Info Localization service is disabled
+[2018.02.27-02.50.05:452][  0]LogConsoleResponse:Display: 
+[2018.02.27-02.50.05:836][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.27-02.50.05:836][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.27-02.50.06:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/' took 0.28s
+[2018.02.27-02.50.09:869][  0]SourceControl: Info Source control is disabled
+[2018.02.27-02.50.09:870][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/GalaxyGangGame/Levels/Galaxy_Of_Dreams+Home_Fountain_Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.27-02.50.09:870][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/GalaxyGangGame/Levels/Galaxy_Of_Dreams+Home_Fountain_Island.umap'
+[2018.02.27-02.50.09:870][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.27-02.50.09:945][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.427ms to complete.
+[2018.02.27-02.50.09:945][  0]LogFileHelpers: Loading map 'Galaxy_Of_Dreams+Home_Fountain_Island' took 0.076
+[2018.02.27-02.51.14:718][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.27-02.51.14:718][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.27-02.51.15:051][  0]LogCollectionManager: Loaded 0 collections in 0.002696 seconds
+[2018.02.27-02.51.15:197][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Saved/Collections/' took 0.01s
+[2018.02.27-02.51.15:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/Developers/Richa/Collections/' took 0.01s
+[2018.02.27-02.51.15:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/Collections/' took 0.01s
+[2018.02.27-02.51.15:198][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.02.27-02.51.15:214][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2245 classes and 453 folders.
+[2018.02.27-02.51.15:323][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.02.27-02.51.16:922][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.02.27-02.51.17:233][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.02.27-02.51.17:569][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.27-02.51.17:608][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.27-02.51.17:721][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.02.27-02.51.17:721][  0]LogLoad: (Engine Initialization) Total time: 107.97 seconds
+[2018.02.27-02.51.17:721][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2018.02.27-02.51.17:721][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.27-02.51.17:741][  0]LogOcInput: OculusInput pre-init called
+[2018.02.27-02.51.17:891][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.27-02.51.17:893][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.27-02.51.17:925][  0]LogSlate: Took 0.026796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.27-02.51.17:955][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.27-02.51.18:057][  0]LogSlate: Took 0.037865 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.27-02.51.18:223][  0]LogRenderer: Reallocating scene render targets to support 740x708 NumSamples 1 (Frame:2).
+[2018.02.27-02.51.20:330][  4]LogAssetRegistry: Asset discovery search completed in 93.6379 seconds
+[2018.02.27-02.51.20:330][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2018.02.27-02.51.20:330][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2018.02.27-02.51.49:856][291]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2018.02.27-02.51.49:856][291]LogSynthBenchmark:Display: ===============
+[2018.02.27-02.51.49:856][291]LogSynthBenchmark:Display: Main Processor:
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:          ... 0.036276 s/Run 'RayIntersect'
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:          ... 0.030357 s/Run 'Fractal'
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display: 
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   CPU Perf Index 0: 70.6 (weight 1.00)
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   CPU Perf Index 1: 94.2 (weight 1.50)
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:  
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display: Graphics:
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics 620'
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   Device Id: 0x5916
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   Device Revision: 0x2
+[2018.02.27-02.51.50:190][291]LogSynthBenchmark:Display:   GPU Memory: 128/0/4049 MB
+[2018.02.27-02.51.50:574][291]LogSynthBenchmark:Display:   GPU first test: 0.09s
+[2018.02.27-02.51.50:574][291]LogSynthBenchmark:Display:          ... 0.591 s/GigaPix, Confidence=70% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.02.27-02.51.50:574][291]LogSynthBenchmark:Display:          ... 0.480 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.02.27-02.51.50:574][291]LogSynthBenchmark:Display:          ... 0.485 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.02.27-02.51.50:574][291]LogSynthBenchmark:Display:          ... 1.542 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2018.02.27-02.51.50:574][291]LogSynthBenchmark:Display:          ... 0.099 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.02.27-02.51.50:574][291]LogSynthBenchmark:Display:          ... 0.130 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.02.27-02.51.50:574][291]LogSynthBenchmark:Display:          ... 0.826 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU second test: 0.31s
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.916 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.675 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.671 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be inaccurate)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 4.761 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.101 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.138 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.869 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU Final Results:
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.916 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.675 s/GigaPix, Confidence=100% 'TexHeavy'
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.671 s/GigaPix, Confidence=89% 'DepTexHeavy'
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 4.761 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.101 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.138 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... 0.869 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display: 
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU Perf Index 0: 19.9 (weight 1.00)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU Perf Index 1: 9.1 (weight 0.10)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU Perf Index 2: 17.5 (weight 0.10)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU Perf Index 3: 18.7 (weight 3.00)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU Perf Index 4: 9.4 (weight 1.00)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU Perf Index 5: 9.0 (weight 0.00)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPU Perf Index 6: 49.2 (weight 0.00)
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   CPUIndex: 84.8
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:   GPUIndex: 16.9
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display: 
+[2018.02.27-02.51.51:099][291]LogSynthBenchmark:Display:          ... Total Time: 1.242597 sec
+[2018.02.27-02.53.16:748][445]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/' took 118.99s
+[2018.02.27-03.08.59:369][632]Cmd: MAP LOAD FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W03_DryMoons/ClockworkMoon_Auto4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.27-03.08.59:395][632]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.27-03.08.59:423][632]LightingResults: New page: Lighting Build
+[2018.02.27-03.08.59:494][632]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0009 seconds. Added 5 classes and 0 folders.
+[2018.02.27-03.08.59:497][632]LoadErrors: New page: Loading map: ClockworkMoon_Auto4.umap
+[2018.02.27-03.08.59:498][632]MapCheck: New page: Map Check
+[2018.02.27-03.08.59:498][632]LightingResults: New page: Lighting Build
+[2018.02.27-03.08.59:613][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.08.59:613][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/DannyHUD.uasset.
+[2018.02.27-03.08.59:613][632]LoadErrors:Error: Error /Game/Blueprints/DannyHUD : Can't find file for asset. /Game/Blueprints/SaveBluprints/Data
+[2018.02.27-03.08.59:613][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.08.59:613][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/DannyHUD.uasset.
+[2018.02.27-03.08.59:613][632]LoadErrors:Error: Error /Game/Blueprints/DannyHUD : Can't find file for asset. /Game/Blueprints/SaveBluprints/LevelData
+[2018.02.27-03.09.00:410][632]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.27-03.09.01:074][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.01:074][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.01:074][632]LoadErrors:Error: Error /Game/Blueprints/Widgets/MainHUD : Can't find file for asset. /Game/Blueprints/SaveBluprints/Data
+[2018.02.27-03.09.01:074][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.01:074][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.01:075][632]LoadErrors:Error: Error /Game/Blueprints/Widgets/MainHUD : Can't find file for asset. /Game/Blueprints/SaveBluprints/LevelData
+[2018.02.27-03.09.01:299][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.01:299][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.01:299][632]LoadErrors:Error: Error /Game/Props/Assets/GreenJewel : Can't find file for asset. /Game/Blueprints/SaveBluprints/Data
+[2018.02.27-03.09.01:299][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.01:299][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.01:299][632]LoadErrors:Error: Error /Game/Props/Assets/GreenJewel : Can't find file for asset. /Game/Blueprints/SaveBluprints/LevelData
+[2018.02.27-03.09.02:175][632]LogBlueprint:Warning: [CharacterDanny1_old] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.02.27-03.09.02:175][632]LogBlueprint:Warning: [CharacterDanny1_old] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.02.27-03.09.02:178][632]LogBlueprint:Warning: [CharacterDanny1_old] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.02.27-03.09.02:261][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.02:261][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:261][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.02:261][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:261][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.02:261][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:262][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.02:262][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:262][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.02:262][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:262][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.02:262][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:262][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.02:263][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:263][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.02:263][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:312][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.02:312][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:450][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.02:450][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.02:450][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.02:450][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:048][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:048][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:048][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:048][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:054][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:056][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by MainHUD
+[2018.02.27-03.09.03:056][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:057][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:057][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by MainHUD
+[2018.02.27-03.09.03:057][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:063][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:063][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by K2Node_CustomEvent_0
+[2018.02.27-03.09.03:063][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:063][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:064][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:066][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:067][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by K2Node_MacroInstance_172
+[2018.02.27-03.09.03:067][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:068][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:068][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by K2Node_VariableSet_1435
+[2018.02.27-03.09.03:068][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:068][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:068][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:070][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:070][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_2043
+[2018.02.27-03.09.03:070][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:070][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:070][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_2047
+[2018.02.27-03.09.03:071][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:071][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:071][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableSet_68
+[2018.02.27-03.09.03:071][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:071][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:072][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:072][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:072][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableSet_69
+[2018.02.27-03.09.03:072][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:072][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:073][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:073][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:073][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_394
+[2018.02.27-03.09.03:073][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:073][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:074][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:074][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:074][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_395
+[2018.02.27-03.09.03:074][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:074][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:075][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:076][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:077][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_2155
+[2018.02.27-03.09.03:077][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:077][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:077][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_2156
+[2018.02.27-03.09.03:077][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:078][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:078][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_448
+[2018.02.27-03.09.03:078][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:078][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:078][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:079][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:079][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_449
+[2018.02.27-03.09.03:079][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:079][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:079][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:080][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:080][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_450
+[2018.02.27-03.09.03:080][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:080][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:080][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:081][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:081][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableSet_80
+[2018.02.27-03.09.03:081][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:081][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:082][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:082][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:082][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableSet_81
+[2018.02.27-03.09.03:082][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:082][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:083][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:083][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:083][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableSet_82
+[2018.02.27-03.09.03:083][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:084][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:084][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:087][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:087][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_CallFunction_2583
+[2018.02.27-03.09.03:087][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:087][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:088][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:088][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:088][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_MacroInstance_305
+[2018.02.27-03.09.03:088][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:089][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:089][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableSet_22
+[2018.02.27-03.09.03:089][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:089][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:090][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:090][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:090][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_Select_0
+[2018.02.27-03.09.03:090][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:091][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:091][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:091][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:091][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:092][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:092][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_DynamicCast_99
+[2018.02.27-03.09.03:092][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:092][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:093][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:095][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:096][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_Tunnel_18
+[2018.02.27-03.09.03:096][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:096][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:096][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:098][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:098][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_211
+[2018.02.27-03.09.03:098][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:098][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:099][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:099][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:099][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_212
+[2018.02.27-03.09.03:099][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:100][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:100][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:100][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:101][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by K2Node_VariableGet_213
+[2018.02.27-03.09.03:101][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:101][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:101][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:102][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:102][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by K2Node_Tunnel_114
+[2018.02.27-03.09.03:102][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:102][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:103][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:104][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:104][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by K2Node_VariableGet_102
+[2018.02.27-03.09.03:104][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:104][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:105][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:105][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:105][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by K2Node_VariableGet_288
+[2018.02.27-03.09.03:106][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:106][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:106][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:107][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:107][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by K2Node_VariableGet_289
+[2018.02.27-03.09.03:107][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:107][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:108][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Props/Assets/GreenJewel.uasset.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'Yellow' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'Green' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'Green' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'Purple' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'Purple' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'Yellow' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'Yellow' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'PurpleActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:158][632]LogBlueprint:Warning: [MainHUD] 'Green' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:159][632]LogBlueprint:Warning: [MainHUD] 'Purple' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:159][632]LogBlueprint:Warning: [MainHUD] 'GreenActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:159][632]LogBlueprint:Warning: [MainHUD] 'GreenActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:159][632]LogBlueprint:Warning: [MainHUD] 'GreenActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:159][632]LogBlueprint:Warning: [MainHUD] 'PurpleActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:159][632]LogBlueprint:Warning: [MainHUD] 'PurpleActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:162][632]LogBlueprint:Warning: [MainHUD] 'GreenActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:162][632]LogBlueprint:Warning: [MainHUD] 'PurpleActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:162][632]LogBlueprint:Warning: [MainHUD] 'YellowActive' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:162][632]LogBlueprint:Warning: [MainHUD] 'Percentage' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:163][632]LogBlueprint:Warning: [MainHUD] 'Health' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:163][632]LogBlueprint:Warning: [MainHUD] 'WorldName' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:163][632]LogBlueprint:Warning: [MainHUD] 'StageName' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:163][632]LogBlueprint:Warning: [MainHUD] 'World#' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:163][632]LogBlueprint:Warning: [MainHUD] 'DannyHealthImage' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:165][632]LogBlueprint:Warning: [MainHUD] 'MaxHealth' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:181][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "WorldName" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get WorldName
+[2018.02.27-03.09.03:181][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "StageName" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get StageName
+[2018.02.27-03.09.03:182][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "World#" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get World#
+[2018.02.27-03.09.03:186][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "GreenActive" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Set GreenActive
+[2018.02.27-03.09.03:186][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "PurpleActive" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Set PurpleActive
+[2018.02.27-03.09.03:186][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "GreenActive" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get GreenActive
+[2018.02.27-03.09.03:186][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "PurpleActive" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get PurpleActive
+[2018.02.27-03.09.03:192][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "Green" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get Green
+[2018.02.27-03.09.03:192][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "Purple" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get Purple
+[2018.02.27-03.09.03:192][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "Yellow" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get Yellow
+[2018.02.27-03.09.03:192][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "Green" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Set Green
+[2018.02.27-03.09.03:192][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "Purple" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Set Purple
+[2018.02.27-03.09.03:192][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "Yellow" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Set Yellow
+[2018.02.27-03.09.03:201][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.02.27-03.09.03:201][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.02.27-03.09.03:201][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "YellowActive" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get YellowActive
+[2018.02.27-03.09.03:202][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "PurpleActive" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get PurpleActive
+[2018.02.27-03.09.03:202][632]LogBlueprint:Warning: [Compiler MainHUD] Warning Could not find a variable named "GreenActive" in 'MainHUD'.
+Make sure 'MainHUD' has been compiled for  Get GreenActive
+[2018.02.27-03.09.03:212][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:212][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:212][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:213][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  World#  could not be found
+[2018.02.27-03.09.03:214][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Stage Name  could not be found
+[2018.02.27-03.09.03:214][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  World Name  could not be found
+[2018.02.27-03.09.03:215][632]LogBlueprint:Error: [Compiler MainHUD] Error Failed to find class for pin  Level Data
+[2018.02.27-03.09.03:220][632]LogBlueprint:Error: [Compiler MainHUD] Error ICE SetVariableOnPersistentFrame - No property found.  Level Data
+[2018.02.27-03.09.03:221][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:221][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:221][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:221][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:221][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Purple Active  could not be found
+[2018.02.27-03.09.03:221][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Green Active  could not be found
+[2018.02.27-03.09.03:222][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Purple Active  could not be found
+[2018.02.27-03.09.03:222][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Green Active  could not be found
+[2018.02.27-03.09.03:222][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:222][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Yellow  could not be found
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Purple  could not be found
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Green  could not be found
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Yellow  could not be found
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Purple  could not be found
+[2018.02.27-03.09.03:223][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Green  could not be found
+[2018.02.27-03.09.03:225][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:226][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:226][632]LogBlueprint:Error: [Compiler MainHUD] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.02.27-03.09.03:226][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Green Active  could not be found
+[2018.02.27-03.09.03:226][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Purple Active  could not be found
+[2018.02.27-03.09.03:226][632]LogBlueprint:Error: [Compiler MainHUD] Error The property associated with  Yellow Active  could not be found
+[2018.02.27-03.09.03:263][632]LogBlueprint:Warning: [Compiler MainHUD] Warning [1173.51] Compile of MainHUD failed. 34 Fatal Issue(s) 18 Warning(s) [in 90 ms] (/Game/Blueprints/Widgets/MainHUD.MainHUD)
+[2018.02.27-03.09.03:267][632]LogBlueprint:Warning: [Compiler MainHUD] Warning [1173.51] Compile of MainHUD failed. 34 Fatal Issue(s) 19 Warning(s) [in 3 ms] (/Game/Blueprints/Widgets/MainHUD.MainHUD)
+[2018.02.27-03.09.03:267][632]LogBlueprint:Warning: [Compiler MainHUD] Warning [1173.51] Compile of MainHUD failed. 34 Fatal Issue(s) 20 Warning(s) [in 0 ms] (/Game/Blueprints/Widgets/MainHUD.MainHUD)
+[2018.02.27-03.09.03:274][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:274][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:274][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:274][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:275][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:275][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:275][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:275][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:275][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:275][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:276][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:276][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:282][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:282][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:282][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:283][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:283][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:283][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:286][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:286][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:286][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:286][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/Widgets/MainHUD.uasset.
+[2018.02.27-03.09.03:345][632]LogBlueprint:Warning: [CharacterDanny] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:345][632]LogBlueprint:Warning: [CharacterDanny] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:349][632]LogBlueprint:Warning: [CharacterDanny] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:621][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:622][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/DannyHUD.uasset.
+[2018.02.27-03.09.03:622][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:622][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/DannyHUD.uasset.
+[2018.02.27-03.09.03:623][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:623][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/ThirdPersonGameMode.uasset.
+[2018.02.27-03.09.03:624][632]LoadErrors:Error: Error /Game/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Blueprints/SaveBluprints/Data
+[2018.02.27-03.09.03:624][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:624][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/ThirdPersonGameMode.uasset.
+[2018.02.27-03.09.03:624][632]LoadErrors:Error: Error /Game/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Blueprints/SaveBluprints/LevelData
+[2018.02.27-03.09.03:624][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:624][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/ThirdPersonGameMode.uasset.
+[2018.02.27-03.09.03:625][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:625][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/ThirdPersonGameMode.uasset.
+[2018.02.27-03.09.03:625][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:625][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/ThirdPersonGameMode.uasset.
+[2018.02.27-03.09.03:625][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:625][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/ThirdPersonGameMode.uasset.
+[2018.02.27-03.09.03:626][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/LevelData'
+[2018.02.27-03.09.03:626][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/LevelData.LevelData_C Referenced by DannyHUD
+[2018.02.27-03.09.03:626][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/LevelData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/ThirdPersonGameMode.uasset.
+[2018.02.27-03.09.03:626][632]LogLinker:Warning: Can't find file '/Game/Blueprints/SaveBluprints/Data'
+[2018.02.27-03.09.03:627][632]LoadErrors: Info Failed to load /Game/Blueprints/SaveBluprints/Data.Data_C Referenced by DannyHUD
+[2018.02.27-03.09.03:627][632]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/SaveBluprints/Data' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Blueprints/ThirdPersonGameMode.uasset.
+[2018.02.27-03.09.03:877][632]LogBlueprint:Warning: [CharacterDanny1] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:877][632]LogBlueprint:Warning: [CharacterDanny1] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.02.27-03.09.03:881][632]LogBlueprint:Warning: [CharacterDanny1] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.02.27-03.09.05:661][632]LogLinker:Warning: Can't find file '/Game/Materials/DryMats/Material__369'
+[2018.02.27-03.09.05:661][632]LogLinker:Warning: Can't find file for asset '/Game/Materials/DryMats/Material__369' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/Material__369.uasset.
+[2018.02.27-03.09.05:661][632]LoadErrors:Error: Error /Game/Environments/DryMoons/MeshesForBPMod/Material__369 : Can't find file for asset. /Game/Materials/DryMats/Material__369
+[2018.02.27-03.09.05:661][632]LogLinker:Warning: Can't find file '/Game/Materials/DryMats/Material__369'
+[2018.02.27-03.09.05:661][632]LogLinker:Warning: Can't find file for asset '/Game/Materials/DryMats/Material__369' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/Material__369.uasset.
+[2018.02.27-03.09.05:662][632]LogLinker:Warning: Can't find file '/Game/Materials/DryMats/Material__369'
+[2018.02.27-03.09.05:662][632]LoadErrors: Info Failed to load /Game/Materials/DryMats/Material__369.Material__369 Referenced by Material__369
+[2018.02.27-03.09.05:662][632]LogLinker:Warning: Can't find file for asset '/Game/Materials/DryMats/Material__369' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleGear.uasset.
+[2018.02.27-03.09.05:662][632]LoadErrors:Error: Error /Game/Environments/DryMoons/MeshesForBPMod/SandCastleGear : Can't find file for asset. /Game/Materials/DryMats/Material__369
+[2018.02.27-03.09.05:662][632]LogLinker:Warning: Can't find file '/Game/Materials/DryMats/Material__369'
+[2018.02.27-03.09.05:663][632]LogLinker:Warning: Can't find file for asset '/Game/Materials/DryMats/Material__369' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleGear.uasset.
+[2018.02.27-03.09.07:315][632]LogLinker:Warning: Can't find file '/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_BuiltData'
+[2018.02.27-03.09.07:315][632]LogLinker:Warning: Can't find file for asset '/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_BuiltData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W03_DryMoons/ClockworkMoon_Auto4.umap.
+[2018.02.27-03.09.07:315][632]LoadErrors:Error: Error /Game/Levels/W03_DryMoons/ClockworkMoon_Auto4 : Can't find file for asset. /Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_BuiltData
+[2018.02.27-03.09.08:257][632]LogLinker:Warning: Can't find file '/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_BuiltData'
+[2018.02.27-03.09.08:257][632]LogLinker:Warning: Can't find file for asset '/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_BuiltData' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W03_DryMoons/ClockworkMoon_Auto4.umap.
+[2018.02.27-03.09.08:777][632]LogLinker:Warning: Can't find file '/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_BuiltData'
+[2018.02.27-03.09.08:777][632]LoadErrors: Info Failed to load /Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_BuiltData.ClockworkMoon_Auto4_BuiltData Referenced by PersistentLevel
+[2018.02.27-03.09.08:777][632]LogLinker:Warning: Can't find file for asset '/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_BuiltData' while loading NULL.
+[2018.02.27-03.09.43:493][632]LogAIModule: Creating AISystem for world ClockworkMoon_Auto4
+[2018.02.27-03.09.44:976][632]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.27-03.09.45:198][632]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.27-03.09.45:309][632]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.365ms to complete.
+[2018.02.27-03.09.45:309][632]LogFileHelpers: Loading map 'ClockworkMoon_Auto4' took 45.952
+[2018.02.27-03.09.45:810][632]LoadErrors:Error: Error /Game/Environments/DryMoons/MeshesForBPMod/SandCastleGear : Failed import for Material /Game/Environments/DryMoons/MeshesForBPMod/Material__369.Material__369 [redirection] in /Game/Environments/DryMoons/MeshesForBPMod/SandCastleGear
+[2018.02.27-03.14.01:207][619]LogEditorViewport: Clicking on Actor (LMB): SandCastleTower_BP_C (SandCastleTower_BP)
+[2018.02.27-03.22.36:054][386]LogEditorViewport: Clicking on Actor (LMB): SandCastleTower_BP_C (SandCastleTower_BP)
+[2018.02.27-03.22.40:643][537]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.27-03.25.26:600][825]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.27-03.25.38:017][243]LogSlate: Took 0.015945 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.27-03.26.01:646][555]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.27-03.27.28:629][473]LogEditorViewport: Clicking on Actor (LMB): Landscape (Land)
+[2018.02.27-03.27.40:100][930]LogEditorViewport: Clicking on Actor (LMB): SandCastleTower_BP_C (SandCastleTower_BP)
+[2018.02.27-03.27.40:680][947]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.27-03.36.20:984][369]LogSavePackage: Save=8581.76ms
+[2018.02.27-03.36.20:984][369]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/ClockworkMoon_Auto4_Auto1B6C0F6B54731076C94C57BA2F68F2987.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Autosaves/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_Auto1.umap'
+[2018.02.27-03.36.20:991][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Autosaves/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4_Auto1.umap
+[2018.02.27-03.36.21:066][369]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/W03_DryMoons/ClockworkMoon_Auto4' took 9.809
+[2018.02.27-03.36.21:066][369]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.809
+[2018.02.27-04.17.54:697][906]AssetReimport: New page: Outstanding source content changes 4:17:54 PM
+[2018.02.27-04.17.54:780][907]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.png)
+[2018.02.27-04.17.56:051][908]LogEditorFactories: Performing atomic reimport of [C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX]
+[2018.02.27-04.17.56:097][908]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX
+[2018.02.27-04.17.56:191][908]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.27-04.17.56:334][908]LogStaticMesh: Building static mesh SandCastleTower...
+[2018.02.27-04.17.56:439][908]LogStaticMesh: Built static mesh [0.11s] /Game/Environments/DryMoons/MeshesForBPMod/SandCastleTower.SandCastleTower
+[2018.02.27-04.17.56:816][908]LogEditorFactories: -- imported successfully
+[2018.02.27-04.20.09:647][908]LogMeshUtilities: Finished distance field build in 133.2s - 64x64x64 distance field, 278 triangles
+[2018.02.27-04.20.09:999][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/Brick_Bump" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.uasset" SILENT=true
+[2018.02.27-04.20.10:128][909]LogSavePackage: Save=126.95ms
+[2018.02.27-04.20.10:128][909]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Brick_BumpC57350D84C81DFA66D1D39AF7B0DBBB3.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.uasset'
+[2018.02.27-04.20.10:144][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.uasset
+[2018.02.27-04.20.12:115][909]LogSavePackage: Save=38.21ms
+[2018.02.27-04.20.12:115][909]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/SandCastleTower958D18AF48A9179AD1BD0982ABA153FC.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.uasset'
+[2018.02.27-04.20.12:182][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.uasset
+[2018.02.27-04.20.15:912][ 74]AssetReimport: Info Importing new asset /Game/Textures/DryTXs/Brick_Bump.
+[2018.02.27-04.20.15:912][ 74]AssetReimport: Info Reimported asset SandCastleTower from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX.
+[2018.02.27-04.21.51:460][598]AssetReimport: New page: Outstanding source content changes 4:21:51 PM
+[2018.02.27-04.21.51:469][598]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX.jpg)
+[2018.02.27-04.22.00:092][599]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.fbm/BlackTX.png)
+[2018.02.27-04.22.00:451][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/DrySandWall_TX" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX.uasset" SILENT=true
+[2018.02.27-04.22.01:663][600]LogSavePackage: Save=1208.85ms
+[2018.02.27-04.22.01:663][600]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/DrySandWall_TX3A34E9B24A90CBD035047796CCA3297E.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX.uasset'
+[2018.02.27-04.22.01:666][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX.uasset
+[2018.02.27-04.22.01:679][600]LogSavePackage: Save=6.83ms
+[2018.02.27-04.22.01:679][600]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/BlackTX34C8B10746AFB5CD803C619D475C05B7.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower_fbm/BlackTX.uasset'
+[2018.02.27-04.22.01:685][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower_fbm/BlackTX.uasset
+[2018.02.27-04.22.04:701][652]AssetReimport: Info Importing new asset /Game/Textures/DryTXs/DrySandWall_TX.
+[2018.02.27-04.22.04:701][652]AssetReimport: Info Importing new asset /Game/Environments/DryMoons/MeshesForBPMod/SandCastleTower_fbm/BlackTX.
+[2018.02.27-04.22.29:506][788]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.22.29:562][788]LogTemp:Display: Added material ShaderMap 0x00000176BA2EC800 with Material 0x000001769C3A7D00 to ShaderMapsBeingCompiled
+[2018.02.27-04.22.29:696][788]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176BA2EC800
+[2018.02.27-04.22.31:795][823]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.22.31:796][823]LogTemp:Display: Added material ShaderMap 0x00000176A30E5D00 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.22.31:820][823]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176A30E5D00
+[2018.02.27-04.22.32:471][823]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.22.32:473][823]LogTemp:Display: Added material ShaderMap 0x00000177139DEB00 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.22.32:497][823]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000177139DEB00
+[2018.02.27-04.22.32:497][823]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.22.32:603][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.27-04.22.32:605][823]LogTemp:Display: Added material ShaderMap 0x000001771398E780 with Material 0x00000176B3588100 to ShaderMapsBeingCompiled
+[2018.02.27-04.22.32:609][823]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001771398E780
+[2018.02.27-04.22.32:684][823]LogSlate: Took 0.028585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.27-04.22.56:504][367]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.22.56:506][367]LogTemp:Display: Added material ShaderMap 0x0000017713571600 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.22.56:524][367]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x0000017713571600
+[2018.02.27-04.22.56:524][367]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.22.56:526][367]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.27-04.22.56:527][367]LogTemp:Display: Added material ShaderMap 0x00000177240B9600 with Material 0x0000017725D77700 to ShaderMapsBeingCompiled
+[2018.02.27-04.22.56:531][367]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x00000177240B9600
+[2018.02.27-04.22.56:538][367]LogTemp:Display: Removed shader map 0x000001771398E780 from material 0x00000176B3588100
+[2018.02.27-04.22.56:538][367]LogTemp:Display: Removed shader map 0x00000177240B9600 from material 0x0000017725D77700
+[2018.02.27-04.22.56:563][367]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.27-04.22.56:564][367]LogTemp:Display: Added material ShaderMap 0x000001771383F900 with Material 0x0000017725D77700 to ShaderMapsBeingCompiled
+[2018.02.27-04.22.56:568][367]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001771383F900
+[2018.02.27-04.22.56:570][367]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.27-04.22.56:572][367]LogTemp:Display: Added material ShaderMap 0x000001771383E080 with Material 0x0000017725D77A00 to ShaderMapsBeingCompiled
+[2018.02.27-04.22.56:576][367]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x000001771383E080
+[2018.02.27-04.23.00:520][461]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.23.00:522][461]LogTemp:Display: Added material ShaderMap 0x000001771D491280 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.23.00:552][461]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001771D491280
+[2018.02.27-04.23.00:553][461]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.23.00:556][461]LogTemp:Display: Removed shader map 0x000001771383E080 from material 0x0000017725D77A00
+[2018.02.27-04.23.00:581][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.27-04.23.00:582][461]LogTemp:Display: Added material ShaderMap 0x000001772AFC5D00 with Material 0x000001772AF53A00 to ShaderMapsBeingCompiled
+[2018.02.27-04.23.00:586][461]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x000001772AFC5D00
+[2018.02.27-04.23.04:096][544]LogMaterialEditor: Applying material DrySandWall_TX_Mat
+[2018.02.27-04.23.07:141][544]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.23.07:142][544]LogTemp:Display: Added material ShaderMap 0x000001772BEBE080 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.23.07:187][544]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001772BEBE080
+[2018.02.27-04.23.07:187][544]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.23.07:234][544]LogTemp:Display: Removed shader map 0x00000176BA2EC800 from material 0x000001769C3A7D00
+[2018.02.27-04.23.07:324][544]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.23.07:325][544]LogTemp:Display: Added material ShaderMap 0x000001772ADBE080 with Material 0x00000176B2E10A00 to ShaderMapsBeingCompiled
+[2018.02.27-04.23.07:366][544]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001772ADBE080
+[2018.02.27-04.23.07:370][544]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.23.07:372][544]LogTemp:Display: Added material ShaderMap 0x000001772BAB1980 with Material 0x00000176B2E10A00 to ShaderMapsBeingCompiled
+[2018.02.27-04.23.07:399][544]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001772BAB1980
+[2018.02.27-04.23.07:406][544]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.23.07:617][544]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.23.07:633][544]LogTemp:Display: Added material ShaderMap 0x000001772B6FFC80 with Material 0x000001772B6C7D00 to ShaderMapsBeingCompiled
+[2018.02.27-04.35.30:940][544]LogShaderCompilers:Warning: ShaderCompileWorker terminated unexpectedly!  Falling back to directly compiling which will be very slow.  Thread 1.
+[2018.02.27-04.35.30:940][544]LogTemp:Display: Finished compile of shader map 0x000001772B6FFC80
+[2018.02.27-04.35.30:940][544]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001772B6FFC80, marking material FDebugViewModeMaterialProxy DrySandWall_TX_Mat as finished
+[2018.02.27-04.35.30:940][544]LogTemp:Display: Marking material as finished 0x000001772B6C7D00
+[2018.02.27-04.35.31:055][544]TextureStreamingBuild:Display: Compiling optional shaders took 743.477 seconds.
+[2018.02.27-04.35.31:254][544]LogTemp:Display: Finished compile of shader map 0x00000176BA2EC800
+[2018.02.27-04.35.31:255][544]LogTemp:Display: Finished compile of shader map 0x00000176A30E5D00
+[2018.02.27-04.35.31:255][544]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000176A30E5D00, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.35.31:255][544]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-04.35.31:259][544]LogTemp:Display: Finished compile of shader map 0x000001772BEBE080
+[2018.02.27-04.35.31:259][544]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001772BEBE080, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.35.31:259][544]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-04.35.31:262][544]LogTemp:Display: Finished compile of shader map 0x000001772AFC5D00
+[2018.02.27-04.35.31:262][544]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x000001772AFC5D00, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
+[2018.02.27-04.35.31:262][544]LogTemp:Display: Marking material as finished 0x000001772AF53A00
+[2018.02.27-04.35.31:264][544]LogTemp:Display: Finished compile of shader map 0x000001771383F900
+[2018.02.27-04.35.31:264][544]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001771383F900, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2018.02.27-04.35.31:264][544]LogTemp:Display: Marking material as finished 0x0000017725D77700
+[2018.02.27-04.35.35:333][654]LogTemp:Display: Finished compile of shader map 0x000001772BAB1980
+[2018.02.27-04.35.35:333][654]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001772BAB1980, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.35.35:333][654]LogTemp:Display: Marking material as finished 0x00000176B2E10A00
+[2018.02.27-04.35.42:589][908]AssetReimport: New page: Detailed File System Changes from 10:35:42 PM
+[2018.02.27-04.35.42:619][908]AssetReimport: Info 'C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX.jpg' has been deleted.
+[2018.02.27-04.36.10:614][289]AssetReimport: New page: Outstanding source content changes 4:36:10 PM
+[2018.02.27-04.36.10:619][289]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX.png)
+[2018.02.27-04.36.11:689][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/SandWallTX" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX.uasset" SILENT=true
+[2018.02.27-04.36.12:117][290]LogSavePackage: Save=426.10ms
+[2018.02.27-04.36.12:117][290]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/SandWallTXF14C5FA04BEBB033DF3CD893770ED656.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX.uasset'
+[2018.02.27-04.36.12:120][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX.uasset
+[2018.02.27-04.36.15:124][398]AssetReimport: Info Importing new asset /Game/Textures/DryTXs/SandWallTX.
+[2018.02.27-04.36.55:484][579]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.36.55:486][579]LogTemp:Display: Added material ShaderMap 0x0000017723C43C80 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.36.55:504][579]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x0000017723C43C80
+[2018.02.27-04.36.55:504][579]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.36.55:589][579]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.27-04.36.55:590][579]LogTemp:Display: Added material ShaderMap 0x0000017713825600 with Material 0x00000176C3DDBA00 to ShaderMapsBeingCompiled
+[2018.02.27-04.36.55:594][579]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x0000017713825600
+[2018.02.27-04.37.01:840][777]LogTemp:Display: Finished compile of shader map 0x0000017723C43C80
+[2018.02.27-04.37.01:840][777]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x0000017723C43C80, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.01:840][777]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-04.37.01:849][777]LogTemp:Display: Finished compile of shader map 0x0000017713825600
+[2018.02.27-04.37.01:849][777]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x0000017713825600, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2018.02.27-04.37.01:849][777]LogTemp:Display: Marking material as finished 0x00000176C3DDBA00
+[2018.02.27-04.37.03:587][841]LogMaterialEditor: Saving and Compiling material DrySandWall_TX_Mat
+[2018.02.27-04.37.04:565][841]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.04:567][841]LogTemp:Display: Added material ShaderMap 0x0000017713825280 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.04:603][841]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x0000017713825280
+[2018.02.27-04.37.04:603][841]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.37.04:619][841]LogTemp:Display: Removed shader map 0x000001772ADBE080 from material 0x00000176B2E10A00
+[2018.02.27-04.37.04:641][841]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.04:642][841]LogTemp:Display: Added material ShaderMap 0x00000176A052E080 with Material 0x00000176B36D3100 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.04:675][841]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176A052E080
+[2018.02.27-04.37.04:692][841]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.04:693][841]LogTemp:Display: Added material ShaderMap 0x0000017725568800 with Material 0x00000176B36D3100 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.04:717][841]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x0000017725568800
+[2018.02.27-04.37.04:721][841]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.37.04:797][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.04:798][841]LogTemp:Display: Added material ShaderMap 0x000001771D534480 with Material 0x0000017713E40D00 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.09:593][841]LogTemp:Display: Finished compile of shader map 0x000001771D534480
+[2018.02.27-04.37.09:593][841]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001771D534480, marking material FDebugViewModeMaterialProxy DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.09:593][841]LogTemp:Display: Marking material as finished 0x0000017713E40D00
+[2018.02.27-04.37.09:596][841]TextureStreamingBuild:Display: Compiling optional shaders took 4.807 seconds.
+[2018.02.27-04.37.11:807][841]LogTemp:Display: Finished compile of shader map 0x0000017725568800
+[2018.02.27-04.37.11:807][841]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x0000017725568800, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.11:807][841]LogTemp:Display: Marking material as finished 0x00000176B36D3100
+[2018.02.27-04.37.11:814][841]LogTemp:Display: Finished compile of shader map 0x0000017713825280
+[2018.02.27-04.37.11:814][841]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x0000017713825280, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.11:814][841]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-04.37.11:926][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/DrySandWall_TX_Mat" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset" SILENT=true
+[2018.02.27-04.37.11:952][841]LogSavePackage: Save=23.67ms
+[2018.02.27-04.37.11:952][841]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/DrySandWall_TX_Mat879DD71C4CEFE060D189F48EDDE3EC18.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset'
+[2018.02.27-04.37.11:955][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset
+[2018.02.27-04.37.19:405][ 97]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.19:407][ 97]LogTemp:Display: Added material ShaderMap 0x000001772B1E5280 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.19:425][ 97]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001772B1E5280
+[2018.02.27-04.37.19:426][ 97]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.37.21:174][145]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.21:177][145]LogTemp:Display: Added material ShaderMap 0x000001772BAB0100 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.21:194][145]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001772BAB0100
+[2018.02.27-04.37.21:195][145]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.37.21:561][156]LogTemp:Display: Finished compile of shader map 0x000001772B1E5280
+[2018.02.27-04.37.21:561][156]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001772B1E5280, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.21:561][156]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-04.37.22:716][193]LogMaterialEditor: Saving and Compiling material DrySandWall_TX_Mat
+[2018.02.27-04.37.23:906][193]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.23:907][193]LogTemp:Display: Added material ShaderMap 0x000001772B1E4800 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.23:945][193]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001772B1E4800
+[2018.02.27-04.37.23:945][193]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.37.23:950][193]LogTemp:Display: Removed shader map 0x00000176A052E080 from material 0x00000176B36D3100
+[2018.02.27-04.37.24:077][193]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.24:078][193]LogTemp:Display: Added material ShaderMap 0x000001771383C480 with Material 0x00000176B36D0280 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.24:129][193]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001771383C480
+[2018.02.27-04.37.24:139][193]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.24:141][193]LogTemp:Display: Added material ShaderMap 0x00000176B5748800 with Material 0x00000176B36D0280 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.24:164][193]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176B5748800
+[2018.02.27-04.37.24:168][193]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.37.24:245][193]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.37.24:247][193]LogTemp:Display: Added material ShaderMap 0x00000176C5012E80 with Material 0x00000176C3DD8100 to ShaderMapsBeingCompiled
+[2018.02.27-04.37.29:580][193]LogTemp:Display: Finished compile of shader map 0x00000176C5012E80
+[2018.02.27-04.37.29:580][193]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000176C5012E80, marking material FDebugViewModeMaterialProxy DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.29:580][193]LogTemp:Display: Marking material as finished 0x00000176C3DD8100
+[2018.02.27-04.37.29:583][193]TextureStreamingBuild:Display: Compiling optional shaders took 5.346 seconds.
+[2018.02.27-04.37.31:882][193]LogTemp:Display: Finished compile of shader map 0x00000176B5748800
+[2018.02.27-04.37.31:882][193]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000176B5748800, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.31:882][193]LogTemp:Display: Marking material as finished 0x00000176B36D0280
+[2018.02.27-04.37.31:888][193]LogTemp:Display: Finished compile of shader map 0x000001772BAB0100
+[2018.02.27-04.37.31:888][193]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001772BAB0100, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.31:888][193]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-04.37.31:889][193]LogTemp:Display: Finished compile of shader map 0x000001772B1E4800
+[2018.02.27-04.37.31:889][193]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001772B1E4800, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.37.31:889][193]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-04.37.31:984][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/DrySandWall_TX_Mat" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset" SILENT=true
+[2018.02.27-04.37.32:065][193]LogSavePackage: Save=36.54ms
+[2018.02.27-04.37.32:065][193]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/DrySandWall_TX_Mat2203D6DC41AC9A4A19E569A5AC37F19C.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset'
+[2018.02.27-04.37.32:069][193]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset
+[2018.02.27-04.40.11:350][900]AssetReimport: New page: Outstanding source content changes 4:40:11 PM
+[2018.02.27-04.40.11:352][900]LogEditorFactories: Performing atomic reimport of [C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX]
+[2018.02.27-04.40.11:365][900]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX
+[2018.02.27-04.40.11:393][900]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.27-04.40.11:404][900]LogStaticMesh: Building static mesh SandCastleTower...
+[2018.02.27-04.40.11:442][900]LogStaticMesh: Built static mesh [0.04s] /Game/Environments/DryMoons/MeshesForBPMod/SandCastleTower.SandCastleTower
+[2018.02.27-04.40.11:566][900]LogEditorFactories: -- imported successfully
+[2018.02.27-04.41.15:966][900]LogMeshUtilities: Finished distance field build in 64.5s - 64x64x64 distance field, 278 triangles
+[2018.02.27-04.41.16:266][901]LogSavePackage: Save=30.44ms
+[2018.02.27-04.41.16:266][901]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/SandCastleTower444F790842483CE05885B28F02B8BDF7.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.uasset'
+[2018.02.27-04.41.16:270][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.uasset
+[2018.02.27-04.41.19:284][976]AssetReimport: Info Reimported asset SandCastleTower from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX.
+[2018.02.27-04.50.13:026][ 88]AssetReimport: New page: Outstanding source content changes 4:50:13 PM
+[2018.02.27-04.50.13:030][ 88]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.png)
+[2018.02.27-04.50.13:813][ 89]LogEditorFactories: Performing atomic reimport of [C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX]
+[2018.02.27-04.50.13:837][ 89]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX
+[2018.02.27-04.50.13:858][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.27-04.50.13:865][ 89]LogStaticMesh: Building static mesh SandCastleTower...
+[2018.02.27-04.50.13:895][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Environments/DryMoons/MeshesForBPMod/SandCastleTower.SandCastleTower
+[2018.02.27-04.50.13:927][ 89]LogEditorFactories: -- imported successfully
+[2018.02.27-04.51.14:293][ 89]LogMeshUtilities: Finished distance field build in 60.4s - 64x64x64 distance field, 278 triangles
+[2018.02.27-04.51.14:568][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/SandWallTX2" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.uasset" SILENT=true
+[2018.02.27-04.51.14:775][ 90]LogSavePackage: Save=203.48ms
+[2018.02.27-04.51.14:775][ 90]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/SandWallTX236C718CE4C86C444FD5BB3A352436DFA.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.uasset'
+[2018.02.27-04.51.14:779][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.uasset
+[2018.02.27-04.51.14:944][ 90]LogSavePackage: Save=22.78ms
+[2018.02.27-04.51.14:944][ 90]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/SandCastleTower2DE38DCF47C54C826C8D4A9AC5922911.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.uasset'
+[2018.02.27-04.51.14:950][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.uasset
+[2018.02.27-04.51.17:972][155]AssetReimport: Info Importing new asset /Game/Textures/DryTXs/SandWallTX2.
+[2018.02.27-04.51.17:972][155]AssetReimport: Info Reimported asset SandCastleTower from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.FBX.
+[2018.02.27-04.51.21:268][245]AssetReimport: New page: Detailed File System Changes from 10:51:21 PM
+[2018.02.27-04.51.21:308][245]AssetReimport: Info 'C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleTower.fbm/SandWallTX2.png' has been created.
+[2018.02.27-04.58.43:876][391]AssetReimport: New page: Outstanding source content changes 4:58:43 PM
+[2018.02.27-04.58.43:877][391]LogEditorFactories: Performing atomic reimport of [C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.png]
+[2018.02.27-04.58.43:880][391]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.png)
+[2018.02.27-04.58.44:512][391]LogEditorFactories: -- imported successfully
+[2018.02.27-04.58.44:670][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/SandWallTX2" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.uasset" SILENT=true
+[2018.02.27-04.58.44:905][392]LogSavePackage: Save=197.55ms
+[2018.02.27-04.58.44:905][392]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/SandWallTX26F33C23F45BC9C7A55A390923D7F4BF3.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.uasset'
+[2018.02.27-04.58.44:912][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.uasset
+[2018.02.27-04.58.47:920][465]AssetReimport: Info Reimported asset SandWallTX2 from C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/SandWallTX2.png.
+[2018.02.27-04.59.29:245][675]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-04.59.29:247][675]LogTemp:Display: Added material ShaderMap 0x00000176C4BCE780 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-04.59.29:269][675]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176C4BCE780
+[2018.02.27-04.59.29:270][675]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-04.59.29:303][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.27-04.59.29:304][675]LogTemp:Display: Added material ShaderMap 0x00000177243D5600 with Material 0x00000176C4983D00 to ShaderMapsBeingCompiled
+[2018.02.27-04.59.29:308][675]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x00000177243D5600
+[2018.02.27-04.59.38:180][908]LogTemp:Display: Finished compile of shader map 0x00000176C4BCE780
+[2018.02.27-04.59.38:180][908]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000176C4BCE780, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-04.59.38:180][908]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-04.59.38:193][908]LogTemp:Display: Finished compile of shader map 0x00000177243D5600
+[2018.02.27-04.59.38:193][908]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x00000177243D5600, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2018.02.27-04.59.38:193][908]LogTemp:Display: Marking material as finished 0x00000176C4983D00
+[2018.02.27-05.00.30:444][498]LogMaterialEditor: Saving and Compiling material DrySandWall_TX_Mat
+[2018.02.27-05.00.31:680][498]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.00.31:681][498]LogTemp:Display: Added material ShaderMap 0x00000176C4BCFC80 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-05.00.31:745][498]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176C4BCFC80
+[2018.02.27-05.00.31:745][498]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.00.31:750][498]LogTemp:Display: Removed shader map 0x000001771383C480 from material 0x00000176B36D0280
+[2018.02.27-05.00.31:761][498]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.00.31:763][498]LogTemp:Display: Added material ShaderMap 0x0000017713826080 with Material 0x00000176B2DFFD00 to ShaderMapsBeingCompiled
+[2018.02.27-05.00.31:799][498]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x0000017713826080
+[2018.02.27-05.00.31:826][498]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.00.31:827][498]LogTemp:Display: Added material ShaderMap 0x000001771D537900 with Material 0x00000176B2DFFD00 to ShaderMapsBeingCompiled
+[2018.02.27-05.00.31:856][498]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001771D537900
+[2018.02.27-05.00.31:860][498]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.00.31:976][498]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.00.31:978][498]LogTemp:Display: Added material ShaderMap 0x000001772416AE80 with Material 0x000001772B7BCD00 to ShaderMapsBeingCompiled
+[2018.02.27-05.00.38:112][498]LogTemp:Display: Finished compile of shader map 0x000001772416AE80
+[2018.02.27-05.00.38:113][498]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001772416AE80, marking material FDebugViewModeMaterialProxy DrySandWall_TX_Mat as finished
+[2018.02.27-05.00.38:113][498]LogTemp:Display: Marking material as finished 0x000001772B7BCD00
+[2018.02.27-05.00.38:120][498]TextureStreamingBuild:Display: Compiling optional shaders took 6.153 seconds.
+[2018.02.27-05.00.40:955][498]LogTemp:Display: Finished compile of shader map 0x000001771D537900
+[2018.02.27-05.00.40:955][498]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001771D537900, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.00.40:955][498]LogTemp:Display: Marking material as finished 0x00000176B2DFFD00
+[2018.02.27-05.00.40:965][498]LogTemp:Display: Finished compile of shader map 0x00000176C4BCFC80
+[2018.02.27-05.00.40:965][498]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000176C4BCFC80, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.00.40:965][498]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-05.00.41:087][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/DrySandWall_TX_Mat" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset" SILENT=true
+[2018.02.27-05.00.41:166][498]LogSavePackage: Save=43.46ms
+[2018.02.27-05.00.41:166][498]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/DrySandWall_TX_MatC36D8E344CE880346F8508B5E951EFFC.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset'
+[2018.02.27-05.00.41:170][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset
+[2018.02.27-05.13.41:352][460]AssetReimport: New page: Outstanding source content changes 5:13:41 PM
+[2018.02.27-05.13.41:353][460]LogEditorFactories: Performing atomic reimport of [C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.png]
+[2018.02.27-05.13.41:354][460]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.png)
+[2018.02.27-05.13.42:343][460]LogEditorFactories: -- imported successfully
+[2018.02.27-05.13.42:545][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/Brick_Bump" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.uasset" SILENT=true
+[2018.02.27-05.13.42:724][461]LogSavePackage: Save=144.99ms
+[2018.02.27-05.13.42:724][461]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Brick_Bump12872F83466754561FC3D5827845DD68.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.uasset'
+[2018.02.27-05.13.42:728][461]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.uasset
+[2018.02.27-05.13.45:750][532]AssetReimport: Info Reimported asset Brick_Bump from C:/Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/Brick_Bump.png.
+[2018.02.27-05.14.11:094][377]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.11:095][377]LogTemp:Display: Added material ShaderMap 0x0000017713E8C100 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.11:114][377]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x0000017713E8C100
+[2018.02.27-05.14.11:115][377]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.14.13:970][445]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.14:147][445]LogTemp:Display: Added material ShaderMap 0x00000176C456B580 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.14:185][445]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176C456B580
+[2018.02.27-05.14.14:185][445]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.14.15:462][475]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.15:463][475]LogTemp:Display: Added material ShaderMap 0x00000176B274C800 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.15:524][475]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176B274C800
+[2018.02.27-05.14.15:525][475]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.14.15:558][475]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.27-05.14.15:559][475]LogTemp:Display: Added material ShaderMap 0x00000176C4729600 with Material 0x00000176C4AE9C00 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.15:564][475]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x00000176C4729600
+[2018.02.27-05.14.15:794][480]LogTemp:Display: Finished compile of shader map 0x0000017713E8C100
+[2018.02.27-05.14.15:794][480]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x0000017713E8C100, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.14.15:794][480]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-05.14.16:434][496]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.16:437][496]LogTemp:Display: Added material ShaderMap 0x000001771D534480 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.16:458][496]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x000001771D534480
+[2018.02.27-05.14.16:458][496]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.14.17:335][514]LogTemp:Display: Finished compile of shader map 0x00000176B274C800
+[2018.02.27-05.14.17:335][514]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000176B274C800, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.14.17:335][514]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-05.14.18:139][531]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.18:141][531]LogTemp:Display: Added material ShaderMap 0x00000176C4569280 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.18:197][531]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176C4569280
+[2018.02.27-05.14.18:197][531]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.14.18:905][548]LogTemp:Display: Finished compile of shader map 0x00000176C4729600
+[2018.02.27-05.14.18:905][548]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x00000176C4729600, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
+[2018.02.27-05.14.18:905][548]LogTemp:Display: Marking material as finished 0x00000176C4AE9C00
+[2018.02.27-05.14.18:910][548]LogTemp:Display: Finished compile of shader map 0x000001771D534480
+[2018.02.27-05.14.18:910][548]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001771D534480, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.14.18:910][548]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-05.14.22:954][624]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.22:955][624]LogTemp:Display: Added material ShaderMap 0x00000176A336B200 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.22:985][624]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176A336B200
+[2018.02.27-05.14.22:985][624]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.14.23:200][625]LogTemp:Display: Finished compile of shader map 0x00000176C4569280
+[2018.02.27-05.14.23:200][625]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000176C4569280, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.14.23:200][625]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-05.14.24:589][658]LogMaterialEditor: Applying material DrySandWall_TX_Mat
+[2018.02.27-05.14.26:087][658]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.26:089][658]LogTemp:Display: Added material ShaderMap 0x0000017724874F00 with Material 0x00000176BE566700 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.26:161][658]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x0000017724874F00
+[2018.02.27-05.14.26:162][658]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.14.26:167][658]LogTemp:Display: Removed shader map 0x0000017713826080 from material 0x00000176B2DFFD00
+[2018.02.27-05.14.26:180][658]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.26:181][658]LogTemp:Display: Added material ShaderMap 0x00000176A0088F00 with Material 0x000001769C04BA00 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.26:225][658]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000176A0088F00
+[2018.02.27-05.14.26:228][658]LogMaterial: Missing cached shader map for material DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.26:230][658]LogTemp:Display: Added material ShaderMap 0x00000177247A3C80 with Material 0x000001769C04BA00 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.26:259][658]LogTemp:Display: Kicking off shader compilation for DrySandWall_TX_Mat, GameThreadShaderMap 0x00000177247A3C80
+[2018.02.27-05.14.26:263][658]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.02.27-05.14.26:351][658]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DrySandWall_TX_Mat, compiling. 
+[2018.02.27-05.14.26:353][658]LogTemp:Display: Added material ShaderMap 0x000001772E3D2780 with Material 0x000001772E429300 to ShaderMapsBeingCompiled
+[2018.02.27-05.14.32:967][658]LogTemp:Display: Finished compile of shader map 0x000001772E3D2780
+[2018.02.27-05.14.32:967][658]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DrySandWall_TX_Mat complete, GameThreadShaderMap 0x000001772E3D2780, marking material FDebugViewModeMaterialProxy DrySandWall_TX_Mat as finished
+[2018.02.27-05.14.32:967][658]LogTemp:Display: Marking material as finished 0x000001772E429300
+[2018.02.27-05.14.32:970][658]TextureStreamingBuild:Display: Compiling optional shaders took 6.627 seconds.
+[2018.02.27-05.14.33:030][658]LogTemp:Display: Finished compile of shader map 0x0000017724874F00
+[2018.02.27-05.14.33:030][658]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x0000017724874F00, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.14.33:030][658]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-05.14.33:034][658]LogTemp:Display: Finished compile of shader map 0x00000176A336B200
+[2018.02.27-05.14.33:034][658]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000176A336B200, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.14.33:034][658]LogTemp:Display: Marking material as finished 0x00000176BE566700
+[2018.02.27-05.14.36:094][728]LogMaterialEditor: Saving and Compiling material DrySandWall_TX_Mat
+[2018.02.27-05.14.37:738][728]LogTemp:Display: Finished compile of shader map 0x00000177247A3C80
+[2018.02.27-05.14.37:738][728]LogTemp:Display: Shader map DrySandWall_TX_Mat complete, GameThreadShaderMap 0x00000177247A3C80, marking material DrySandWall_TX_Mat as finished
+[2018.02.27-05.14.37:738][728]LogTemp:Display: Marking material as finished 0x000001769C04BA00
+[2018.02.27-05.14.37:832][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DryTXs/DrySandWall_TX_Mat" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset" SILENT=true
+[2018.02.27-05.14.37:941][728]LogSavePackage: Save=29.79ms
+[2018.02.27-05.14.37:942][728]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/DrySandWall_TX_Mat0517ECA84A888A6CBF7E8CB082BC7DE1.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset'
+[2018.02.27-05.14.37:945][728]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Textures/DryTXs/DrySandWall_TX_Mat.uasset
+[2018.02.27-05.15.05:770][556]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SandCastleStairs)
+[2018.02.27-05.39.22:164][995]AssetReimport: New page: Outstanding source content changes 5:39:22 PM
+[2018.02.27-05.39.22:166][995]LogEditorFactories: Performing atomic reimport of [C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleStairs.FBX]
+[2018.02.27-05.39.22:192][995]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleStairs.FBX
+[2018.02.27-05.39.22:208][995]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.27-05.39.22:384][995]LogStaticMesh: Building static mesh SandCastleStairs...
+[2018.02.27-05.39.22:401][995]LogStaticMesh: Built static mesh [0.02s] /Game/Environments/DryMoons/MeshesForBPMod/SandCastleStairs.SandCastleStairs
+[2018.02.27-05.39.22:425][995]LogEditorFactories: -- imported successfully
+[2018.02.27-05.40.06:583][995]LogMeshUtilities: Finished distance field build in 44.1s - 64x64x64 distance field, 104 triangles
+[2018.02.27-05.40.06:872][996]LogSavePackage: Save=29.29ms
+[2018.02.27-05.40.06:872][996]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/SandCastleStairsD494C1FB4A05D141AF85F399D2D46E77.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleStairs.uasset'
+[2018.02.27-05.40.06:875][996]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleStairs.uasset
+[2018.02.27-05.40.09:884][ 99]AssetReimport: Info Reimported asset SandCastleStairs from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/SandCastleStairs.FBX.
+[2018.02.27-05.41.09:109][784]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SandCastle)
+[2018.02.27-05.41.11:152][854]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SandCastleStairs)
+[2018.02.27-05.47.17:407][286]LogSavePackage: Save=1315.21ms
+[2018.02.27-05.47.17:407][286]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/ClockworkMoon_Auto4D6C6B2B345979407140C8D930285E3F0.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W03_DryMoons/ClockworkMoon_Auto4.umap'
+[2018.02.27-05.47.17:418][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W03_DryMoons/ClockworkMoon_Auto4.umap
+[2018.02.27-05.47.17:474][286]LogFileHelpers: Saving map 'ClockworkMoon_Auto4' took 1.606
+[2018.02.27-05.47.17:533][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environments/DryMoons/SandCastleTower_BP" FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/SandCastleTower_BP.uasset" SILENT=true
+[2018.02.27-05.47.17:622][286]LogSavePackage: Save=63.39ms
+[2018.02.27-05.47.17:622][286]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/SandCastleTower_BPAB2EF9284953095B90AAB4A4C57211CF.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/SandCastleTower_BP.uasset'
+[2018.02.27-05.47.17:626][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/SandCastleTower_BP.uasset
+[2018.02.27-07.15.43:225][508]LogTemp:Display: Removed shader map 0x00000176C456B580 from material 0x00000176BE566700
+[2018.02.27-07.15.43:226][508]LogTemp:Display: Removed shader map 0x00000177139DEB00 from material 0x00000176BE566700
+[2018.02.27-07.15.43:226][508]LogTemp:Display: Removed shader map 0x0000017713571600 from material 0x00000176BE566700
+[2018.02.27-07.15.43:226][508]LogTemp:Display: Removed shader map 0x000001771D491280 from material 0x00000176BE566700
+[2018.02.27-07.15.45:615][570]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.27-07.15.45:617][570]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.27-07.15.47:368][571]Cmd: QUIT_EDITOR
+[2018.02.27-07.15.49:400][571]LogExit: Preparing to exit.
+[2018.02.27-07.15.53:929][571]LogDirectoryWatcher: A directory notification for 'C:/Users/Richa/Desktop/GalaxyGang/Content/' was aborted.
+[2018.02.27-07.15.55:147][571]LogExit: Editor shut down
+[2018.02.27-07.15.55:150][571]LogExit: Transaction tracking system shut down
+[2018.02.27-07.15.55:646][571]LogTemp:Display: Removed shader map 0x00000176A0088F00 from material 0x000001769C04BA00
+[2018.02.27-07.16.02:307][571]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.27-07.16.02:308][571]LogExit: Object subsystem successfully closed.
+[2018.02.27-07.16.02:482][571]LogD3D11RHI: Shutdown
+[2018.02.27-07.16.02:482][571]LogD3D11RHI: CleanupD3DDevice
+[2018.02.27-07.16.04:329][571]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.27-07.16.04:400][571]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (504)
+[2018.02.27-07.16.04:400][571]LogModuleManager: Shutting down and abandoning module MaterialEditor (502)
+[2018.02.27-07.16.04:400][571]LogModuleManager: Shutting down and abandoning module StatsViewer (500)
+[2018.02.27-07.16.04:400][571]LogModuleManager: Shutting down and abandoning module SynthBenchmark (498)
+[2018.02.27-07.16.04:400][571]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2018.02.27-07.16.04:400][571]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2018.02.27-07.16.04:400][571]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2018.02.27-07.16.04:400][571]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2018.02.27-07.16.04:401][571]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2018.02.27-07.16.04:452][571]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2018.02.27-07.16.04:452][571]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2018.02.27-07.16.04:452][571]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2018.02.27-07.16.04:452][571]LogDirectoryWatcher: A directory notification for 'C:/Users/Richa/Desktop/GalaxyGang/Content/Collections/' was aborted.
+[2018.02.27-07.16.04:452][571]LogDirectoryWatcher: A directory notification for 'C:/Users/Richa/Desktop/GalaxyGang/Content/Developers/Richa/Collections/' was aborted.
+[2018.02.27-07.16.04:452][571]LogDirectoryWatcher: A directory notification for 'C:/Users/Richa/Desktop/GalaxyGang/Saved/Collections/' was aborted.
+[2018.02.27-07.16.04:452][571]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2018.02.27-07.16.04:452][571]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module Media (443)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2018.02.27-07.16.04:453][571]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2018.02.27-07.16.04:454][571]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2018.02.27-07.16.04:454][571]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2018.02.27-07.16.04:454][571]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2018.02.27-07.16.04:454][571]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2018.02.27-07.16.04:454][571]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2018.02.27-07.16.04:454][571]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2018.02.27-07.16.04:454][571]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2018.02.27-07.16.04:965][571]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2018.02.27-07.16.04:981][571]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2018.02.27-07.16.04:981][571]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2018.02.27-07.16.04:981][571]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2018.02.27-07.16.04:981][571]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2018.02.27-07.16.04:982][571]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2018.02.27-07.16.04:983][571]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2018.02.27-07.16.04:983][571]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2018.02.27-07.16.04:983][571]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2018.02.27-07.16.04:983][571]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2018.02.27-07.16.04:983][571]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2018.02.27-07.16.04:983][571]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2018.02.27-07.16.04:983][571]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2018.02.27-07.16.05:277][571]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2018.02.27-07.16.05:277][571]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2018.02.27-07.16.05:277][571]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2018.02.27-07.16.05:277][571]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2018.02.27-07.16.05:277][571]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2018.02.27-07.16.05:277][571]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2018.02.27-07.16.05:278][571]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2018.02.27-07.16.05:278][571]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2018.02.27-07.16.05:278][571]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2018.02.27-07.16.05:296][571]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2018.02.27-07.16.05:297][571]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2018.02.27-07.16.05:298][571]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2018.02.27-07.16.05:298][571]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2018.02.27-07.16.05:298][571]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2018.02.27-07.16.05:495][571]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2018.02.27-07.16.05:496][571]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2018.02.27-07.16.05:510][571]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2018.02.27-07.16.05:510][571]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2018.02.27-07.16.05:513][571]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2018.02.27-07.16.05:513][571]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2018.02.27-07.16.05:513][571]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2018.02.27-07.16.05:711][571]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.02.27-07.16.05:715][571]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2018.02.27-07.16.05:715][571]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2018.02.27-07.16.05:715][571]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2018.02.27-07.16.05:715][571]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2018.02.27-07.16.05:822][571]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2018.02.27-07.16.05:927][571]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2018.02.27-07.16.05:927][571]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2018.02.27-07.16.05:927][571]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.02.27-07.16.05:927][571]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2018.02.27-07.16.05:927][571]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2018.02.27-07.16.05:927][571]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2018.02.27-07.16.05:928][571]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2018.02.27-07.16.05:930][571]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2018.02.27-07.16.05:930][571]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2018.02.27-07.16.05:930][571]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2018.02.27-07.16.05:930][571]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2018.02.27-07.16.05:930][571]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2018.02.27-07.16.05:930][571]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2018.02.27-07.16.05:931][571]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2018.02.27-07.16.05:954][571]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2018.02.27-07.16.05:954][571]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2018.02.27-07.16.05:954][571]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2018.02.27-07.16.05:954][571]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2018.02.27-07.16.05:954][571]LogModuleManager: Shutting down and abandoning module Core (154)
+[2018.02.27-07.16.05:954][571]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2018.02.27-07.16.08:272][571]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.27-07.16.08:272][571]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/' was aborted.
+[2018.02.27-07.16.08:272][571]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.27-07.16.08:273][571]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2018.02.27-07.16.08:298][571]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2018.02.27-07.16.08:298][571]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2018.02.27-07.16.08:298][571]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2018.02.27-07.16.08:298][571]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2018.02.27-07.16.08:300][571]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2018.02.27-07.16.08:300][571]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2018.02.27-07.16.08:300][571]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2018.02.27-07.16.08:300][571]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2018.02.27-07.16.08:333][571]LogDerivedDataCache: Shutdown
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2018.02.27-07.16.08:334][571]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2018.02.27-07.16.08:335][571]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2018.02.27-07.16.08:336][571]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.02.27-07.16.08:336][571]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.02.27-07.16.08:336][571]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.27-07.16.08:336][571]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A7F5549-4943-F299-FC10-3D862AE7683F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=5b603b244070857be6e21db07fac4498%7C4e52399356044f1baac68bdb5a4ee55b%7C7ab93c02-ae7a-45b6-a8d9-e2cb6f613e2a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.27-07.16.08:366][571]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.02.27-07.16.08:369][571]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.27-07.16.08:369][571]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.27-07.16.08:369][571]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.27-07.16.08:369][571]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.27-07.16.08:369][571]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.27-07.16.08:424][571]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.27-07.16.08:424][571]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.27-07.16.08:425][571]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.27-07.16.08:425][571]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.27-07.16.08:425][571]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.27-07.16.08:425][571]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.27-07.16.08:425][571]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.27-07.16.08:425][571]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.27-07.16.08:425][571]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.27-07.16.08:425][571]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.27-07.16.08:479][571]LogExit: Exiting.
+[2018.02.27-07.16.08:514][571]Log file closed, 02/27/18 01:16:08
