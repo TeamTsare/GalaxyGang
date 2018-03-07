@@ -1,0 +1,1486 @@
+﻿Log file open, 03/03/18 20:40:33
+LogInit:Display: Running engine for game: GalaxyGangGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(240830612) SRandInit(240830612).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.085478
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.04-02.40.35:488][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-02.40.35:488][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.04-02.40.35:524][  0]LogInit: Computer: DESKTOP-SSSFMAE
+[2018.03.04-02.40.35:524][  0]LogInit: User: Richa
+[2018.03.04-02.40.35:524][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.03.04-02.40.35:524][  0]LogInit: High frequency timer resolution =2.343750 MHz
+[2018.03.04-02.40.35:524][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.04-02.40.35:524][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.04-02.40.35:524][  0]LogMemory: Process Physical Memory: 268.62 MB used, 268.62 MB peak
+[2018.03.04-02.40.35:524][  0]LogMemory: Process Virtual Memory: 274.96 MB used, 274.96 MB peak
+[2018.03.04-02.40.35:524][  0]LogMemory: Physical Memory: 4159.53 MB used,  3937.13 MB free, 8096.66 MB total
+[2018.03.04-02.40.35:524][  0]LogMemory: Virtual Memory: 694.10 MB used,  3937.13 MB free, 134217728.00 MB total
+[2018.03.04-02.40.35:705][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.03.04-02.40.36:990][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.04-02.40.37:013][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.03.04-02.40.37:013][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.04-02.40.37:019][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.04-02.40.37:019][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.04-02.40.37:019][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.04-02.40.37:031][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.04-02.40.37:031][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.04-02.40.37:031][  0]LogWindows: EnumDisplayDevices:
+[2018.03.04-02.40.37:031][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.03.04-02.40.37:032][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.04-02.40.37:032][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.04-02.40.37:032][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.04-02.40.37:032][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.03.04-02.40.37:032][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.04-02.40.37:032][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.04-02.40.37:032][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.04-02.40.37:046][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.04-02.40.37:054][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.03.04-02.40.37:055][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Richa/Desktop/GalaxyGang/Intermediate/Shaders/WorkingDirectory/19520/).
+[2018.03.04-02.40.37:055][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Richa/AppData/Local/Temp/UnrealShaderWorkingDir/5C5628E84D3D8BD0DB14818091378F5C/'.
+[2018.03.04-02.40.37:055][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.04-02.40.39:160][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.04-02.40.39:250][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.04-02.40.39:348][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.04-02.40.39:444][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.04-02.40.39:555][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.04-02.40.39:657][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.04-02.40.39:762][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.04-02.40.39:869][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.04-02.40.39:949][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.04-02.40.40:042][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.04-02.40.40:130][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.04-02.40.40:211][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.04-02.40.40:294][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.04-02.40.40:379][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.04-02.40.40:465][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.04-02.40.40:636][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.04-02.40.40:636][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.04-02.40.40:698][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.04-02.40.40:841][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.04-02.40.40:895][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.04-02.40.40:979][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.04-02.40.41:064][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.04-02.40.41:144][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.04-02.40.41:230][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.04-02.40.41:230][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.04-02.40.41:931][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.04-02.40.42:013][  0]LogDerivedDataCache: Loaded boot cache 0.08s 52MB C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.03.04-02.40.42:013][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.03.04-02.40.42:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Richa/Desktop/GalaxyGang/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.04-02.40.42:014][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.04-02.40.42:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Richa/Desktop/GalaxyGang/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.04-02.40.42:014][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.04-02.40.42:038][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.04-02.40.42:050][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Richa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.04-02.40.42:067][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.04-02.40.42:067][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-02.40.42:067][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-02.40.42:561][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-02.40.42:566][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.04-02.40.42:881][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.04-02.40.42:952][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.04-02.40.43:022][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.04-02.40.43:022][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.04-02.40.43:022][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.04-02.40.44:017][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: galaxyganggame, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3878788453
+[2018.03.04-02.40.44:077][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2018.03.04-02.40.44:901][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.786137 seconds
+[2018.03.04-02.40.44:912][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.03.04-02.40.44:912][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2018.03.04-02.40.44:912][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.04-02.40.45:056][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.04-02.40.47:513][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.04-02.40.47:569][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.04-02.40.48:287][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.04-02.40.48:883][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.40.48:962][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.40.49:037][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.40.49:107][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.40.51:037][  0]LogEngine: Initializing Engine...
+[2018.03.04-02.40.51:038][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.04-02.40.51:206][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.04-02.40.51:206][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.04-02.40.51:394][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.04-02.40.51:417][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.04-02.40.51:660][  0]LogInit: FAudioDevice initialized.
+[2018.03.04-02.40.51:707][  0]LogDerivedDataCache: Saved boot cache 0.05s 52MB C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.03.04-02.40.51:716][  0]LogInit: Texture streaming: Enabled
+[2018.03.04-02.40.51:869][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.04-02.40.52:011][  0]LogInit: Transaction tracking system initialized
+[2018.03.04-02.40.52:562][  0]BlueprintLog: New page: Editor Load
+[2018.03.04-02.40.53:977][  0]LocalizationService: Info Localization service is disabled
+[2018.03.04-02.40.55:352][  0]LogConsoleResponse:Display: 
+[2018.03.04-02.40.55:686][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.04-02.40.55:686][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.04-02.40.56:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/' took 0.65s
+[2018.03.04-02.40.57:508][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.40.57:508][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/GalaxyGangGame/Levels/Galaxy_Of_Dreams+Home_Fountain_Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-02.40.57:508][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/GalaxyGangGame/Levels/Galaxy_Of_Dreams+Home_Fountain_Island.umap'
+[2018.03.04-02.40.57:508][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-02.40.57:563][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.315ms to complete.
+[2018.03.04-02.40.57:563][  0]LogFileHelpers: Loading map 'Galaxy_Of_Dreams+Home_Fountain_Island' took 0.055
+[2018.03.04-02.40.57:670][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.04-02.40.57:671][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.04-02.40.57:898][  0]LogCollectionManager: Loaded 0 collections in 0.004340 seconds
+[2018.03.04-02.40.58:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Saved/Collections/' took 0.01s
+[2018.03.04-02.40.58:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/Developers/Richa/Collections/' took 0.01s
+[2018.03.04-02.40.58:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/Collections/' took 0.01s
+[2018.03.04-02.40.58:049][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.03.04-02.40.58:065][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2245 classes and 453 folders.
+[2018.03.04-02.40.58:179][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.04-02.41.00:153][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.03.04-02.41.00:738][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.04-02.41.01:059][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.04-02.41.01:114][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.04-02.41.01:255][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.03.04-02.41.01:257][  0]LogLoad: (Engine Initialization) Total time: 30.26 seconds
+[2018.03.04-02.41.01:257][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2018.03.04-02.41.01:257][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.04-02.41.01:282][  0]LogOcInput: OculusInput pre-init called
+[2018.03.04-02.41.01:449][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.04-02.41.01:451][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-02.41.01:476][  0]LogSlate: Took 0.021729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.04-02.41.01:476][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.04-02.41.01:700][  0]LogRenderer: Reallocating scene render targets to support 740x708 NumSamples 1 (Frame:2).
+[2018.03.04-02.41.07:380][  4]LogAssetRegistry: Asset discovery search completed in 23.3246 seconds
+[2018.03.04-02.41.07:380][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000011 seconds (found 0 objects)
+[2018.03.04-02.41.07:380][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2018.03.04-02.41.10:861][ 31]LogSlate: Took 0.038157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-02.42.14:143][757]LogSlate: Took 0.001056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-02.42.15:222][757]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-02.42.19:438][757]LogBlueprint:Warning: [CharacterDanny1_old] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.04-02.42.19:438][757]LogBlueprint:Warning: [CharacterDanny1_old] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.04-02.42.19:442][757]LogBlueprint:Warning: [CharacterDanny1_old] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.03.04-02.42.19:784][757]LogBlueprint:Warning: [CharacterDanny] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.04-02.42.19:784][757]LogBlueprint:Warning: [CharacterDanny] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.04-02.42.19:787][757]LogBlueprint:Warning: [CharacterDanny] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.03.04-02.42.20:527][757]LogBlueprint:Warning: [MainHUD] 'MaxHealth' variable not found. Base class was probably changed.
+[2018.03.04-02.42.20:528][757]LogBlueprint:Warning: [MainHUD] 'DannyHealthImage' variable not found. Base class was probably changed.
+[2018.03.04-02.42.20:531][757]LogBlueprint:Warning: [MainHUD] 'Percentage' variable not found. Base class was probably changed.
+[2018.03.04-02.42.20:531][757]LogBlueprint:Warning: [MainHUD] 'Health' variable not found. Base class was probably changed.
+[2018.03.04-02.42.23:600][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/ALLPlantationMats/TallGrass_TX_Mat'
+[2018.03.04-02.42.23:600][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/ALLPlantationMats/TallGrass_TX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/ALLPlantation/Grass_Tall2.uasset.
+[2018.03.04-02.42.23:600][757]LoadErrors:Error: Error /Game/Environments/ALLPlantation/Grass_Tall2 : Can't find file for asset. /Game/GalaxyGangGame/Materials/ALLPlantationMats/TallGrass_TX_Mat
+[2018.03.04-02.42.23:600][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/ALLPlantationMats/TallGrass_TX_Mat'
+[2018.03.04-02.42.23:600][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/ALLPlantationMats/TallGrass_TX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/ALLPlantation/Grass_Tall2.uasset.
+[2018.03.04-02.42.33:596][757]LogLinker:Warning: Can't find file '/Game/Environments/ALLPlantation/PalmTree400_Skeleton'
+[2018.03.04-02.42.33:597][757]LogLinker:Warning: Can't find file for asset '/Game/Environments/ALLPlantation/PalmTree400_Skeleton' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/ALLPlantation/PalmTree400.uasset.
+[2018.03.04-02.42.33:597][757]LoadErrors:Error: Error /Game/Environments/ALLPlantation/PalmTree400 : Can't find file for asset. /Game/Environments/ALLPlantation/PalmTree400_Skeleton
+[2018.03.04-02.42.33:598][757]LogLinker:Warning: Can't find file '/Game/Environments/ALLPlantation/PalmTree400_Skeleton'
+[2018.03.04-02.42.33:598][757]LogLinker:Warning: Can't find file for asset '/Game/Environments/ALLPlantation/PalmTree400_Skeleton' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/ALLPlantation/PalmTree400.uasset.
+[2018.03.04-02.42.34:258][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/ALLUnderwaterMats/Coral_Reef_TX_Mat'
+[2018.03.04-02.42.34:258][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/ALLUnderwaterMats/Coral_Reef_TX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/ALLUnderwater/CoralReefA.uasset.
+[2018.03.04-02.42.34:258][757]LoadErrors:Error: Error /Game/Environments/ALLUnderwater/CoralReefA : Can't find file for asset. /Game/GalaxyGangGame/Materials/ALLUnderwaterMats/Coral_Reef_TX_Mat
+[2018.03.04-02.42.34:259][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/ALLUnderwaterMats/Coral_Reef_TX_Mat'
+[2018.03.04-02.42.34:259][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/ALLUnderwaterMats/Coral_Reef_TX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/ALLUnderwater/CoralReefA.uasset.
+[2018.03.04-02.42.35:170][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat'
+[2018.03.04-02.42.35:170][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BlueGateAB.uasset.
+[2018.03.04-02.42.35:170][757]LoadErrors:Error: Error /Game/Environments/PiratePlanet/BlueGateAB : Can't find file for asset. /Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat
+[2018.03.04-02.42.35:170][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat'
+[2018.03.04-02.42.35:170][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BlueGateAB.uasset.
+[2018.03.04-02.42.35:232][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat'
+[2018.03.04-02.42.35:232][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BlueGateC.uasset.
+[2018.03.04-02.42.35:232][757]LoadErrors:Error: Error /Game/Environments/PiratePlanet/BlueGateC : Can't find file for asset. /Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat
+[2018.03.04-02.42.35:232][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat'
+[2018.03.04-02.42.35:232][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BlueGateC.uasset.
+[2018.03.04-02.42.37:714][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.04-02.42.37:714][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/Rocks/Rock5.uasset.
+[2018.03.04-02.42.37:714][757]LoadErrors:Error: Error /Game/Environments/Rocks/Rock5 : Can't find file for asset. /Game/GalaxyGangGame/Materials/RockMaterial
+[2018.03.04-02.42.37:715][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.04-02.42.37:717][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/Rocks/Rock5.uasset.
+[2018.03.04-02.42.43:753][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/ALLPlantationMats/TallGrass_TX_Mat'
+[2018.03.04-02.42.43:753][757]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/ALLPlantationMats/TallGrass_TX_Mat.TallGrass_TX_Mat Referenced by Grass_Tall2
+[2018.03.04-02.42.43:753][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/ALLPlantationMats/TallGrass_TX_Mat' while loading NULL.
+[2018.03.04-02.42.44:296][757]LogLinker:Warning: Can't find file '/Game/Environments/ALLPlantation/PalmTree400_Skeleton'
+[2018.03.04-02.42.44:296][757]LoadErrors: Info Failed to load /Game/Environments/ALLPlantation/PalmTree400_Skeleton.PalmTree400_Skeleton Referenced by PalmTree400
+[2018.03.04-02.42.44:296][757]LogLinker:Warning: Can't find file for asset '/Game/Environments/ALLPlantation/PalmTree400_Skeleton' while loading NULL.
+[2018.03.04-02.42.44:847][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/ALLUnderwaterMats/Coral_Reef_TX_Mat'
+[2018.03.04-02.42.44:847][757]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/ALLUnderwaterMats/Coral_Reef_TX_Mat.Coral_Reef_TX_Mat Referenced by CoralReefA
+[2018.03.04-02.42.44:847][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/ALLUnderwaterMats/Coral_Reef_TX_Mat' while loading NULL.
+[2018.03.04-02.42.44:973][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.04-02.42.44:973][757]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/RockMaterial.RockMaterial Referenced by Rock5
+[2018.03.04-02.42.44:974][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading NULL.
+[2018.03.04-02.42.45:414][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat'
+[2018.03.04-02.42.45:414][757]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat.BlueGateTX_Mat Referenced by BlueGateC
+[2018.03.04-02.42.45:414][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat' while loading NULL.
+[2018.03.04-02.42.45:414][757]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat'
+[2018.03.04-02.42.45:414][757]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat.BlueGateTX_Mat Referenced by BlueGateAB
+[2018.03.04-02.42.45:414][757]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/BlueGateTX_Mat' while loading NULL.
+[2018.03.04-02.44.19:548][757]LogAIModule: Creating AISystem for world Pirate_Planet+Buccaneer_Beach2
+[2018.03.04-02.44.21:736][757]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach2, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach2.Pirate_Planet+Buccaneer_Beach2:PersistentLevel.DESTROYED_Doubloon_C_CHILDACTOR_4
+[2018.03.04-02.44.21:949][757]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach2, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach2.Pirate_Planet+Buccaneer_Beach2:PersistentLevel.DESTROYED_RecordPiece_C_CHILDACTOR_29
+[2018.03.04-02.45.10:479][230]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Pirate_Planet+Buccaneer_Beach2_C_0
+[2018.03.04-02.45.11:011][230]LogAIModule: Creating AISystem for world Pirate_Planet+Buccaneer_Beach3
+[2018.03.04-02.45.11:186][230]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_Doubloon_C_CHILDACTOR_4
+[2018.03.04-02.45.11:190][230]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_RecordPiece_C_CHILDACTOR_5
+[2018.03.04-02.45.11:265][230]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/' took 249.97s
+[2018.03.04-02.45.27:114][709]LogLinker:Warning: Can't find file '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat'
+[2018.03.04-02.45.27:114][709]LogLinker:Warning: Can't find file for asset '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap.
+[2018.03.04-02.45.27:114][709]LoadErrors:Error: Error /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach : Can't find file for asset. /Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat
+[2018.03.04-02.45.27:151][709]LogLinker:Warning: Can't find file '/Game/StarCandy_Red'
+[2018.03.04-02.45.27:151][709]LogLinker:Warning: Can't find file for asset '/Game/StarCandy_Red' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap.
+[2018.03.04-02.45.27:152][709]LoadErrors:Error: Error /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach : Can't find file for asset. /Game/StarCandy_Red
+[2018.03.04-02.45.27:364][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/CannonHatch2'
+[2018.03.04-02.45.27:364][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/CannonHatch2' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap.
+[2018.03.04-02.45.27:364][709]LoadErrors:Error: Error /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach : Can't find file for asset. /Game/Environments/PiratePlanet/CannonHatch2
+[2018.03.04-02.45.27:475][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/PirateSteelDoor'
+[2018.03.04-02.45.27:475][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/PirateSteelDoor' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap.
+[2018.03.04-02.45.27:475][709]LoadErrors:Error: Error /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach : Can't find file for asset. /Game/Environments/PiratePlanet/PirateSteelDoor
+[2018.03.04-02.45.27:699][709]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.04-02.45.27:699][709]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/Rocks/Rock6.uasset.
+[2018.03.04-02.45.27:699][709]LoadErrors:Error: Error /Game/Environments/Rocks/Rock6 : Can't find file for asset. /Game/GalaxyGangGame/Materials/RockMaterial
+[2018.03.04-02.45.27:700][709]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.04-02.45.27:700][709]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/Rocks/Rock6.uasset.
+[2018.03.04-02.45.27:725][709]LogLinker:Warning: Can't find file '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat'
+[2018.03.04-02.45.27:725][709]LogLinker:Warning: Can't find file for asset '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap.
+[2018.03.04-02.45.27:808][709]LogLinker:Warning: Can't find file '/Game/StarCandy_Red'
+[2018.03.04-02.45.27:808][709]LogLinker:Warning: Can't find file for asset '/Game/StarCandy_Red' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap.
+[2018.03.04-02.45.27:810][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/CannonHatch2'
+[2018.03.04-02.45.27:810][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/CannonHatch2' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap.
+[2018.03.04-02.45.27:811][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/PirateSteelDoor'
+[2018.03.04-02.45.27:811][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/PirateSteelDoor' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap.
+[2018.03.04-02.45.27:815][709]LogLinker:Warning: Can't find file '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat'
+[2018.03.04-02.45.27:816][709]LogLinker:Warning: Can't find file for asset '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat' while loading NULL.
+[2018.03.04-02.45.27:816][709]LogLinker:Warning: Can't find file '/Game/StarCandy_Red'
+[2018.03.04-02.45.27:816][709]LogLinker:Warning: Can't find file for asset '/Game/StarCandy_Red' while loading NULL.
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/CannonHatch2'
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/CannonHatch2' while loading NULL.
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/PirateSteelDoor'
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/PirateSteelDoor' while loading NULL.
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat'
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file for asset '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat' while loading NULL.
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file '/Game/StarCandy_Red'
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file for asset '/Game/StarCandy_Red' while loading NULL.
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/CannonHatch2'
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/CannonHatch2' while loading NULL.
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/PirateSteelDoor'
+[2018.03.04-02.45.27:817][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/PirateSteelDoor' while loading NULL.
+[2018.03.04-02.45.28:553][709]LogLinker:Warning: Can't find file '/Game/StarCandy_Red'
+[2018.03.04-02.45.28:553][709]LoadErrors: Info Failed to load /Game/StarCandy_Red.StarCandy_Red Referenced by HubShip_Ship_2
+[2018.03.04-02.45.28:553][709]LogLinker:Warning: Can't find file for asset '/Game/StarCandy_Red' while loading NULL.
+[2018.03.04-02.45.28:566][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/CannonHatch2'
+[2018.03.04-02.45.28:566][709]LoadErrors: Info Failed to load /Game/Environments/PiratePlanet/CannonHatch2.CannonHatch2 Referenced by CannonHatch2_8
+[2018.03.04-02.45.28:566][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/CannonHatch2' while loading NULL.
+[2018.03.04-02.45.28:567][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/CannonHatch2'
+[2018.03.04-02.45.28:567][709]LoadErrors: Info Failed to load /Game/Environments/PiratePlanet/CannonHatch2.CannonHatch2 Referenced by CannonHatch4
+[2018.03.04-02.45.28:567][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/CannonHatch2' while loading NULL.
+[2018.03.04-02.45.28:579][709]LogLinker:Warning: Can't find file '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat'
+[2018.03.04-02.45.28:579][709]LoadErrors: Info Failed to load /Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat.PalmTree_4_TXPNG_Mat Referenced by PalmTree3_93
+[2018.03.04-02.45.28:579][709]LogLinker:Warning: Can't find file for asset '/Game/Materials/ALLPlantationMats/PalmTree_4_TXPNG_Mat' while loading NULL.
+[2018.03.04-02.45.28:580][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/PirateSteelDoor'
+[2018.03.04-02.45.28:581][709]LoadErrors: Info Failed to load /Game/Environments/PiratePlanet/PirateSteelDoor.PirateSteelDoor Referenced by PirateDoor3_73
+[2018.03.04-02.45.28:581][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/PirateSteelDoor' while loading NULL.
+[2018.03.04-02.45.28:581][709]LogLinker:Warning: Can't find file '/Game/Environments/PiratePlanet/PirateSteelDoor'
+[2018.03.04-02.45.28:582][709]LoadErrors: Info Failed to load /Game/Environments/PiratePlanet/PirateSteelDoor.PirateSteelDoor Referenced by PirateSteelDoor_48
+[2018.03.04-02.45.28:582][709]LogLinker:Warning: Can't find file for asset '/Game/Environments/PiratePlanet/PirateSteelDoor' while loading NULL.
+[2018.03.04-02.45.30:247][709]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.04-02.45.30:247][709]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/RockMaterial.RockMaterial Referenced by Rock6
+[2018.03.04-02.45.30:247][709]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading NULL.
+[2018.03.04-02.45.30:596][709]LogTexture:Display: Building textures: Texture2D_230 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.30:988][709]LogTexture:Display: Building textures: Texture2D_199 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:157][709]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:209][709]LogTexture:Display: Building textures: Texture2D_255 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:281][709]LogTexture:Display: Building textures: Texture2D_72 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:314][709]LogTexture:Display: Building textures: Texture2D_362 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:766][709]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:875][709]LogTexture:Display: Building textures: Texture2D_135 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:878][709]LogTexture:Display: Building textures: Texture2D_144 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:903][709]LogTexture:Display: Building textures: Texture2D_155 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:996][709]LogTexture:Display: Building textures: Texture2D_171 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.31:998][709]LogTexture:Display: Building textures: Texture2D_176 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:136][709]LogTexture:Display: Building textures: Texture2D_308 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:140][709]LogTexture:Display: Building textures: Texture2D_326 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:193][709]LogTexture:Display: Building textures: Texture2D_166 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:195][709]LogTexture:Display: Building textures: Texture2D_164 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:198][709]LogTexture:Display: Building textures: Texture2D_374 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:201][709]LogTexture:Display: Building textures: Texture2D_169 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:315][709]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:389][709]LogTexture:Display: Building textures: Texture2D_418 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:390][709]LogTexture:Display: Building textures: Texture2D_425 (BGRA8, 64X64) - 175 MB total VRAM
+[2018.03.04-02.45.32:391][709]LogTexture:Display: Building textures: Texture2D_351 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:393][709]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:393][709]LogTexture:Display: Building textures: Texture2D_190 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:487][709]LogTexture:Display: Building textures: Texture2D_64 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:548][709]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:549][709]LogTexture:Display: Building textures: Texture2D_112 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:691][709]LogTexture:Display: Building textures: Texture2D_545 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:692][709]LogTexture:Display: Building textures: Texture2D_173 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:810][709]LogTexture:Display: Building textures: Texture2D_29 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:811][709]LogTexture:Display: Building textures: Texture2D_357 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:812][709]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:813][709]LogTexture:Display: Building textures: Texture2D_31 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:838][709]LogTexture:Display: Building textures: Texture2D_139 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:880][709]LogTexture:Display: Building textures: Texture2D_146 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:881][709]LogTexture:Display: Building textures: Texture2D_148 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:882][709]LogTexture:Display: Building textures: Texture2D_156 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:882][709]LogTexture:Display: Building textures: Texture2D_157 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:885][709]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 64X64) - 176 MB total VRAM
+[2018.03.04-02.45.32:887][709]LogTexture:Display: Building textures: Texture2D_159 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:888][709]LogTexture:Display: Building textures: Texture2D_160 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:889][709]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:890][709]LogTexture:Display: Building textures: Texture2D_165 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:891][709]LogTexture:Display: Building textures: Texture2D_168 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:891][709]LogTexture:Display: Building textures: Texture2D_170 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:893][709]LogTexture:Display: Building textures: Texture2D_177 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:894][709]LogTexture:Display: Building textures: Texture2D_178 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:895][709]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:895][709]LogTexture:Display: Building textures: Texture2D_181 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:896][709]LogTexture:Display: Building textures: Texture2D_184 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:897][709]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:898][709]LogTexture:Display: Building textures: Texture2D_186 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:899][709]LogTexture:Display: Building textures: Texture2D_189 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:900][709]LogTexture:Display: Building textures: Texture2D_195 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:901][709]LogTexture:Display: Building textures: Texture2D_196 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:902][709]LogTexture:Display: Building textures: Texture2D_202 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:903][709]LogTexture:Display: Building textures: Texture2D_203 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:904][709]LogTexture:Display: Building textures: Texture2D_204 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:905][709]LogTexture:Display: Building textures: Texture2D_114 (BGRA8, 64X64) - 177 MB total VRAM
+[2018.03.04-02.45.32:906][709]LogTexture:Display: Building textures: Texture2D_223 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:907][709]LogTexture:Display: Building textures: Texture2D_224 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:908][709]LogTexture:Display: Building textures: Texture2D_225 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:909][709]LogTexture:Display: Building textures: Texture2D_226 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:911][709]LogTexture:Display: Building textures: Texture2D_235 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:915][709]LogTexture:Display: Building textures: Texture2D_237 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:917][709]LogTexture:Display: Building textures: Texture2D_240 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:917][709]LogTexture:Display: Building textures: Texture2D_245 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:918][709]LogTexture:Display: Building textures: Texture2D_250 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:922][709]LogTexture:Display: Building textures: Texture2D_261 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:923][709]LogTexture:Display: Building textures: Texture2D_263 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:924][709]LogTexture:Display: Building textures: Texture2D_266 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:925][709]LogTexture:Display: Building textures: Texture2D_273 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:926][709]LogTexture:Display: Building textures: Texture2D_276 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:926][709]LogTexture:Display: Building textures: Texture2D_278 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:927][709]LogTexture:Display: Building textures: Texture2D_280 (BGRA8, 64X64) - 178 MB total VRAM
+[2018.03.04-02.45.32:928][709]LogTexture:Display: Building textures: Texture2D_288 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:929][709]LogTexture:Display: Building textures: Texture2D_292 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:931][709]LogTexture:Display: Building textures: Texture2D_299 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:981][709]LogTexture:Display: Building textures: Texture2D_303 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:982][709]LogTexture:Display: Building textures: Texture2D_304 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:983][709]LogTexture:Display: Building textures: Texture2D_306 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:984][709]LogTexture:Display: Building textures: Texture2D_309 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:985][709]LogTexture:Display: Building textures: Texture2D_316 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:986][709]LogTexture:Display: Building textures: Texture2D_320 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:987][709]LogTexture:Display: Building textures: Texture2D_322 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:988][709]LogTexture:Display: Building textures: Texture2D_330 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:989][709]LogTexture:Display: Building textures: Texture2D_331 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:990][709]LogTexture:Display: Building textures: Texture2D_332 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:991][709]LogTexture:Display: Building textures: Texture2D_353 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:992][709]LogTexture:Display: Building textures: Texture2D_354 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:993][709]LogTexture:Display: Building textures: Texture2D_355 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:993][709]LogTexture:Display: Building textures: Texture2D_356 (BGRA8, 64X64) - 179 MB total VRAM
+[2018.03.04-02.45.32:995][709]LogTexture:Display: Building textures: Texture2D_375 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.32:996][709]LogTexture:Display: Building textures: Texture2D_388 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.32:997][709]LogTexture:Display: Building textures: Texture2D_394 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.32:998][709]LogTexture:Display: Building textures: Texture2D_395 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.32:998][709]LogTexture:Display: Building textures: Texture2D_396 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.32:999][709]LogTexture:Display: Building textures: Texture2D_397 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.33:000][709]LogTexture:Display: Building textures: Texture2D_398 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.33:002][709]LogTexture:Display: Building textures: Texture2D_421 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.33:003][709]LogTexture:Display: Building textures: Texture2D_422 (BGRA8, 64X64) - 180 MB total VRAM
+[2018.03.04-02.45.33:072][709]LogTexture:Display: Building textures: Texture2D_441 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:073][709]LogTexture:Display: Building textures: Texture2D_449 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:074][709]LogTexture:Display: Building textures: Texture2D_456 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:076][709]LogTexture:Display: Building textures: Texture2D_488 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:077][709]LogTexture:Display: Building textures: Texture2D_498 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:078][709]LogTexture:Display: Building textures: Texture2D_502 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:079][709]LogTexture:Display: Building textures: Texture2D_507 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:080][709]LogTexture:Display: Building textures: Texture2D_508 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:082][709]LogTexture:Display: Building textures: Texture2D_515 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:083][709]LogTexture:Display: Building textures: Texture2D_519 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:085][709]LogTexture:Display: Building textures: Texture2D_531 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:086][709]LogTexture:Display: Building textures: Texture2D_534 (BGRA8, 64X64) - 181 MB total VRAM
+[2018.03.04-02.45.33:087][709]LogTexture:Display: Building textures: Texture2D_536 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:087][709]LogTexture:Display: Building textures: Texture2D_538 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:088][709]LogTexture:Display: Building textures: Texture2D_542 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:089][709]LogTexture:Display: Building textures: Texture2D_543 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:090][709]LogTexture:Display: Building textures: Texture2D_544 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:092][709]LogTexture:Display: Building textures: Texture2D_548 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:095][709]LogTexture:Display: Building textures: Texture2D_550 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:097][709]LogTexture:Display: Building textures: Texture2D_555 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:098][709]LogTexture:Display: Building textures: Texture2D_561 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:099][709]LogTexture:Display: Building textures: Texture2D_562 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:121][709]LogTexture:Display: Building textures: Texture2D_563 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:123][709]LogTexture:Display: Building textures: Texture2D_565 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:124][709]LogTexture:Display: Building textures: Texture2D_568 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:166][709]LogTexture:Display: Building textures: Texture2D_578 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:168][709]LogTexture:Display: Building textures: Texture2D_581 (BGRA8, 64X64) - 182 MB total VRAM
+[2018.03.04-02.45.33:169][709]LogTexture:Display: Building textures: Texture2D_582 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:170][709]LogTexture:Display: Building textures: Texture2D_583 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:171][709]LogTexture:Display: Building textures: Texture2D_584 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:172][709]LogTexture:Display: Building textures: Texture2D_585 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:173][709]LogTexture:Display: Building textures: Texture2D_587 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:174][709]LogTexture:Display: Building textures: Texture2D_589 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:232][709]LogTexture:Display: Building textures: Texture2D_591 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:233][709]LogTexture:Display: Building textures: Texture2D_594 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:236][709]LogTexture:Display: Building textures: Texture2D_600 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:237][709]LogTexture:Display: Building textures: Texture2D_603 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:238][709]LogTexture:Display: Building textures: Texture2D_605 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:239][709]LogTexture:Display: Building textures: Texture2D_606 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:240][709]LogTexture:Display: Building textures: Texture2D_607 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:241][709]LogTexture:Display: Building textures: Texture2D_608 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:242][709]LogTexture:Display: Building textures: Texture2D_609 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:266][709]LogTexture:Display: Building textures: Texture2D_614 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:267][709]LogTexture:Display: Building textures: Texture2D_617 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:267][709]LogTexture:Display: Building textures: Texture2D_620 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:268][709]LogTexture:Display: Building textures: Texture2D_623 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:269][709]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:269][709]LogTexture:Display: Building textures: Texture2D_625 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:270][709]LogTexture:Display: Building textures: Texture2D_626 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:271][709]LogTexture:Display: Building textures: Texture2D_627 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:271][709]LogTexture:Display: Building textures: Texture2D_628 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:272][709]LogTexture:Display: Building textures: Texture2D_629 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:272][709]LogTexture:Display: Building textures: Texture2D_630 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:273][709]LogTexture:Display: Building textures: Texture2D_635 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:274][709]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:323][709]LogTexture:Display: Building textures: Texture2D_641 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:324][709]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:326][709]LogTexture:Display: Building textures: Texture2D_642 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:327][709]LogTexture:Display: Building textures: Texture2D_643 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:328][709]LogTexture:Display: Building textures: Texture2D_644 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:329][709]LogTexture:Display: Building textures: Texture2D_645 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:330][709]LogTexture:Display: Building textures: Texture2D_649 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:330][709]LogTexture:Display: Building textures: Texture2D_132 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:332][709]LogTexture:Display: Building textures: Texture2D_656 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:332][709]LogTexture:Display: Building textures: Texture2D_658 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:333][709]LogTexture:Display: Building textures: Texture2D_659 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:334][709]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:335][709]LogTexture:Display: Building textures: Texture2D_660 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:336][709]LogTexture:Display: Building textures: Texture2D_661 (BGRA8, 64X64) - 183 MB total VRAM
+[2018.03.04-02.45.33:337][709]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:338][709]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:343][709]LogTexture:Display: Building textures: Texture2D_670 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:344][709]LogTexture:Display: Building textures: Texture2D_671 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:435][709]LogTexture:Display: Building textures: Texture2D_672 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:438][709]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:439][709]LogTexture:Display: Building textures: Texture2D_30 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:440][709]LogTexture:Display: Building textures: Texture2D_33 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:444][709]LogTexture:Display: Building textures: Texture2D_111 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:444][709]LogTexture:Display: Building textures: Texture2D_120 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:445][709]LogTexture:Display: Building textures: Texture2D_124 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:446][709]LogTexture:Display: Building textures: Texture2D_127 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:484][709]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512) - 184 MB total VRAM
+[2018.03.04-02.45.33:524][709]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 64X64) - 184 MB total VRAM
+[2018.03.04-02.45.33:668][709]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512) - 184 MB total VRAM
+[2018.03.04-02.45.33:689][709]LogTexture:Display: Building textures: Texture2D_26 (BGRA8, 512X512) - 184 MB total VRAM
+[2018.03.04-02.45.33:713][709]LogTexture:Display: Building textures: Texture2D_673 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:714][709]LogTexture:Display: Building textures: Texture2D_674 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:714][709]LogTexture:Display: Building textures: Texture2D_675 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:715][709]LogTexture:Display: Building textures: Texture2D_676 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:715][709]LogTexture:Display: Building textures: Texture2D_677 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:715][709]LogTexture:Display: Building textures: Texture2D_678 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:716][709]LogTexture:Display: Building textures: Texture2D_679 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:716][709]LogTexture:Display: Building textures: Texture2D_680 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:717][709]LogTexture:Display: Building textures: Texture2D_681 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:717][709]LogTexture:Display: Building textures: Texture2D_682 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:717][709]LogTexture:Display: Building textures: Texture2D_683 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:718][709]LogTexture:Display: Building textures: Texture2D_684 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:718][709]LogTexture:Display: Building textures: Texture2D_685 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:719][709]LogTexture:Display: Building textures: Texture2D_686 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:719][709]LogTexture:Display: Building textures: Texture2D_687 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:720][709]LogTexture:Display: Building textures: Texture2D_688 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:720][709]LogTexture:Display: Building textures: Texture2D_689 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:721][709]LogTexture:Display: Building textures: Texture2D_690 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:721][709]LogTexture:Display: Building textures: Texture2D_691 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:722][709]LogTexture:Display: Building textures: Texture2D_692 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:722][709]LogTexture:Display: Building textures: Texture2D_693 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:723][709]LogTexture:Display: Building textures: Texture2D_694 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:724][709]LogTexture:Display: Building textures: Texture2D_695 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:724][709]LogTexture:Display: Building textures: Texture2D_696 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:730][709]LogTexture:Display: Building textures: Texture2D_698 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:731][709]LogTexture:Display: Building textures: Texture2D_699 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:732][709]LogTexture:Display: Building textures: Texture2D_700 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:735][709]LogTexture:Display: Building textures: Texture2D_701 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:735][709]LogTexture:Display: Building textures: Texture2D_702 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:736][709]LogTexture:Display: Building textures: Texture2D_703 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:737][709]LogTexture:Display: Building textures: Texture2D_704 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:812][709]LogTexture:Display: Building textures: Texture2D_137 (BGRA8, 512X512) - 184 MB total VRAM
+[2018.03.04-02.45.33:828][709]LogTexture:Display: Building textures: Texture2D_705 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:829][709]LogTexture:Display: Building textures: Texture2D_706 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:829][709]LogTexture:Display: Building textures: Texture2D_707 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:830][709]LogTexture:Display: Building textures: Texture2D_708 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:830][709]LogTexture:Display: Building textures: Texture2D_709 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:831][709]LogTexture:Display: Building textures: Texture2D_710 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:832][709]LogTexture:Display: Building textures: Texture2D_711 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:833][709]LogTexture:Display: Building textures: Texture2D_712 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:834][709]LogTexture:Display: Building textures: Texture2D_713 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:835][709]LogTexture:Display: Building textures: Texture2D_714 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:836][709]LogTexture:Display: Building textures: Texture2D_715 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:837][709]LogTexture:Display: Building textures: Texture2D_716 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:838][709]LogTexture:Display: Building textures: Texture2D_717 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:839][709]LogTexture:Display: Building textures: Texture2D_718 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:839][709]LogTexture:Display: Building textures: Texture2D_719 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:841][709]LogTexture:Display: Building textures: Texture2D_720 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:842][709]LogTexture:Display: Building textures: Texture2D_721 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:842][709]LogTexture:Display: Building textures: Texture2D_722 (BGRA8, 32X32) - 184 MB total VRAM
+[2018.03.04-02.45.33:843][709]LogTexture:Display: Building textures: Texture2D_723 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:844][709]LogTexture:Display: Building textures: Texture2D_724 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:845][709]LogTexture:Display: Building textures: Texture2D_725 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:846][709]LogTexture:Display: Building textures: Texture2D_726 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:847][709]LogTexture:Display: Building textures: Texture2D_727 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:847][709]LogTexture:Display: Building textures: Texture2D_728 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:848][709]LogTexture:Display: Building textures: Texture2D_729 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:850][709]LogTexture:Display: Building textures: Texture2D_730 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:887][709]LogTexture:Display: Building textures: Texture2D_731 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:890][709]LogTexture:Display: Building textures: Texture2D_732 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:890][709]LogTexture:Display: Building textures: Texture2D_733 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:891][709]LogTexture:Display: Building textures: Texture2D_734 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:892][709]LogTexture:Display: Building textures: Texture2D_735 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:893][709]LogTexture:Display: Building textures: Texture2D_736 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:894][709]LogTexture:Display: Building textures: Texture2D_737 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:894][709]LogTexture:Display: Building textures: Texture2D_738 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:894][709]LogTexture:Display: Building textures: Texture2D_739 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:895][709]LogTexture:Display: Building textures: Texture2D_740 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:896][709]LogTexture:Display: Building textures: Texture2D_741 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:896][709]LogTexture:Display: Building textures: Texture2D_742 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:897][709]LogTexture:Display: Building textures: Texture2D_743 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:931][709]LogTexture:Display: Building textures: Texture2D_744 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:934][709]LogTexture:Display: Building textures: Texture2D_745 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:934][709]LogTexture:Display: Building textures: Texture2D_746 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:935][709]LogTexture:Display: Building textures: Texture2D_747 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:936][709]LogTexture:Display: Building textures: Texture2D_748 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:937][709]LogTexture:Display: Building textures: Texture2D_749 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:986][709]LogTexture:Display: Building textures: Texture2D_750 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:987][709]LogTexture:Display: Building textures: Texture2D_751 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:987][709]LogTexture:Display: Building textures: Texture2D_752 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:988][709]LogTexture:Display: Building textures: Texture2D_753 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:991][709]LogTexture:Display: Building textures: Texture2D_754 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:992][709]LogTexture:Display: Building textures: Texture2D_755 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:992][709]LogTexture:Display: Building textures: Texture2D_756 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:993][709]LogTexture:Display: Building textures: Texture2D_757 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:993][709]LogTexture:Display: Building textures: Texture2D_758 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:994][709]LogTexture:Display: Building textures: Texture2D_759 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:994][709]LogTexture:Display: Building textures: Texture2D_760 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:995][709]LogTexture:Display: Building textures: Texture2D_761 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:995][709]LogTexture:Display: Building textures: Texture2D_762 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:995][709]LogTexture:Display: Building textures: Texture2D_763 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:996][709]LogTexture:Display: Building textures: Texture2D_764 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:996][709]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.33:997][709]LogTexture:Display: Building textures: Texture2D_765 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:998][709]LogTexture:Display: Building textures: Texture2D_766 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.33:999][709]LogTexture:Display: Building textures: Texture2D_767 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:000][709]LogTexture:Display: Building textures: Texture2D_768 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:001][709]LogTexture:Display: Building textures: Texture2D_769 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:002][709]LogTexture:Display: Building textures: Texture2D_770 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:002][709]LogTexture:Display: Building textures: Texture2D_771 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:003][709]LogTexture:Display: Building textures: Texture2D_772 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:005][709]LogTexture:Display: Building textures: Texture2D_773 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:007][709]LogTexture:Display: Building textures: Texture2D_774 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:007][709]LogTexture:Display: Building textures: Texture2D_775 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:008][709]LogTexture:Display: Building textures: Texture2D_776 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:064][709]LogTexture:Display: Building textures: Texture2D_777 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:068][709]LogTexture:Display: Building textures: Texture2D_778 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:069][709]LogTexture:Display: Building textures: Texture2D_779 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:069][709]LogTexture:Display: Building textures: Texture2D_780 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:070][709]LogTexture:Display: Building textures: Texture2D_781 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:070][709]LogTexture:Display: Building textures: Texture2D_782 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:071][709]LogTexture:Display: Building textures: Texture2D_783 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:072][709]LogTexture:Display: Building textures: Texture2D_784 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:075][709]LogTexture:Display: Building textures: Texture2D_785 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:076][709]LogTexture:Display: Building textures: Texture2D_786 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:077][709]LogTexture:Display: Building textures: Texture2D_787 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:078][709]LogTexture:Display: Building textures: Texture2D_788 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:097][709]LogTexture:Display: Building textures: Texture2D_789 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:141][709]LogTexture:Display: Building textures: Texture2D_790 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:143][709]LogTexture:Display: Building textures: Texture2D_791 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:144][709]LogTexture:Display: Building textures: Texture2D_792 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:144][709]LogTexture:Display: Building textures: Texture2D_793 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:145][709]LogTexture:Display: Building textures: Texture2D_794 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:277][709]LogTexture:Display: Building textures: Texture2D_145 (BGRA8, 512X512) - 185 MB total VRAM
+[2018.03.04-02.45.34:295][709]LogTexture:Display: Building textures: Texture2D_795 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:296][709]LogTexture:Display: Building textures: Texture2D_796 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:297][709]LogTexture:Display: Building textures: Texture2D_797 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:298][709]LogTexture:Display: Building textures: Texture2D_798 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:299][709]LogTexture:Display: Building textures: Texture2D_799 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:300][709]LogTexture:Display: Building textures: Texture2D_800 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:300][709]LogTexture:Display: Building textures: Texture2D_801 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:301][709]LogTexture:Display: Building textures: Texture2D_802 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:301][709]LogTexture:Display: Building textures: Texture2D_803 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:302][709]LogTexture:Display: Building textures: Texture2D_804 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:303][709]LogTexture:Display: Building textures: Texture2D_805 (BGRA8, 32X32) - 185 MB total VRAM
+[2018.03.04-02.45.34:309][709]LogTexture:Display: Building textures: Texture2D_806 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:314][709]LogTexture:Display: Building textures: Texture2D_807 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:326][709]LogTexture:Display: Building textures: Texture2D_808 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:332][709]LogTexture:Display: Building textures: Texture2D_809 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:338][709]LogTexture:Display: Building textures: Texture2D_810 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:343][709]LogTexture:Display: Building textures: Texture2D_811 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:354][709]LogTexture:Display: Building textures: Texture2D_812 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:359][709]LogTexture:Display: Building textures: Texture2D_813 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:364][709]LogTexture:Display: Building textures: Texture2D_814 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:369][709]LogTexture:Display: Building textures: Texture2D_815 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:373][709]LogTexture:Display: Building textures: Texture2D_816 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:381][709]LogTexture:Display: Building textures: Texture2D_817 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:389][709]LogTexture:Display: Building textures: Texture2D_818 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:395][709]LogTexture:Display: Building textures: Texture2D_819 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:450][709]LogTexture:Display: Building textures: Texture2D_820 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:455][709]LogTexture:Display: Building textures: Texture2D_821 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:459][709]LogTexture:Display: Building textures: Texture2D_822 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:464][709]LogTexture:Display: Building textures: Texture2D_823 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:469][709]LogTexture:Display: Building textures: Texture2D_824 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:480][709]LogTexture:Display: Building textures: Texture2D_825 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:485][709]LogTexture:Display: Building textures: Texture2D_826 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:490][709]LogTexture:Display: Building textures: Texture2D_827 (BGRA8, 64X64) - 185 MB total VRAM
+[2018.03.04-02.45.34:495][709]LogTexture:Display: Building textures: Texture2D_828 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:514][709]LogTexture:Display: Building textures: Texture2D_831 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:519][709]LogTexture:Display: Building textures: Texture2D_832 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:524][709]LogTexture:Display: Building textures: Texture2D_833 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:529][709]LogTexture:Display: Building textures: Texture2D_834 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:561][709]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512) - 186 MB total VRAM
+[2018.03.04-02.45.34:584][709]LogTexture:Display: Building textures: Texture2D_835 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:601][709]LogTexture:Display: Building textures: Texture2D_838 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:608][709]LogTexture:Display: Building textures: Texture2D_839 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:615][709]LogTexture:Display: Building textures: Texture2D_840 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:619][709]LogTexture:Display: Building textures: Texture2D_841 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:624][709]LogTexture:Display: Building textures: Texture2D_842 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:633][709]LogTexture:Display: Building textures: Texture2D_843 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:639][709]LogTexture:Display: Building textures: Texture2D_844 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:644][709]LogTexture:Display: Building textures: Texture2D_845 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:649][709]LogTexture:Display: Building textures: Texture2D_846 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:653][709]LogTexture:Display: Building textures: Texture2D_847 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:658][709]LogTexture:Display: Building textures: Texture2D_848 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:670][709]LogTexture:Display: Building textures: Texture2D_849 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:676][709]LogTexture:Display: Building textures: Texture2D_850 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:681][709]LogTexture:Display: Building textures: Texture2D_851 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:686][709]LogTexture:Display: Building textures: Texture2D_852 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:694][709]LogTexture:Display: Building textures: Texture2D_853 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:701][709]LogTexture:Display: Building textures: Texture2D_854 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:726][709]LogTexture:Display: Building textures: Texture2D_241 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:727][709]LogTexture:Display: Building textures: Texture2D_242 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:728][709]LogTexture:Display: Building textures: Texture2D_243 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:728][709]LogTexture:Display: Building textures: Texture2D_244 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:729][709]LogTexture:Display: Building textures: Texture2D_246 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:731][709]LogTexture:Display: Building textures: Texture2D_247 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:733][709]LogTexture:Display: Building textures: Texture2D_248 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:734][709]LogTexture:Display: Building textures: Texture2D_249 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:768][709]LogTexture:Display: Building textures: Texture2D_251 (BGRA8, 512X512) - 186 MB total VRAM
+[2018.03.04-02.45.34:895][709]LogTexture:Display: Building textures: Texture2D_253 (BGRA8, 512X512) - 186 MB total VRAM
+[2018.03.04-02.45.34:922][709]LogTexture:Display: Building textures: Texture2D_260 (BGRA8, 512X512) - 186 MB total VRAM
+[2018.03.04-02.45.34:938][709]LogTexture:Display: Building textures: Texture2D_265 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:939][709]LogTexture:Display: Building textures: Texture2D_267 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:939][709]LogTexture:Display: Building textures: Texture2D_269 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:940][709]LogTexture:Display: Building textures: Texture2D_271 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:941][709]LogTexture:Display: Building textures: Texture2D_272 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:942][709]LogTexture:Display: Building textures: Texture2D_274 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:945][709]LogTexture:Display: Building textures: Texture2D_275 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:946][709]LogTexture:Display: Building textures: Texture2D_277 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:948][709]LogTexture:Display: Building textures: Texture2D_291 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:949][709]LogTexture:Display: Building textures: Texture2D_293 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:952][709]LogTexture:Display: Building textures: Texture2D_295 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:953][709]LogTexture:Display: Building textures: Texture2D_297 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:954][709]LogTexture:Display: Building textures: Texture2D_298 (BGRA8, 64X64) - 186 MB total VRAM
+[2018.03.04-02.45.34:955][709]LogTexture:Display: Building textures: Texture2D_300 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:956][709]LogTexture:Display: Building textures: Texture2D_301 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:957][709]LogTexture:Display: Building textures: Texture2D_302 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:959][709]LogTexture:Display: Building textures: Texture2D_43 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:960][709]LogTexture:Display: Building textures: Texture2D_319 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:961][709]LogTexture:Display: Building textures: Texture2D_321 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:961][709]LogTexture:Display: Building textures: Texture2D_323 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:962][709]LogTexture:Display: Building textures: Texture2D_324 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:963][709]LogTexture:Display: Building textures: Texture2D_325 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:963][709]LogTexture:Display: Building textures: Texture2D_327 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:964][709]LogTexture:Display: Building textures: Texture2D_45 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:965][709]LogTexture:Display: Building textures: Texture2D_328 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:965][709]LogTexture:Display: Building textures: Texture2D_329 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:967][709]LogTexture:Display: Building textures: Texture2D_341 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:968][709]LogTexture:Display: Building textures: Texture2D_342 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:969][709]LogTexture:Display: Building textures: Texture2D_344 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:971][709]LogTexture:Display: Building textures: Texture2D_346 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:973][709]LogTexture:Display: Building textures: Texture2D_347 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:974][709]LogTexture:Display: Building textures: Texture2D_348 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:977][709]LogTexture:Display: Building textures: Texture2D_350 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:978][709]LogTexture:Display: Building textures: Texture2D_352 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:979][709]LogTexture:Display: Building textures: Texture2D_53 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:980][709]LogTexture:Display: Building textures: Texture2D_365 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:993][709]LogTexture:Display: Building textures: Texture2D_366 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:994][709]LogTexture:Display: Building textures: Texture2D_367 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:995][709]LogTexture:Display: Building textures: Texture2D_369 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:996][709]LogTexture:Display: Building textures: Texture2D_55 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:997][709]LogTexture:Display: Building textures: Texture2D_370 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:997][709]LogTexture:Display: Building textures: Texture2D_371 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:998][709]LogTexture:Display: Building textures: Texture2D_372 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.34:999][709]LogTexture:Display: Building textures: Texture2D_373 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.35:000][709]LogTexture:Display: Building textures: Texture2D_57 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.35:001][709]LogTexture:Display: Building textures: Texture2D_384 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.35:002][709]LogTexture:Display: Building textures: Texture2D_385 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.35:003][709]LogTexture:Display: Building textures: Texture2D_387 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.35:004][709]LogTexture:Display: Building textures: Texture2D_389 (BGRA8, 64X64) - 187 MB total VRAM
+[2018.03.04-02.45.35:005][709]LogTexture:Display: Building textures: Texture2D_390 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:006][709]LogTexture:Display: Building textures: Texture2D_391 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:007][709]LogTexture:Display: Building textures: Texture2D_392 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:011][709]LogTexture:Display: Building textures: Texture2D_393 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:031][709]LogMaterial: Missing cached shader map for material Pirate_SandMat, compiling. 
+[2018.03.04-02.45.35:197][709]LogTemp:Display: Added material ShaderMap 0x000002239F987580 with Material 0x00000223A6B7C700 to ShaderMapsBeingCompiled
+[2018.03.04-02.45.35:988][709]LogTemp:Display: Kicking off shader compilation for Pirate_SandMat, GameThreadShaderMap 0x000002239F987580
+[2018.03.04-02.45.35:988][709]LogTexture:Display: Building textures: Texture2D_410 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:990][709]LogTexture:Display: Building textures: Texture2D_411 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:991][709]LogTexture:Display: Building textures: Texture2D_412 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:993][709]LogTexture:Display: Building textures: Texture2D_65 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:993][709]LogTexture:Display: Building textures: Texture2D_414 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:994][709]LogTexture:Display: Building textures: Texture2D_415 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:995][709]LogTexture:Display: Building textures: Texture2D_66 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:997][709]LogTexture:Display: Building textures: Texture2D_432 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:999][709]LogTexture:Display: Building textures: Texture2D_433 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.35:999][709]LogTexture:Display: Building textures: Texture2D_434 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.36:000][709]LogTexture:Display: Building textures: Texture2D_435 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.36:438][709]LogTexture:Display: Building textures: Texture2D_438 (BGRA8, 512X512) - 188 MB total VRAM
+[2018.03.04-02.45.36:456][709]LogTexture:Display: Building textures: Texture2D_70 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.37:926][709]LogTexture:Display: Building textures: Texture2D_442 (BGRA8, 512X512) - 188 MB total VRAM
+[2018.03.04-02.45.37:941][709]LogTexture:Display: Building textures: Texture2D_71 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:509][709]LogTexture:Display: Building textures: Texture2D_444 (BGRA8, 512X512) - 188 MB total VRAM
+[2018.03.04-02.45.38:527][709]LogTexture:Display: Building textures: Texture2D_73 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:528][709]LogTexture:Display: Building textures: Texture2D_450 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:529][709]LogTexture:Display: Building textures: Texture2D_451 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:529][709]LogTexture:Display: Building textures: Texture2D_453 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:530][709]LogTexture:Display: Building textures: Texture2D_454 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:531][709]LogTexture:Display: Building textures: Texture2D_75 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:533][709]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:534][709]LogTexture:Display: Building textures: Texture2D_77 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:535][709]LogTexture:Display: Building textures: Texture2D_463 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:536][709]LogTexture:Display: Building textures: Texture2D_464 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:537][709]LogTexture:Display: Building textures: Texture2D_465 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:538][709]LogTexture:Display: Building textures: Texture2D_467 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:540][709]LogTexture:Display: Building textures: Texture2D_83 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:542][709]LogTexture:Display: Building textures: Texture2D_480 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:543][709]LogTexture:Display: Building textures: Texture2D_481 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:544][709]LogTexture:Display: Building textures: Texture2D_482 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:545][709]LogTexture:Display: Building textures: Texture2D_484 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:550][709]LogTexture:Display: Building textures: Texture2D_85 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:552][709]LogTexture:Display: Building textures: Texture2D_87 (BGRA8, 64X64) - 188 MB total VRAM
+[2018.03.04-02.45.38:555][709]LogTexture:Display: Building textures: Texture2D_89 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:558][709]LogTexture:Display: Building textures: Texture2D_489 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:559][709]LogTexture:Display: Building textures: Texture2D_490 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:559][709]LogTexture:Display: Building textures: Texture2D_491 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:561][709]LogTexture:Display: Building textures: Texture2D_492 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:563][709]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:565][709]LogTexture:Display: Building textures: Texture2D_501 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:567][709]LogTexture:Display: Building textures: Texture2D_503 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:569][709]LogTexture:Display: Building textures: Texture2D_504 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:571][709]LogTexture:Display: Building textures: Texture2D_505 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:589][709]LogTexture:Display: Building textures: Texture2D_516 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:590][709]LogTexture:Display: Building textures: Texture2D_518 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:591][709]LogTexture:Display: Building textures: Texture2D_520 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:591][709]LogTexture:Display: Building textures: Texture2D_521 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:602][709]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:606][709]LogTexture:Display: Building textures: Texture2D_529 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:607][709]LogTexture:Display: Building textures: Texture2D_530 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:608][709]LogTexture:Display: Building textures: Texture2D_532 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:608][709]LogTexture:Display: Building textures: Texture2D_533 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:609][709]LogTexture:Display: Building textures: Texture2D_104 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:611][709]LogTexture:Display: Building textures: Texture2D_106 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:612][709]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:613][709]LogTexture:Display: Building textures: Texture2D_546 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:614][709]LogTexture:Display: Building textures: Texture2D_547 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:615][709]LogTexture:Display: Building textures: Texture2D_549 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:617][709]LogTexture:Display: Building textures: Texture2D_551 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:618][709]LogTexture:Display: Building textures: Texture2D_552 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:619][709]LogTexture:Display: Building textures: Texture2D_108 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:619][709]LogTexture:Display: Building textures: Texture2D_553 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:620][709]LogTexture:Display: Building textures: Texture2D_554 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:621][709]LogTexture:Display: Building textures: Texture2D_556 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:622][709]LogTexture:Display: Building textures: Texture2D_558 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:622][709]LogTexture:Display: Building textures: Texture2D_559 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:623][709]LogTexture:Display: Building textures: Texture2D_560 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:624][709]LogTexture:Display: Building textures: Texture2D_109 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:626][709]LogTexture:Display: Building textures: Texture2D_110 (BGRA8, 64X64) - 189 MB total VRAM
+[2018.03.04-02.45.38:627][709]LogTexture:Display: Building textures: Texture2D_564 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:628][709]LogTexture:Display: Building textures: Texture2D_566 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:630][709]LogTexture:Display: Building textures: Texture2D_567 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:632][709]LogTexture:Display: Building textures: Texture2D_569 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:634][709]LogTexture:Display: Building textures: Texture2D_570 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:635][709]LogTexture:Display: Building textures: Texture2D_572 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:635][709]LogTexture:Display: Building textures: Texture2D_573 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:638][709]LogTexture:Display: Building textures: Texture2D_575 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:640][709]LogTexture:Display: Building textures: Texture2D_576 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:641][709]LogTexture:Display: Building textures: Texture2D_577 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:642][709]LogTexture:Display: Building textures: Texture2D_113 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:643][709]LogTexture:Display: Building textures: Texture2D_115 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:644][709]LogTexture:Display: Building textures: Texture2D_586 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:645][709]LogTexture:Display: Building textures: Texture2D_588 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:646][709]LogTexture:Display: Building textures: Texture2D_590 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:647][709]LogTexture:Display: Building textures: Texture2D_592 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:648][709]LogTexture:Display: Building textures: Texture2D_117 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:649][709]LogTexture:Display: Building textures: Texture2D_593 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:649][709]LogTexture:Display: Building textures: Texture2D_595 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:650][709]LogTexture:Display: Building textures: Texture2D_596 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:651][709]LogTexture:Display: Building textures: Texture2D_598 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:652][709]LogTexture:Display: Building textures: Texture2D_599 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:653][709]LogTexture:Display: Building textures: Texture2D_601 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:653][709]LogTexture:Display: Building textures: Texture2D_118 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:654][709]LogTexture:Display: Building textures: Texture2D_119 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:655][709]LogTexture:Display: Building textures: Texture2D_610 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:657][709]LogTexture:Display: Building textures: Texture2D_611 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:658][709]LogTexture:Display: Building textures: Texture2D_612 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:660][709]LogTexture:Display: Building textures: Texture2D_613 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:661][709]LogTexture:Display: Building textures: Texture2D_615 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:662][709]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:663][709]LogTexture:Display: Building textures: Texture2D_121 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:664][709]LogTexture:Display: Building textures: Texture2D_616 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:667][709]LogTexture:Display: Building textures: Texture2D_618 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:668][709]LogTexture:Display: Building textures: Texture2D_619 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:669][709]LogTexture:Display: Building textures: Texture2D_621 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:670][709]LogTexture:Display: Building textures: Texture2D_622 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:672][709]LogTexture:Display: Building textures: Texture2D_123 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:675][709]LogTexture:Display: Building textures: Texture2D_125 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:676][709]LogTexture:Display: Building textures: Texture2D_631 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:677][709]LogTexture:Display: Building textures: Texture2D_632 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:678][709]LogTexture:Display: Building textures: Texture2D_633 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:678][709]LogTexture:Display: Building textures: Texture2D_634 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:679][709]LogTexture:Display: Building textures: Texture2D_636 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:680][709]LogTexture:Display: Building textures: Texture2D_126 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:681][709]LogTexture:Display: Building textures: Texture2D_637 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:682][709]LogTexture:Display: Building textures: Texture2D_638 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:683][709]LogTexture:Display: Building textures: Texture2D_639 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:684][709]LogTexture:Display: Building textures: Texture2D_640 (BGRA8, 64X64) - 190 MB total VRAM
+[2018.03.04-02.45.38:685][709]LogTexture:Display: Building textures: Texture2D_128 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:687][709]LogTexture:Display: Building textures: Texture2D_646 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:688][709]LogTexture:Display: Building textures: Texture2D_647 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:689][709]LogTexture:Display: Building textures: Texture2D_648 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:690][709]LogTexture:Display: Building textures: Texture2D_650 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:691][709]LogTexture:Display: Building textures: Texture2D_652 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:692][709]LogTexture:Display: Building textures: Texture2D_653 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:693][709]LogTexture:Display: Building textures: Texture2D_129 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:696][709]LogTexture:Display: Building textures: Texture2D_654 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:698][709]LogTexture:Display: Building textures: Texture2D_655 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:699][709]LogTexture:Display: Building textures: Texture2D_131 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.38:703][709]LogTexture:Display: Building textures: Texture2D_133 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:063][709]LogTexture:Display: Building textures: Texture2D_662 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:184][709]LogTexture:Display: Building textures: Texture2D_663 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:185][709]LogTexture:Display: Building textures: Texture2D_664 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:186][709]LogTexture:Display: Building textures: Texture2D_665 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:187][709]LogTexture:Display: Building textures: Texture2D_666 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:187][709]LogTexture:Display: Building textures: Texture2D_667 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:188][709]LogTexture:Display: Building textures: Texture2D_668 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:189][709]LogTexture:Display: Building textures: Texture2D_669 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.39:190][709]LogTexture:Display: Building textures: Texture2D_134 (BGRA8, 64X64) - 191 MB total VRAM
+[2018.03.04-02.45.40:399][709]LogStaticMesh: Building static mesh PirateShipA...
+[2018.03.04-02.45.40:641][709]LogStaticMesh: Built static mesh [0.28s] /Game/Environments/PiratePlanet/MeshesForBPMod/PirateShipA.PirateShipA
+[2018.03.04-02.45.41:123][709]LogStaticMesh: Building static mesh RectangleBuilding...
+[2018.03.04-02.45.41:132][709]LogStaticMesh: Built static mesh [0.01s] /Game/Environments/PiratePlanet/RectangleBuilding.RectangleBuilding
+[2018.03.04-02.45.41:274][709]LogStaticMesh: Building static mesh RectangleBuilding_wDoor...
+[2018.03.04-02.45.41:286][709]LogStaticMesh: Built static mesh [0.01s] /Game/Environments/PiratePlanet/RectangleBuilding_wDoor.RectangleBuilding_wDoor
+[2018.03.04-02.45.43:890][709]LogAIModule: Creating AISystem for world Pirate_Planet+Buccaneer_Beach
+[2018.03.04-02.46.01:606][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_Doubloon_C_CHILDACTOR_5
+[2018.03.04-02.46.01:607][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_RecordPiece_C_CHILDACTOR_6
+[2018.03.04-02.46.59:529][709]LogMeshUtilities: Finished distance field build in 60.5s - 64x64x64 distance field, 1052 triangles
+[2018.03.04-02.46.59:529][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_Doubloon_C_CHILDACTOR_9
+[2018.03.04-02.46.59:533][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_RecordPiece_C_CHILDACTOR_11
+[2018.03.04-02.46.59:717][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Pirate_Planet+Buccaneer_Beach3_C_0
+[2018.03.04-02.47.04:524][709]LogSavePackage: Save=4851.95ms
+[2018.03.04-02.47.04:524][709]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Pirate_Planet+Buccaneer_Beach3DF6A57D24D714D9F0806359D819C6671.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.umap'
+[2018.03.04-02.47.04:985][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.umap
+[2018.03.04-02.47.05:090][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_Doubloon_C_CHILDACTOR_10
+[2018.03.04-02.47.05:090][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_RecordPiece_C_CHILDACTOR_12
+[2018.03.04-02.47.06:694][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_Doubloon_C_CHILDACTOR_14
+[2018.03.04-02.47.06:696][709]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Pirate_Planet+Buccaneer_Beach3, Actor: /Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.DESTROYED_RecordPiece_C_CHILDACTOR_17
+[2018.03.04-02.47.06:822][709]LogFileHelpers: Saving map 'Pirate_Planet+Buccaneer_Beach3' took 66.906
+[2018.03.04-02.47.07:277][709]Cmd: MAP LOAD FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-02.47.07:311][709]LightingResults: New page: Lighting Build
+[2018.03.04-02.47.13:573][709]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0011 seconds. Added 5 classes and 0 folders.
+[2018.03.04-02.47.13:591][709]LoadErrors: New page: Loading map: Pirate_Planet+Buccaneer_Beach.umap
+[2018.03.04-02.47.13:700][709]MapCheck: New page: Map Check
+[2018.03.04-02.47.13:700][709]LightingResults: New page: Lighting Build
+[2018.03.04-02.47.22:942][709]LogMeshUtilities: Finished distance field build in 41.6s - 64x64x64 distance field, 42 triangles
+[2018.03.04-02.47.26:624][709]LogTemp:Display: Finished compile of shader map 0x000002239F987580
+[2018.03.04-02.47.26:624][709]LogTemp:Display: Shader map Pirate_SandMat complete, GameThreadShaderMap 0x000002239F987580, marking material Pirate_SandMat as finished
+[2018.03.04-02.47.26:624][709]LogTemp:Display: Marking material as finished 0x00000223A6B7C700
+[2018.03.04-02.47.54:825][709]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.04-02.48.12:272][709]LogMeshUtilities: Finished distance field build in 36.2s - 64x64x64 distance field, 28 triangles
+[2018.03.04-02.48.12:272][709]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-02.48.12:404][709]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.607ms to complete.
+[2018.03.04-02.48.12:404][709]LogFileHelpers: Loading map 'Pirate_Planet+Buccaneer_Beach' took 65.581
+[2018.03.04-02.48.40:688][710]LogTexture:Display: Building textures: Texture2D_806_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.48.43:133][710]LogTexture:Display: Building textures: Texture2D_0_BaseColor (BGRA8, 64X64) - 164 MB total VRAM
+[2018.03.04-02.48.44:678][710]LogTexture:Display: Building textures: Texture2D_673_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.48.46:586][711]LogTexture:Display: Building textures: Texture2D_807_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.48.54:135][711]LogTexture:Display: Building textures: Texture2D_3_BaseColor (BGRA8, 64X64) - 164 MB total VRAM
+[2018.03.04-02.48.55:945][711]LogTexture:Display: Building textures: Texture2D_674_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.48.59:926][715]LogTexture:Display: Building textures: Texture2D_808_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.01:050][715]LogTexture:Display: Building textures: Texture2D_137_BaseColor (BGRA8, 64X64) - 164 MB total VRAM
+[2018.03.04-02.49.01:269][715]LogTexture:Display: Building textures: Texture2D_675_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.49.01:514][716]LogTexture:Display: Building textures: Texture2D_809_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.02:585][716]LogTexture:Display: Building textures: Texture2D_145_BaseColor (BGRA8, 64X64) - 164 MB total VRAM
+[2018.03.04-02.49.02:808][716]LogTexture:Display: Building textures: Texture2D_676_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.49.03:494][717]LogTexture:Display: Building textures: Texture2D_810_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.03:673][717]LogTexture:Display: Building textures: Texture2D_241_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.03:887][717]LogTexture:Display: Building textures: Texture2D_677_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.49.04:131][718]LogTexture:Display: Building textures: Texture2D_811_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.04:340][718]LogTexture:Display: Building textures: Texture2D_242_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.04:540][718]LogTexture:Display: Building textures: Texture2D_678_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.49.04:821][719]LogTexture:Display: Building textures: Texture2D_812_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.05:033][719]LogTexture:Display: Building textures: Texture2D_243_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.05:252][719]LogTexture:Display: Building textures: Texture2D_679_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.49.05:508][720]LogTexture:Display: Building textures: Texture2D_813_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.06:960][720]LogTexture:Display: Building textures: Texture2D_244_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.07:138][720]LogTexture:Display: Building textures: Texture2D_680_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.49.07:392][721]LogTexture:Display: Building textures: Texture2D_814_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.07:890][721]LogTexture:Display: Building textures: Texture2D_246_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.08:065][721]LogTexture:Display: Building textures: Texture2D_681_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.49.10:874][722]LogEditorViewport: Clicking on Actor (context menu): Landscape (Land)
+[2018.03.04-02.49.27:864][722]LogTexture:Display: Building textures: Texture2D_815_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.28:124][722]LogTexture:Display: Building textures: Texture2D_247_BaseColor (BGRA8, 8X8) - 164 MB total VRAM
+[2018.03.04-02.49.28:340][722]LogTexture:Display: Building textures: Texture2D_682_BaseColor (BGRA8, 4X4) - 164 MB total VRAM
+[2018.03.04-02.49.30:405][723]LogTexture:Display: Building textures: Texture2D_816_BaseColor (BGRA8, 8X8) - 167 MB total VRAM
+[2018.03.04-02.49.30:630][723]LogTexture:Display: Building textures: Texture2D_248_BaseColor (BGRA8, 8X8) - 167 MB total VRAM
+[2018.03.04-02.49.30:903][723]LogTexture:Display: Building textures: Texture2D_683_BaseColor (BGRA8, 4X4) - 167 MB total VRAM
+[2018.03.04-02.49.31:213][724]LogTexture:Display: Building textures: Texture2D_817_BaseColor (BGRA8, 8X8) - 193 MB total VRAM
+[2018.03.04-02.49.31:412][724]LogTexture:Display: Building textures: Texture2D_249_BaseColor (BGRA8, 8X8) - 193 MB total VRAM
+[2018.03.04-02.49.31:661][724]LogTexture:Display: Building textures: Texture2D_684_BaseColor (BGRA8, 4X4) - 193 MB total VRAM
+[2018.03.04-02.49.32:068][725]LogEditorViewport: Clicking on Actor (LMB): Landscape (Land)
+[2018.03.04-02.49.32:278][725]LogTexture:Display: Building textures: Texture2D_818_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.33:375][725]LogTexture:Display: Building textures: Texture2D_251_BaseColor (BGRA8, 64X64) - 200 MB total VRAM
+[2018.03.04-02.49.33:596][725]LogTexture:Display: Building textures: Texture2D_685_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.33:853][726]LogTexture:Display: Building textures: Texture2D_819_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.35:088][726]LogTexture:Display: Building textures: Texture2D_253_BaseColor (BGRA8, 64X64) - 200 MB total VRAM
+[2018.03.04-02.49.35:321][726]LogTexture:Display: Building textures: Texture2D_686_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.35:583][727]LogTexture:Display: Building textures: Texture2D_820_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.37:617][727]LogTexture:Display: Building textures: Texture2D_260_BaseColor (BGRA8, 64X64) - 200 MB total VRAM
+[2018.03.04-02.49.37:856][727]LogTexture:Display: Building textures: Texture2D_687_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.38:129][728]LogTexture:Display: Building textures: Texture2D_821_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.38:358][728]LogTexture:Display: Building textures: Texture2D_265_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.38:875][728]LogTexture:Display: Building textures: Texture2D_688_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.39:967][729]LogTexture:Display: Building textures: Texture2D_822_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.40:234][729]LogTexture:Display: Building textures: Texture2D_267_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.40:567][729]LogTexture:Display: Building textures: Texture2D_689_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.40:862][730]LogTexture:Display: Building textures: Texture2D_823_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.41:534][730]LogTexture:Display: Building textures: Texture2D_269_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.41:866][730]LogTexture:Display: Building textures: Texture2D_690_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.42:127][731]LogTexture:Display: Building textures: Texture2D_824_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.42:354][731]LogTexture:Display: Building textures: Texture2D_271_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.42:575][731]LogTexture:Display: Building textures: Texture2D_691_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.43:282][732]LogTexture:Display: Building textures: Texture2D_825_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.43:505][732]LogTexture:Display: Building textures: Texture2D_272_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.43:730][732]LogTexture:Display: Building textures: Texture2D_692_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.44:037][733]LogTexture:Display: Building textures: Texture2D_826_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.44:232][733]LogTexture:Display: Building textures: Texture2D_274_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.44:470][733]LogTexture:Display: Building textures: Texture2D_693_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.44:705][734]LogTexture:Display: Building textures: Texture2D_827_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.44:933][734]LogTexture:Display: Building textures: Texture2D_275_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.45:178][734]LogTexture:Display: Building textures: Texture2D_694_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.45:540][735]LogTexture:Display: Building textures: Texture2D_828_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.45:893][735]LogTexture:Display: Building textures: Texture2D_277_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.46:080][735]LogTexture:Display: Building textures: Texture2D_695_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.46:555][736]LogTexture:Display: Building textures: Texture2D_291_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.46:814][736]LogTexture:Display: Building textures: Texture2D_696_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.47:349][737]LogTexture:Display: Building textures: Texture2D_293_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.48:005][738]LogTexture:Display: Building textures: Texture2D_831_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.48:239][738]LogTexture:Display: Building textures: Texture2D_295_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.48:466][738]LogTexture:Display: Building textures: Texture2D_698_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.48:752][739]LogTexture:Display: Building textures: Texture2D_832_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.48:975][739]LogTexture:Display: Building textures: Texture2D_297_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.49:198][739]LogTexture:Display: Building textures: Texture2D_699_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.49:445][740]LogTexture:Display: Building textures: Texture2D_833_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.49:687][740]LogTexture:Display: Building textures: Texture2D_298_BaseColor (BGRA8, 8X8) - 200 MB total VRAM
+[2018.03.04-02.49.50:298][740]LogTexture:Display: Building textures: Texture2D_700_BaseColor (BGRA8, 4X4) - 200 MB total VRAM
+[2018.03.04-02.49.50:579][741]LogTexture:Display: Building textures: Texture2D_834_BaseColor (BGRA8, 8X8) - 201 MB total VRAM
+[2018.03.04-02.49.50:807][741]LogTexture:Display: Building textures: Texture2D_300_BaseColor (BGRA8, 8X8) - 201 MB total VRAM
+[2018.03.04-02.49.51:031][741]LogTexture:Display: Building textures: Texture2D_701_BaseColor (BGRA8, 4X4) - 201 MB total VRAM
+[2018.03.04-02.49.51:325][742]LogTexture:Display: Building textures: Texture2D_835_BaseColor (BGRA8, 8X8) - 201 MB total VRAM
+[2018.03.04-02.49.51:572][742]LogTexture:Display: Building textures: Texture2D_301_BaseColor (BGRA8, 8X8) - 201 MB total VRAM
+[2018.03.04-02.49.51:829][742]LogTexture:Display: Building textures: Texture2D_702_BaseColor (BGRA8, 4X4) - 201 MB total VRAM
+[2018.03.04-02.49.52:424][743]LogTexture:Display: Building textures: Texture2D_302_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.52:672][743]LogTexture:Display: Building textures: Texture2D_703_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.49.53:889][744]LogTexture:Display: Building textures: Texture2D_319_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.54:132][744]LogTexture:Display: Building textures: Texture2D_704_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.49.55:460][745]LogEditorViewport: Clicking on Actor (LMB): Landscape (Land)
+[2018.03.04-02.49.55:887][745]LogTexture:Display: Building textures: Texture2D_838_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.56:113][745]LogTexture:Display: Building textures: Texture2D_321_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.56:410][745]LogTexture:Display: Building textures: Texture2D_705_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.49.56:700][746]LogTexture:Display: Building textures: Texture2D_839_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.56:973][746]LogTexture:Display: Building textures: Texture2D_323_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.57:252][746]LogTexture:Display: Building textures: Texture2D_706_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.49.57:529][747]LogTexture:Display: Building textures: Texture2D_840_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.57:769][747]LogTexture:Display: Building textures: Texture2D_324_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.58:044][747]LogTexture:Display: Building textures: Texture2D_707_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.49.58:320][748]LogTexture:Display: Building textures: Texture2D_841_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.58:548][748]LogTexture:Display: Building textures: Texture2D_325_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.58:782][748]LogTexture:Display: Building textures: Texture2D_708_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.49.59:058][749]LogTexture:Display: Building textures: Texture2D_842_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.59:289][749]LogTexture:Display: Building textures: Texture2D_327_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.49.59:485][749]LogTexture:Display: Building textures: Texture2D_709_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.49.59:873][750]LogTexture:Display: Building textures: Texture2D_843_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.00:102][750]LogTexture:Display: Building textures: Texture2D_328_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.00:327][750]LogTexture:Display: Building textures: Texture2D_710_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.00:616][751]LogTexture:Display: Building textures: Texture2D_844_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.00:877][751]LogTexture:Display: Building textures: Texture2D_329_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.01:103][751]LogTexture:Display: Building textures: Texture2D_711_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.01:403][752]LogTexture:Display: Building textures: Texture2D_845_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.01:625][752]LogTexture:Display: Building textures: Texture2D_341_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.01:850][752]LogTexture:Display: Building textures: Texture2D_712_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.02:242][753]LogTexture:Display: Building textures: Texture2D_846_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.02:427][753]LogTexture:Display: Building textures: Texture2D_342_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.02:658][753]LogTexture:Display: Building textures: Texture2D_713_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.02:952][754]LogTexture:Display: Building textures: Texture2D_847_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.03:203][754]LogTexture:Display: Building textures: Texture2D_344_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.03:431][754]LogTexture:Display: Building textures: Texture2D_714_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.03:865][755]LogTexture:Display: Building textures: Texture2D_848_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.04:095][755]LogTexture:Display: Building textures: Texture2D_346_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.04:356][755]LogTexture:Display: Building textures: Texture2D_715_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.04:606][756]LogTexture:Display: Building textures: Texture2D_849_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.04:966][756]LogTexture:Display: Building textures: Texture2D_347_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.05:135][756]LogTexture:Display: Building textures: Texture2D_716_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.05:631][757]LogTexture:Display: Building textures: Texture2D_850_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.05:806][757]LogTexture:Display: Building textures: Texture2D_348_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.06:040][757]LogTexture:Display: Building textures: Texture2D_717_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.06:372][758]LogTexture:Display: Building textures: Texture2D_851_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.06:569][758]LogTexture:Display: Building textures: Texture2D_350_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.07:401][758]LogTexture:Display: Building textures: Texture2D_718_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.07:665][759]LogTexture:Display: Building textures: Texture2D_852_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.07:879][759]LogTexture:Display: Building textures: Texture2D_352_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.08:104][759]LogTexture:Display: Building textures: Texture2D_719_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.08:838][760]LogTexture:Display: Building textures: Texture2D_853_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.09:137][760]LogTexture:Display: Building textures: Texture2D_365_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.09:322][760]LogTexture:Display: Building textures: Texture2D_720_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.09:609][761]LogTexture:Display: Building textures: Texture2D_854_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.09:932][761]LogTexture:Display: Building textures: Texture2D_366_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.10:116][761]LogTexture:Display: Building textures: Texture2D_721_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.10:504][762]LogTexture:Display: Building textures: Texture2D_367_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.10:815][762]LogTexture:Display: Building textures: Texture2D_722_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.11:122][763]LogTexture:Display: Building textures: Texture2D_369_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.11:326][763]LogTexture:Display: Building textures: Texture2D_723_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.11:648][764]LogTexture:Display: Building textures: Texture2D_370_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.11:958][764]LogTexture:Display: Building textures: Texture2D_724_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.12:220][765]LogTexture:Display: Building textures: Texture2D_371_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.12:452][765]LogTexture:Display: Building textures: Texture2D_725_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.12:663][766]LogTexture:Display: Building textures: Texture2D_372_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.12:890][766]LogTexture:Display: Building textures: Texture2D_726_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.13:148][767]LogTexture:Display: Building textures: Texture2D_373_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.13:410][767]LogTexture:Display: Building textures: Texture2D_727_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.13:658][768]LogTexture:Display: Building textures: Texture2D_384_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.13:861][768]LogTexture:Display: Building textures: Texture2D_728_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.14:085][769]LogTexture:Display: Building textures: Texture2D_385_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.14:300][769]LogTexture:Display: Building textures: Texture2D_729_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.14:561][770]LogTexture:Display: Building textures: Texture2D_387_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.14:782][770]LogTexture:Display: Building textures: Texture2D_730_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.15:142][771]LogTexture:Display: Building textures: Texture2D_389_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.15:317][771]LogTexture:Display: Building textures: Texture2D_731_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.15:572][772]LogTexture:Display: Building textures: Texture2D_390_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.15:841][772]LogTexture:Display: Building textures: Texture2D_732_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.16:079][773]LogTexture:Display: Building textures: Texture2D_391_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.16:329][773]LogTexture:Display: Building textures: Texture2D_733_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.16:602][774]LogTexture:Display: Building textures: Texture2D_392_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.16:832][774]LogTexture:Display: Building textures: Texture2D_734_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.17:083][775]LogTexture:Display: Building textures: Texture2D_393_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.17:312][775]LogTexture:Display: Building textures: Texture2D_735_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.17:572][776]LogTexture:Display: Building textures: Texture2D_410_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.17:848][776]LogTexture:Display: Building textures: Texture2D_736_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.18:107][777]LogTexture:Display: Building textures: Texture2D_411_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.18:477][777]LogTexture:Display: Building textures: Texture2D_737_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.18:778][778]LogTexture:Display: Building textures: Texture2D_412_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.18:990][778]LogTexture:Display: Building textures: Texture2D_738_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.19:238][779]LogTexture:Display: Building textures: Texture2D_414_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.19:504][779]LogTexture:Display: Building textures: Texture2D_739_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.19:721][780]LogTexture:Display: Building textures: Texture2D_415_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.19:942][780]LogTexture:Display: Building textures: Texture2D_740_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.20:230][781]LogTexture:Display: Building textures: Texture2D_432_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.20:435][781]LogTexture:Display: Building textures: Texture2D_741_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.20:695][782]LogTexture:Display: Building textures: Texture2D_433_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.20:904][782]LogTexture:Display: Building textures: Texture2D_742_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.21:228][783]LogTexture:Display: Building textures: Texture2D_434_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.21:467][783]LogTexture:Display: Building textures: Texture2D_743_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.21:738][784]LogTexture:Display: Building textures: Texture2D_435_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.21:938][784]LogTexture:Display: Building textures: Texture2D_744_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.23:490][785]LogTexture:Display: Building textures: Texture2D_438_BaseColor (BGRA8, 64X64) - 214 MB total VRAM
+[2018.03.04-02.50.24:020][785]LogTexture:Display: Building textures: Texture2D_745_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.25:334][786]LogTexture:Display: Building textures: Texture2D_442_BaseColor (BGRA8, 64X64) - 214 MB total VRAM
+[2018.03.04-02.50.25:519][786]LogTexture:Display: Building textures: Texture2D_746_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.26:695][787]LogTexture:Display: Building textures: Texture2D_444_BaseColor (BGRA8, 64X64) - 214 MB total VRAM
+[2018.03.04-02.50.26:939][787]LogTexture:Display: Building textures: Texture2D_747_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.27:442][788]LogEditorViewport: Clicking Background
+[2018.03.04-02.50.30:344][788]LogTexture:Display: Building textures: Texture2D_450_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.30:533][788]LogTexture:Display: Building textures: Texture2D_748_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.35:290][789]LogTexture:Display: Building textures: Texture2D_451_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.35:554][789]LogTexture:Display: Building textures: Texture2D_749_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.35:724][790]LogTexture:Display: Building textures: Texture2D_453_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.35:917][790]LogTexture:Display: Building textures: Texture2D_750_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.36:126][791]LogTexture:Display: Building textures: Texture2D_454_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.36:313][791]LogTexture:Display: Building textures: Texture2D_751_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.36:597][792]LogTexture:Display: Building textures: Texture2D_463_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.36:871][792]LogTexture:Display: Building textures: Texture2D_752_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.37:035][793]LogTexture:Display: Building textures: Texture2D_464_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.37:338][793]LogTexture:Display: Building textures: Texture2D_753_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.37:503][794]LogTexture:Display: Building textures: Texture2D_465_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.37:800][794]LogTexture:Display: Building textures: Texture2D_754_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.37:994][795]LogTexture:Display: Building textures: Texture2D_467_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.38:181][795]LogTexture:Display: Building textures: Texture2D_755_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.38:369][796]LogTexture:Display: Building textures: Texture2D_480_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.38:603][796]LogTexture:Display: Building textures: Texture2D_756_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.38:785][797]LogTexture:Display: Building textures: Texture2D_481_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.39:068][797]LogTexture:Display: Building textures: Texture2D_757_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.39:367][798]LogTexture:Display: Building textures: Texture2D_482_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.39:516][798]LogTexture:Display: Building textures: Texture2D_758_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.40:097][799]LogTexture:Display: Building textures: Texture2D_484_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.40:412][799]LogTexture:Display: Building textures: Texture2D_759_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.41:015][800]LogTexture:Display: Building textures: Texture2D_489_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.41:591][800]LogTexture:Display: Building textures: Texture2D_760_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.43:012][801]LogTexture:Display: Building textures: Texture2D_490_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.43:225][801]LogTexture:Display: Building textures: Texture2D_761_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.43:873][802]LogTexture:Display: Building textures: Texture2D_491_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.44:521][802]LogTexture:Display: Building textures: Texture2D_762_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.45:520][803]LogTexture:Display: Building textures: Texture2D_492_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.45:849][803]LogTexture:Display: Building textures: Texture2D_763_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.46:104][804]LogTexture:Display: Building textures: Texture2D_501_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.46:555][804]LogTexture:Display: Building textures: Texture2D_764_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.46:947][805]LogTexture:Display: Building textures: Texture2D_503_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.47:094][805]LogTexture:Display: Building textures: Texture2D_765_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.47:307][806]LogTexture:Display: Building textures: Texture2D_504_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.47:501][806]LogTexture:Display: Building textures: Texture2D_766_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.47:700][807]LogTexture:Display: Building textures: Texture2D_505_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.47:914][807]LogTexture:Display: Building textures: Texture2D_767_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.48:093][808]LogTexture:Display: Building textures: Texture2D_516_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.48:287][808]LogTexture:Display: Building textures: Texture2D_768_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.48:522][809]LogTexture:Display: Building textures: Texture2D_518_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.48:876][809]LogTexture:Display: Building textures: Texture2D_769_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.49:060][810]LogTexture:Display: Building textures: Texture2D_520_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.49:277][810]LogTexture:Display: Building textures: Texture2D_770_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.49:531][811]LogTexture:Display: Building textures: Texture2D_521_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.49:676][811]LogTexture:Display: Building textures: Texture2D_771_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.49:878][812]LogTexture:Display: Building textures: Texture2D_529_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.50:088][812]LogTexture:Display: Building textures: Texture2D_772_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.50:332][813]LogTexture:Display: Building textures: Texture2D_530_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.50:618][813]LogTexture:Display: Building textures: Texture2D_773_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.50:808][814]LogTexture:Display: Building textures: Texture2D_532_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.51:059][814]LogTexture:Display: Building textures: Texture2D_774_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.51:310][815]LogTexture:Display: Building textures: Texture2D_533_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.51:499][815]LogTexture:Display: Building textures: Texture2D_775_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.51:694][816]LogTexture:Display: Building textures: Texture2D_546_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.51:957][816]LogTexture:Display: Building textures: Texture2D_776_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.52:167][817]LogTexture:Display: Building textures: Texture2D_547_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.52:447][817]LogTexture:Display: Building textures: Texture2D_777_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.52:663][818]LogTexture:Display: Building textures: Texture2D_549_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.53:053][818]LogTexture:Display: Building textures: Texture2D_778_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.54:104][819]LogTexture:Display: Building textures: Texture2D_551_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.54:315][819]LogTexture:Display: Building textures: Texture2D_779_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.54:526][820]LogTexture:Display: Building textures: Texture2D_552_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.54:777][820]LogTexture:Display: Building textures: Texture2D_780_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.55:157][821]LogTexture:Display: Building textures: Texture2D_553_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.55:436][821]LogTexture:Display: Building textures: Texture2D_781_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.55:741][822]LogTexture:Display: Building textures: Texture2D_554_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.55:885][822]LogTexture:Display: Building textures: Texture2D_782_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.56:218][823]LogTexture:Display: Building textures: Texture2D_556_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.56:400][823]LogTexture:Display: Building textures: Texture2D_783_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.56:762][824]LogTexture:Display: Building textures: Texture2D_558_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.56:949][824]LogTexture:Display: Building textures: Texture2D_784_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.57:291][825]LogTexture:Display: Building textures: Texture2D_559_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.57:443][825]LogTexture:Display: Building textures: Texture2D_785_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.57:884][826]LogTexture:Display: Building textures: Texture2D_560_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.50.58:121][826]LogTexture:Display: Building textures: Texture2D_786_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.50.59:400][827]LogTexture:Display: Building textures: Texture2D_16_BaseColor (BGRA8, 64X64) - 214 MB total VRAM
+[2018.03.04-02.50.59:546][827]LogTexture:Display: Building textures: Texture2D_787_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.00:546][828]LogTexture:Display: Building textures: Texture2D_26_BaseColor (BGRA8, 64X64) - 214 MB total VRAM
+[2018.03.04-02.51.00:742][828]LogTexture:Display: Building textures: Texture2D_788_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.00:957][829]LogTexture:Display: Building textures: Texture2D_564_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.01:257][829]LogTexture:Display: Building textures: Texture2D_789_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.01:680][830]LogTexture:Display: Building textures: Texture2D_566_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.02:008][830]LogTexture:Display: Building textures: Texture2D_790_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.02:279][831]LogTexture:Display: Building textures: Texture2D_567_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.02:511][831]LogTexture:Display: Building textures: Texture2D_791_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.02:799][832]LogTexture:Display: Building textures: Texture2D_569_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.02:984][832]LogTexture:Display: Building textures: Texture2D_792_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.03:337][833]LogTexture:Display: Building textures: Texture2D_570_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.03:572][833]LogTexture:Display: Building textures: Texture2D_793_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.03:774][834]LogTexture:Display: Building textures: Texture2D_572_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.04:059][834]LogTexture:Display: Building textures: Texture2D_794_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.04:437][835]LogTexture:Display: Building textures: Texture2D_573_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.04:640][835]LogTexture:Display: Building textures: Texture2D_795_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.04:912][836]LogTexture:Display: Building textures: Texture2D_575_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.05:209][836]LogTexture:Display: Building textures: Texture2D_796_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.05:368][837]LogEditorViewport: Clicking on Actor (LMB): Landscape (Mountain)
+[2018.03.04-02.51.11:634][837]LogTexture:Display: Building textures: Texture2D_576_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.11:889][837]LogTexture:Display: Building textures: Texture2D_797_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.15:832][838]LogTexture:Display: Building textures: Texture2D_577_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.16:125][838]LogTexture:Display: Building textures: Texture2D_798_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.16:663][839]LogTexture:Display: Building textures: Texture2D_586_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.16:890][839]LogTexture:Display: Building textures: Texture2D_799_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.17:181][840]LogTexture:Display: Building textures: Texture2D_588_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.17:447][840]LogTexture:Display: Building textures: Texture2D_800_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.17:728][841]LogTexture:Display: Building textures: Texture2D_590_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.17:997][841]LogTexture:Display: Building textures: Texture2D_801_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.18:300][842]LogTexture:Display: Building textures: Texture2D_592_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.18:528][842]LogTexture:Display: Building textures: Texture2D_802_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.18:793][843]LogTexture:Display: Building textures: Texture2D_593_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.19:060][843]LogTexture:Display: Building textures: Texture2D_803_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.19:411][844]LogTexture:Display: Building textures: Texture2D_595_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.19:625][844]LogTexture:Display: Building textures: Texture2D_804_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.19:860][845]LogTexture:Display: Building textures: Texture2D_596_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.20:115][845]LogTexture:Display: Building textures: Texture2D_805_BaseColor (BGRA8, 4X4) - 214 MB total VRAM
+[2018.03.04-02.51.20:393][846]LogTexture:Display: Building textures: Texture2D_598_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.21:148][847]LogTexture:Display: Building textures: Texture2D_599_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.21:484][848]LogTexture:Display: Building textures: Texture2D_601_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.21:796][849]LogTexture:Display: Building textures: Texture2D_610_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.22:067][850]LogTexture:Display: Building textures: Texture2D_611_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.22:337][851]LogTexture:Display: Building textures: Texture2D_612_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.22:579][852]LogTexture:Display: Building textures: Texture2D_613_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.22:889][853]LogTexture:Display: Building textures: Texture2D_615_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.23:251][854]LogTexture:Display: Building textures: Texture2D_616_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.23:490][855]LogTexture:Display: Building textures: Texture2D_618_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.23:854][856]LogTexture:Display: Building textures: Texture2D_619_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.24:179][857]LogTexture:Display: Building textures: Texture2D_621_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.24:571][858]LogTexture:Display: Building textures: Texture2D_622_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.24:834][859]LogTexture:Display: Building textures: Texture2D_631_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.25:068][860]LogTexture:Display: Building textures: Texture2D_632_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.25:406][861]LogTexture:Display: Building textures: Texture2D_633_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.25:639][862]LogTexture:Display: Building textures: Texture2D_634_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.26:076][863]LogTexture:Display: Building textures: Texture2D_636_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.26:296][864]LogTexture:Display: Building textures: Texture2D_637_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.26:680][865]LogTexture:Display: Building textures: Texture2D_638_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.27:024][866]LogTexture:Display: Building textures: Texture2D_639_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.27:261][867]LogTexture:Display: Building textures: Texture2D_640_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.27:570][868]LogTexture:Display: Building textures: Texture2D_646_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.27:806][869]LogTexture:Display: Building textures: Texture2D_647_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.28:096][870]LogTexture:Display: Building textures: Texture2D_648_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.28:425][871]LogTexture:Display: Building textures: Texture2D_650_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.28:775][872]LogTexture:Display: Building textures: Texture2D_652_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.28:989][873]LogTexture:Display: Building textures: Texture2D_653_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.29:284][874]LogTexture:Display: Building textures: Texture2D_654_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.30:231][875]LogTexture:Display: Building textures: Texture2D_655_BaseColor (BGRA8, 8X8) - 214 MB total VRAM
+[2018.03.04-02.51.30:512][876]LogTexture:Display: Building textures: Texture2D_662_BaseColor (BGRA8, 8X8) - 220 MB total VRAM
+[2018.03.04-02.51.30:825][877]LogTexture:Display: Building textures: Texture2D_663_BaseColor (BGRA8, 8X8) - 220 MB total VRAM
+[2018.03.04-02.51.31:097][878]LogTexture:Display: Building textures: Texture2D_664_BaseColor (BGRA8, 8X8) - 220 MB total VRAM
+[2018.03.04-02.51.31:364][879]LogTexture:Display: Building textures: Texture2D_665_BaseColor (BGRA8, 8X8) - 220 MB total VRAM
+[2018.03.04-02.51.31:678][880]LogTexture:Display: Building textures: Texture2D_666_BaseColor (BGRA8, 8X8) - 220 MB total VRAM
+[2018.03.04-02.51.31:965][881]LogTexture:Display: Building textures: Texture2D_667_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.32:292][882]LogTexture:Display: Building textures: Texture2D_668_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.32:560][883]LogTexture:Display: Building textures: Texture2D_669_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.32:933][884]LogTexture:Display: Building textures: Texture2D_6_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.33:169][885]LogTexture:Display: Building textures: Texture2D_8_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.33:511][886]LogTexture:Display: Building textures: Texture2D_9_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.33:751][887]LogTexture:Display: Building textures: Texture2D_10_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.34:180][888]LogTexture:Display: Building textures: Texture2D_12_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.34:484][889]LogEditorViewport: Clicking on Actor (LMB): Landscape (Land)
+[2018.03.04-02.51.34:706][889]LogTexture:Display: Building textures: Texture2D_14_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.36:710][894]LogTexture:Display: Building textures: Texture2D_43_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.37:033][895]LogTexture:Display: Building textures: Texture2D_45_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.38:801][899]LogTexture:Display: Building textures: Texture2D_53_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.39:175][900]LogTexture:Display: Building textures: Texture2D_55_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.39:553][901]LogTexture:Display: Building textures: Texture2D_57_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.41:331][906]LogTexture:Display: Building textures: Texture2D_65_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.41:701][907]LogTexture:Display: Building textures: Texture2D_66_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.42:844][910]LogTexture:Display: Building textures: Texture2D_70_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.43:158][911]LogTexture:Display: Building textures: Texture2D_71_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.43:530][912]LogTexture:Display: Building textures: Texture2D_73_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.43:820][913]LogTexture:Display: Building textures: Texture2D_75_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.44:252][914]LogTexture:Display: Building textures: Texture2D_77_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.45:398][917]LogTexture:Display: Building textures: Texture2D_83_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.45:866][918]LogTexture:Display: Building textures: Texture2D_85_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.46:355][919]LogTexture:Display: Building textures: Texture2D_87_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.47:139][920]LogTexture:Display: Building textures: Texture2D_89_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.50:869][929]LogTexture:Display: Building textures: Texture2D_103_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.51:239][930]LogTexture:Display: Building textures: Texture2D_104_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.51:501][931]LogTexture:Display: Building textures: Texture2D_106_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.52:201][933]LogTexture:Display: Building textures: Texture2D_108_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.52:521][934]LogTexture:Display: Building textures: Texture2D_109_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.53:035][935]LogTexture:Display: Building textures: Texture2D_110_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.56:320][998]LogTexture:Display: Building textures: Texture2D_113_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.56:717][999]LogTexture:Display: Building textures: Texture2D_115_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.57:025][  0]LogTexture:Display: Building textures: Texture2D_117_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.57:244][  1]LogTexture:Display: Building textures: Texture2D_118_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.51.57:493][  2]LogTexture:Display: Building textures: Texture2D_119_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.52.10:760][  3]LogTexture:Display: Building textures: Texture2D_121_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.52.11:480][  4]LogTexture:Display: Building textures: Texture2D_123_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.52.11:762][  5]LogTexture:Display: Building textures: Texture2D_125_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.52.12:054][  6]LogTexture:Display: Building textures: Texture2D_126_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.52.12:287][  7]LogTexture:Display: Building textures: Texture2D_128_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.52.12:544][  8]LogTexture:Display: Building textures: Texture2D_129_BaseColor (BGRA8, 8X8) - 219 MB total VRAM
+[2018.03.04-02.52.12:968][  9]LogTexture:Display: Building textures: Texture2D_131_BaseColor (BGRA8, 8X8) - 220 MB total VRAM
+[2018.03.04-02.52.13:220][ 10]LogTexture:Display: Building textures: Texture2D_133_BaseColor (BGRA8, 8X8) - 220 MB total VRAM
+[2018.03.04-02.52.13:528][ 11]LogTexture:Display: Building textures: Texture2D_134_BaseColor (BGRA8, 8X8) - 220 MB total VRAM
+[2018.03.04-02.52.31:665][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PirateShipB)
+[2018.03.04-02.52.42:135][264]Cmd: MAP LOAD FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-02.52.42:137][264]LightingResults: New page: Lighting Build
+[2018.03.04-02.52.42:158][264]LoadErrors: New page: Loading map: Pirate_Planet+Buccaneer_Beach3.umap
+[2018.03.04-02.52.42:432][264]MapCheck: New page: Map Check
+[2018.03.04-02.52.42:432][264]LightingResults: New page: Lighting Build
+[2018.03.04-02.52.45:214][264]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.04-02.52.45:431][264]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-02.52.59:307][264]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 13,875.791ms to complete.
+[2018.03.04-02.52.59:308][264]LogFileHelpers: Loading map 'Pirate_Planet+Buccaneer_Beach3' took 17.188
+[2018.03.04-02.55.17:470][ 78]LogEditorViewport: Clicking on Actor (LMB): UnderwaterSteelDoor_BP_C (UnderwaterTunnel_BP)
+[2018.03.04-02.55.24:165][141]LogSlate: Took 0.363380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.04-02.55.27:776][159]LogSlate: Took 0.027447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-02.59.20:023][506]LogRenderer: Reallocating scene render targets to support 756x708 NumSamples 1 (Frame:4678).
+[2018.03.04-02.59.20:023][506]LogStaticMesh: Allocated Allocated 512x384x64 distance field atlas = 24.0Mb
+[2018.03.04-03.03.02:155][366]LogTexture:Display: Building textures: Texture2D_2103_BaseColor (DXT1, 4X4) - 266 MB total VRAM
+[2018.03.04-03.03.02:265][366]LogTexture:Display: Building textures: Texture2D_2104_BaseColor (DXT1, 4X4) - 266 MB total VRAM
+[2018.03.04-03.03.32:039][366]LogSavePackage: Save=49017.44ms
+[2018.03.04-03.03.32:039][366]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Pirate_Planet+Buccaneer_Beach3_Auto18286F81D48A0DD087C10779A675DCB44.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Autosaves/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3_Auto1.umap'
+[2018.03.04-03.03.32:092][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Autosaves/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3_Auto1.umap
+[2018.03.04-03.03.32:094][366]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3' took 52.749
+[2018.03.04-03.03.32:094][366]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 52.749
+[2018.03.04-03.10.46:585][686]AssetReimport: New page: Outstanding source content changes 3:10:46 PM
+[2018.03.04-03.10.47:158][687]LogEditorFactories: Performing atomic reimport of [C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.FBX]
+[2018.03.04-03.10.47:315][687]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.FBX
+[2018.03.04-03.10.47:387][687]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.04-03.10.47:720][687]LogStaticMesh: Building static mesh BeachMetalTunnel...
+[2018.03.04-03.10.47:743][687]LogStaticMesh: Built static mesh [0.06s] /Game/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.BeachMetalTunnel
+[2018.03.04-03.10.47:923][687]LogEditorFactories: -- imported successfully
+[2018.03.04-03.11.21:200][687]LogMeshUtilities: Finished distance field build in 33.4s - 64x64x64 distance field, 120 triangles
+[2018.03.04-03.11.22:282][688]LogSavePackage: Save=100.65ms
+[2018.03.04-03.11.22:282][688]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/BeachMetalTunnel6FE38145464B47C0BF86B5B5510B903E.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.uasset'
+[2018.03.04-03.11.22:314][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.uasset
+[2018.03.04-03.11.25:321][707]AssetReimport: Info Reimported asset BeachMetalTunnel from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.FBX.
+[2018.03.04-03.14.33:525][364]AssetReimport: New page: Outstanding source content changes 3:14:33 PM
+[2018.03.04-03.14.33:573][365]LogEditorFactories: Performing atomic reimport of [C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.FBX]
+[2018.03.04-03.14.33:613][365]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.FBX
+[2018.03.04-03.14.33:625][365]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.04-03.14.33:811][365]LogStaticMesh: Building static mesh BeachMetalTunnel...
+[2018.03.04-03.14.33:840][365]LogStaticMesh: Built static mesh [0.15s] /Game/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.BeachMetalTunnel
+[2018.03.04-03.14.33:969][365]LogEditorFactories: -- imported successfully
+[2018.03.04-03.15.07:250][365]LogMeshUtilities: Finished distance field build in 33.3s - 64x64x64 distance field, 120 triangles
+[2018.03.04-03.15.07:522][366]LogSavePackage: Save=29.81ms
+[2018.03.04-03.15.07:522][366]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/BeachMetalTunnelA9DFC15D42691DD20220D3A5D0469DF8.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.uasset'
+[2018.03.04-03.15.07:526][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.uasset
+[2018.03.04-03.15.10:605][414]AssetReimport: Info Reimported asset BeachMetalTunnel from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/MeshesForBPMod/BeachMetalTunnel.FBX.
+[2018.03.04-03.16.10:131][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PirateShipC)
+[2018.03.04-03.16.10:517][269]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.04-03.16.18:220][369]LogEditorViewport: Clicking on Actor (LMB): Landscape (Sea)
+[2018.03.04-03.16.18:836][370]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.04-03.16.32:301][509]LogEditorViewport: Clicking on Actor (LMB): Landscape (Sea)
+[2018.03.04-03.16.32:812][512]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.04-03.16.37:394][558]Cmd: TRANSACTION UNDO
+[2018.03.04-03.16.37:394][558]LogEditorTransaction: Undo Move Actors
+[2018.03.04-03.16.37:503][558]LogMaterial: 0.02 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:538][558]LogMaterial: 0.03 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:569][558]LogMaterial: 0.02 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:589][558]LogMaterial: 0.01 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:598][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:616][558]LogMaterial: 0.01 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:623][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:639][558]LogMaterial: 0.01 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:649][558]LogMaterial: 0.01 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:655][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:665][558]LogMaterial: 0.01 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:680][558]LogMaterial: 0.01 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:687][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:704][558]LogMaterial: 0.02 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:735][558]LogMaterial: 0.02 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:745][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:751][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:769][558]LogMaterial: 0.02 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:776][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:783][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:799][558]LogMaterial: 0.01 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.37:808][558]LogMaterial: 0.00 seconds spent updating 1 materials, 2 interfaces, 0 instances, 1 with static permutations.
+[2018.03.04-03.16.38:047][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_296) Component already registered.
+[2018.03.04-03.16.38:049][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_278) Component already registered.
+[2018.03.04-03.16.38:050][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_274) Component already registered.
+[2018.03.04-03.16.38:051][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_275) Component already registered.
+[2018.03.04-03.16.38:051][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_276) Component already registered.
+[2018.03.04-03.16.38:052][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_277) Component already registered.
+[2018.03.04-03.16.38:052][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_281) Component already registered.
+[2018.03.04-03.16.38:053][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_271) Component already registered.
+[2018.03.04-03.16.38:053][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_282) Component already registered.
+[2018.03.04-03.16.38:053][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_283) Component already registered.
+[2018.03.04-03.16.38:054][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_284) Component already registered.
+[2018.03.04-03.16.38:054][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_294) Component already registered.
+[2018.03.04-03.16.38:055][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_270) Component already registered.
+[2018.03.04-03.16.38:055][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_260) Component already registered.
+[2018.03.04-03.16.38:056][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_253) Component already registered.
+[2018.03.04-03.16.38:056][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_254) Component already registered.
+[2018.03.04-03.16.38:057][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_261) Component already registered.
+[2018.03.04-03.16.38:058][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_269) Component already registered.
+[2018.03.04-03.16.38:058][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_262) Component already registered.
+[2018.03.04-03.16.38:058][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_263) Component already registered.
+[2018.03.04-03.16.38:059][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_267) Component already registered.
+[2018.03.04-03.16.38:059][558]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/W02_PiratePlanet/Pirate_Planet+Buccaneer_Beach3.Pirate_Planet+Buccaneer_Beach3:PersistentLevel.Sea.LandscapeHeightfieldCollisionComponent_268) Component already registered.
+[2018.03.04-03.16.52:787][705]LogEditorViewport: Clicking on Actor (LMB): Landscape (Sea)
+[2018.03.04-03.16.53:742][715]LogEditorViewport: Clicking on Actor (LMB): Landscape (Sea)
+[2018.03.04-03.16.55:657][733]LogEditorViewport: Clicking on Actor (LMB): Landscape (Land)
+[2018.03.04-03.17.00:280][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wrecked_Boardwalk3)
+[2018.03.04-03.17.00:885][789]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.04-03.17.13:523][966]LogEditorViewport: Clicking on Actor (LMB): 2_Switch_C (2_Switch)
+[2018.03.04-03.17.14:296][974]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.04-03.24.28:312][775]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.04-03.24.46:755][895]AssetReimport: New page: Outstanding source content changes 3:24:46 PM
+[2018.03.04-03.24.46:848][896]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BuccaneerBoardwalk.FBX)
+[2018.03.04-03.24.46:851][896]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.04-03.24.46:851][896]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.04-03.24.46:851][896]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.04-03.24.46:851][896]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.04-03.24.46:851][896]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.04-03.24.46:851][896]LogFbx: ItemName: CollectionExclusive, ItemCount : 6
+[2018.03.04-03.24.46:859][896]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BuccaneerBoardwalk.FBX
+[2018.03.04-03.24.46:883][896]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.04-03.24.51:139][896]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BuccaneerBoardwalk.FBX
+[2018.03.04-03.24.51:146][896]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.04-03.24.51:280][896]LogStaticMesh: Building static mesh BuccaneerBoardwalk...
+[2018.03.04-03.24.51:283][896]LogStaticMesh: Built static mesh [0.12s] /Game/Environments/PiratePlanet/BuccaneerBoardwalk.BuccaneerBoardwalk
+[2018.03.04-03.25.10:869][896]LogMeshUtilities: Finished distance field build in 19.5s - 64x64x64 distance field, 10 triangles
+[2018.03.04-03.25.11:548][897]LogSavePackage: Save=17.04ms
+[2018.03.04-03.25.11:548][897]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/BuccaneerBoardwalkC0EF38A84092AA20C844B1B1EC8A9B47.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BuccaneerBoardwalk.uasset'
+[2018.03.04-03.25.11:553][897]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/PiratePlanet/BuccaneerBoardwalk.uasset
+[2018.03.04-03.25.14:611][937]AssetReimport: Info Importing new asset /Game/Environments/PiratePlanet/BuccaneerBoardwalk.
+[2018.03.04-03.26.15:225][177]LogStaticMesh: Building static mesh BeachTunnel2...
+[2018.03.04-03.26.15:275][177]LogStaticMesh: Built static mesh [0.16s] /Game/Environments/PiratePlanet/BeachTunnel2.BeachTunnel2
+[2018.03.04-03.26.22:888][214]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 112 classes and 0 folders.
+[2018.03.04-03.26.45:663][232]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GCObjectReferencer_0' or package '/Engine/Transient'.
+[2018.03.04-03.26.49:606][256]LogEditorViewport: Clicking on Actor (LMB): Landscape (Mountain)
+[2018.03.04-03.26.51:282][279]LogMeshUtilities: Finished distance field build in 35.9s - 64x64x64 distance field, 120 triangles
+[2018.03.04-03.27.04:769][279]LogCrashTracker: 
+
+
+[2018.03.04-03.27.04:769][279]LogCrashTracker: 
+
+
+[2018.03.04-03.27.04:769][279]LogWindows:Error: === Critical error: ===
+[2018.03.04-03.27.04:769][279]LogWindows:Error: 
+[2018.03.04-03.27.04:769][279]LogWindows:Error: Fatal error!
+[2018.03.04-03.27.04:769][279]LogWindows:Error: 
+[2018.03.04-03.27.04:769][279]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000048
+[2018.03.04-03.27.04:769][279]LogWindows:Error: 
+[2018.03.04-03.27.04:769][279]LogWindows:Error: UE4Editor-Engine.dll!0x00000000CD1D2D3D
+[2018.03.04-03.27.04:769][279]LogWindows:Error: UE4Editor.exe!0x00000000DDC0E5B6
+[2018.03.04-03.27.04:769][279]LogWindows:Error: UE4Editor.exe!0x00000000DDBFEB40
+[2018.03.04-03.27.04:769][279]LogWindows:Error: UE4Editor.exe!0x00000000DDBFEBBA
+[2018.03.04-03.27.04:769][279]LogWindows:Error: UE4Editor.exe!0x00000000DDC10A29
+[2018.03.04-03.27.04:769][279]LogWindows:Error: UE4Editor.exe!0x00000000DDC122B6
+[2018.03.04-03.27.04:769][279]LogWindows:Error: KERNEL32.DLL!0x0000000023CB1FE4
+[2018.03.04-03.27.04:769][279]LogWindows:Error: ntdll.dll!0x000000002641EFC1
+[2018.03.04-03.27.04:769][279]LogWindows:Error: ntdll.dll!0x000000002641EFC1
+[2018.03.04-03.27.04:769][279]LogWindows:Error: 
+[2018.03.04-03.27.04:853][279]LogExit: Executing StaticShutdownAfterError
+[2018.03.04-03.27.06:014][279]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.03.04-03.27.06:095][279]Log file closed, 03/03/18 21:27:06
