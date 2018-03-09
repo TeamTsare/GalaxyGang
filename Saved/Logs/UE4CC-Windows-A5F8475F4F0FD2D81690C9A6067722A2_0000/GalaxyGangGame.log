@@ -1,0 +1,608 @@
+﻿Log file open, 03/02/18 22:39:58
+LogInit:Display: Running engine for game: GalaxyGangGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-823280106) SRandInit(-823280106).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.131417
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.03-04.40.01:338][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.03-04.40.01:338][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.03-04.40.01:402][  0]LogInit: Computer: DESKTOP-SSSFMAE
+[2018.03.03-04.40.01:402][  0]LogInit: User: Richa
+[2018.03.03-04.40.01:402][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.03.03-04.40.01:402][  0]LogInit: High frequency timer resolution =2.343750 MHz
+[2018.03.03-04.40.01:403][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.03-04.40.01:403][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.03-04.40.01:403][  0]LogMemory: Process Physical Memory: 268.57 MB used, 268.57 MB peak
+[2018.03.03-04.40.01:403][  0]LogMemory: Process Virtual Memory: 275.09 MB used, 275.09 MB peak
+[2018.03.03-04.40.01:403][  0]LogMemory: Physical Memory: 5139.65 MB used,  2957.01 MB free, 8096.66 MB total
+[2018.03.03-04.40.01:403][  0]LogMemory: Virtual Memory: 694.10 MB used,  2957.01 MB free, 134217728.00 MB total
+[2018.03.03-04.40.01:667][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.03.03-04.40.02:843][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.03-04.40.02:861][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.03.03-04.40.02:861][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.03-04.40.02:866][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.03-04.40.02:866][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.03-04.40.02:866][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.03-04.40.02:873][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.03-04.40.02:873][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.03-04.40.02:873][  0]LogWindows: EnumDisplayDevices:
+[2018.03.03-04.40.02:873][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.03.03-04.40.02:874][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.03-04.40.02:874][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.03-04.40.02:874][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.03-04.40.02:874][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.03.03-04.40.02:874][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.03-04.40.02:874][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.03-04.40.02:874][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.03-04.40.02:888][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.03-04.40.02:894][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.03.03-04.40.02:895][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Richa/Desktop/GalaxyGang/Intermediate/Shaders/WorkingDirectory/14352/).
+[2018.03.03-04.40.02:895][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Richa/AppData/Local/Temp/UnrealShaderWorkingDir/C5C828CD4EEBB65976C85886CF3C4051/'.
+[2018.03.03-04.40.02:895][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.03-04.40.04:842][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.03-04.40.04:966][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.03-04.40.05:054][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.03-04.40.05:127][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.03-04.40.05:206][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.03-04.40.05:366][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.03-04.40.05:477][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.03-04.40.05:598][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.03-04.40.05:706][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.03-04.40.05:814][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.03-04.40.05:949][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.03-04.40.06:033][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.03-04.40.06:116][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.03-04.40.06:207][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.03-04.40.06:316][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.03-04.40.06:519][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.03-04.40.06:519][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.03-04.40.06:570][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.03-04.40.06:690][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.03-04.40.06:737][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.03-04.40.06:813][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.03-04.40.06:885][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.03-04.40.06:957][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.03-04.40.07:028][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.03-04.40.07:028][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.03-04.40.07:607][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.03-04.40.07:673][  0]LogDerivedDataCache: Loaded boot cache 0.07s 52MB C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.03.03-04.40.07:673][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.03.03-04.40.07:673][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Richa/Desktop/GalaxyGang/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.03-04.40.07:673][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.03-04.40.07:673][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Richa/Desktop/GalaxyGang/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.03-04.40.07:673][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.03-04.40.07:694][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.03-04.40.07:708][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Richa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.03-04.40.07:720][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.03-04.40.07:720][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.03-04.40.07:720][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.03-04.40.08:170][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.03-04.40.08:173][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.03-04.40.08:466][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.03-04.40.08:522][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.03-04.40.08:586][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.03-04.40.08:586][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.03-04.40.08:586][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.03-04.40.09:386][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: galaxyganggame, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3878788453
+[2018.03.03-04.40.09:438][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2018.03.03-04.40.09:553][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.084515 seconds
+[2018.03.03-04.40.09:560][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.03.03-04.40.09:560][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2018.03.03-04.40.09:560][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.03-04.40.09:639][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.03-04.40.12:062][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.03-04.40.12:114][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.03-04.40.13:102][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.03-04.40.13:706][  0]SourceControl: Info Source control is disabled
+[2018.03.03-04.40.13:771][  0]SourceControl: Info Source control is disabled
+[2018.03.03-04.40.13:864][  0]SourceControl: Info Source control is disabled
+[2018.03.03-04.40.13:936][  0]SourceControl: Info Source control is disabled
+[2018.03.03-04.40.17:584][  0]LogEngine: Initializing Engine...
+[2018.03.03-04.40.17:586][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.03-04.40.17:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.03-04.40.17:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.03-04.40.18:126][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.03-04.40.18:163][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.03-04.40.18:473][  0]LogInit: FAudioDevice initialized.
+[2018.03.03-04.40.18:741][  0]LogDerivedDataCache: Saved boot cache 0.27s 52MB C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.03.03-04.40.18:754][  0]LogInit: Texture streaming: Enabled
+[2018.03.03-04.40.19:031][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.03-04.40.19:313][  0]LogInit: Transaction tracking system initialized
+[2018.03.03-04.40.20:751][  0]BlueprintLog: New page: Editor Load
+[2018.03.03-04.40.24:023][  0]LocalizationService: Info Localization service is disabled
+[2018.03.03-04.40.26:366][  0]LogConsoleResponse:Display: 
+[2018.03.03-04.40.27:109][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.03-04.40.27:109][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.03-04.40.29:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/' took 1.55s
+[2018.03.03-04.40.30:088][  0]SourceControl: Info Source control is disabled
+[2018.03.03-04.40.30:089][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/GalaxyGangGame/Levels/Galaxy_Of_Dreams+Home_Fountain_Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-04.40.30:090][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/GalaxyGangGame/Levels/Galaxy_Of_Dreams+Home_Fountain_Island.umap'
+[2018.03.03-04.40.30:090][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-04.40.30:188][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.402ms to complete.
+[2018.03.03-04.40.30:188][  0]LogFileHelpers: Loading map 'Galaxy_Of_Dreams+Home_Fountain_Island' took 0.098
+[2018.03.03-04.40.30:789][  0]LogCollectionManager: Loaded 0 collections in 0.001908 seconds
+[2018.03.03-04.40.31:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Saved/Collections/' took 0.01s
+[2018.03.03-04.40.31:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/Developers/Richa/Collections/' took 0.01s
+[2018.03.03-04.40.31:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/Collections/' took 0.01s
+[2018.03.03-04.40.31:050][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000023 seconds
+[2018.03.03-04.40.31:068][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2245 classes and 453 folders.
+[2018.03.03-04.40.31:278][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.03-04.40.33:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.03.03-04.40.33:903][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.03.03-04.40.34:554][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.03-04.40.34:702][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.03-04.40.34:818][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.03-04.40.34:818][  0]LogLoad: (Engine Initialization) Total time: 39.32 seconds
+[2018.03.03-04.40.34:818][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2018.03.03-04.40.34:818][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.03-04.40.35:159][  0]LogOcInput: OculusInput pre-init called
+[2018.03.03-04.40.36:027][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.03-04.40.36:029][  0]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.03-04.40.36:051][  0]LogSlate: Took 0.017896 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.03-04.40.36:080][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.03-04.40.36:585][  0]LogRenderer: Reallocating scene render targets to support 740x708 NumSamples 1 (Frame:2).
+[2018.03.03-04.40.41:775][  1]LogSlate: Took 0.104245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.03-04.40.42:686][  4]LogAssetRegistry: Asset discovery search completed in 33.2708 seconds
+[2018.03.03-04.40.42:686][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2018.03.03-04.40.42:686][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2018.03.03-04.41.35:032][153]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.03-04.42.20:106][289]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/' took 104.93s
+[2018.03.03-05.02.44:974][992]AssetReimport: New page: Outstanding source content changes 5:02:44 PM
+[2018.03.03-05.02.45:273][993]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/Shooter.FBX)
+[2018.03.03-05.02.45:449][993]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.03-05.02.45:449][993]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.03-05.02.45:449][993]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.03-05.02.45:449][993]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.03-05.02.45:449][993]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.03-05.02.45:479][993]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/Shooter.FBX
+[2018.03.03-05.02.45:541][993]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.03-05.02.50:233][993]LogFbx: Loading FBX Scene from C:/Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/Shooter.FBX
+[2018.03.03-05.02.50:241][993]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.03-05.02.50:341][993]LogStaticMesh: Building static mesh Shooter...
+[2018.03.03-05.02.50:406][993]LogStaticMesh: Built static mesh [0.07s] /Game/Environments/DryMoons/MeshesForBPMod/Shooter.Shooter
+[2018.03.03-05.02.50:672][993]LogMeshUtilities: Finished distance field build in 0.2s - 8x12x14 distance field, 136 triangles
+[2018.03.03-05.02.52:192][994]LogSavePackage: Save=98.03ms
+[2018.03.03-05.02.52:192][994]LogSavePackage: Moving '../../../../../../Users/Richa/Desktop/GalaxyGang/Saved/Shooter22BFD1264CF5190249B896AD6DC8937E.tmp' to '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/Shooter.uasset'
+[2018.03.03-05.02.52:224][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/DryMoons/MeshesForBPMod/Shooter.uasset
+[2018.03.03-05.02.55:234][102]AssetReimport: Info Importing new asset /Game/Environments/DryMoons/MeshesForBPMod/Shooter.
+[2018.03.03-05.03.11:171][650]Cmd: MAP LOAD FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W03_DryMoons/CinnamonMoon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-05.03.11:181][650]LightingResults: New page: Lighting Build
+[2018.03.03-05.03.12:471][650]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2018.03.03-05.03.12:479][650]LoadErrors: New page: Loading map: CinnamonMoon.umap
+[2018.03.03-05.03.12:586][650]MapCheck: New page: Map Check
+[2018.03.03-05.03.12:586][650]LightingResults: New page: Lighting Build
+[2018.03.03-05.03.16:240][650]LogBlueprint:Warning: [CharacterDanny1_old] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:240][650]LogBlueprint:Warning: [CharacterDanny1_old] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:262][650]LogBlueprint:Warning: [CharacterDanny1_old] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:440][650]LogBlueprint:Warning: [CharacterDanny] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:440][650]LogBlueprint:Warning: [CharacterDanny] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:442][650]LogBlueprint:Warning: [CharacterDanny] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:896][650]LogBlueprint:Warning: [MainHUD] 'MaxHealth' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:897][650]LogBlueprint:Warning: [MainHUD] 'DannyHealthImage' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:897][650]LogBlueprint:Warning: [MainHUD] 'Percentage' variable not found. Base class was probably changed.
+[2018.03.03-05.03.16:897][650]LogBlueprint:Warning: [MainHUD] 'Health' variable not found. Base class was probably changed.
+[2018.03.03-05.03.31:534][650]LogAIModule: Creating AISystem for world CinnamonMoon
+[2018.03.03-05.03.38:968][650]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-05.03.39:081][650]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-05.03.39:296][650]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 214.656ms to complete.
+[2018.03.03-05.03.39:296][650]LogFileHelpers: Loading map 'CinnamonMoon' took 28.133
+[2018.03.03-05.03.45:669][780]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape3)
+[2018.03.03-05.03.46:849][795]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.03-05.03.53:558][961]LogEditorViewport: Clicking Background
+[2018.03.03-05.03.54:211][977]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.03-05.03.55:329][978]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.03-05.04.00:139][ 79]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.04.00:174][ 79]LogTemp:Display: Added material ShaderMap 0x00000295B22FB200 with Material 0x00000295C085FD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.00:293][ 79]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x00000295B22FB200
+[2018.03.03-05.04.01:762][ 79]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.04.01:767][ 79]LogTemp:Display: Added material ShaderMap 0x00000295E7475980 with Material 0x00000295C085FD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.01:811][ 79]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x00000295E7475980
+[2018.03.03-05.04.01:811][ 79]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.01:871][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2018.03.03-05.04.01:872][ 79]LogTemp:Display: Added material ShaderMap 0x00000295E70A6080 with Material 0x00000295E70CFA00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.01:876][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant_2, GameThreadShaderMap 0x00000295E70A6080
+[2018.03.03-05.04.01:898][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.03.03-05.04.01:900][ 79]LogTemp:Display: Added material ShaderMap 0x00000295E70A4800 with Material 0x00000295E70CEB00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.01:903][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x00000295E70A4800
+[2018.03.03-05.04.01:931][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.03-05.04.01:933][ 79]LogTemp:Display: Added material ShaderMap 0x00000295E706B580 with Material 0x00000295E70CE200 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.01:937][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x00000295E706B580
+[2018.03.03-05.04.01:939][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.03-05.04.01:940][ 79]LogTemp:Display: Added material ShaderMap 0x00000295E7069980 with Material 0x00000295E70CD600 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.01:945][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x00000295E7069980
+[2018.03.03-05.04.01:996][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.03.03-05.04.01:996][ 79]LogTemp:Display: Added material ShaderMap 0x00000295E7068100 with Material 0x00000295E70CCD00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.01:999][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_7, GameThreadShaderMap 0x00000295E7068100
+[2018.03.03-05.04.02:036][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_2, compiling. 
+[2018.03.03-05.04.02:037][ 79]LogTemp:Display: Added material ShaderMap 0x00000295E6FFE780 with Material 0x00000295D4323400 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.02:040][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureCoordinate_2, GameThreadShaderMap 0x00000295E6FFE780
+[2018.03.03-05.04.02:115][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_3, compiling. 
+[2018.03.03-05.04.02:116][ 79]LogTemp:Display: Added material ShaderMap 0x00000295E6FFD280 with Material 0x00000295B5A40100 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.02:119][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureCoordinate_3, GameThreadShaderMap 0x00000295E6FFD280
+[2018.03.03-05.04.02:352][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_4, compiling. 
+[2018.03.03-05.04.02:353][ 79]LogTemp:Display: Added material ShaderMap 0x00000295EBD73C80 with Material 0x00000295B5A42B00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.02:357][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureCoordinate_4, GameThreadShaderMap 0x00000295EBD73C80
+[2018.03.03-05.04.02:369][ 79]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.03.03-05.04.02:370][ 79]LogTemp:Display: Added material ShaderMap 0x00000295EBD72780 with Material 0x00000295D1493D00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.02:374][ 79]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_2, GameThreadShaderMap 0x00000295EBD72780
+[2018.03.03-05.04.02:419][ 79]LogSlate: Took 0.029413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.03-05.04.03:992][ 80]LogTemp:Display: Finished compile of shader map 0x00000295B22FB200
+[2018.03.03-05.04.03:992][ 80]LogTemp:Display: Shader map SyrupRiverMat complete, GameThreadShaderMap 0x00000295B22FB200, marking material SyrupRiverMat as finished
+[2018.03.03-05.04.03:992][ 80]LogTemp:Display: Marking material as finished 0x00000295C085FD80
+[2018.03.03-05.04.17:916][405]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.03.03-05.04.17:922][405]LogTemp:Display: Added material ShaderMap 0x00000295F1882780 with Material 0x00000295EBC7BD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.17:926][405]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000295F1882780
+[2018.03.03-05.04.17:927][405]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.17:968][405]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.03.03-05.04.17:969][405]LogTemp:Display: Added material ShaderMap 0x00000295F1880F00 with Material 0x00000295ED92B880 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.17:982][405]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x00000295F1880F00
+[2018.03.03-05.04.17:983][405]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.18:002][405]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.03.03-05.04.18:007][405]LogTemp:Display: Added material ShaderMap 0x00000295F197DD00 with Material 0x00000295EBC7BD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.18:012][405]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000295F197DD00
+[2018.03.03-05.04.18:012][405]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.18:063][405]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.03.03-05.04.18:065][405]LogTemp:Display: Added material ShaderMap 0x00000295F17D6780 with Material 0x00000295ED92B880 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.18:072][405]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x00000295F17D6780
+[2018.03.03-05.04.18:073][405]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.18:124][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2018.03.03-05.04.18:129][405]LogTemp:Display: Added material ShaderMap 0x00000295F1767C80 with Material 0x00000295F183E500 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.18:134][405]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionFunctionOutput_0, GameThreadShaderMap 0x00000295F1767C80
+[2018.03.03-05.04.18:136][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.03-05.04.18:137][405]LogTemp:Display: Added material ShaderMap 0x00000295F1766400 with Material 0x00000295F183CA00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.18:143][405]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_2, GameThreadShaderMap 0x00000295F1766400
+[2018.03.03-05.04.18:188][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.03-05.04.18:190][405]LogTemp:Display: Added material ShaderMap 0x00000295F1764F00 with Material 0x00000295EBF2F100 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.18:195][405]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_1, GameThreadShaderMap 0x00000295F1764F00
+[2018.03.03-05.04.18:208][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.03.03-05.04.18:209][405]LogTemp:Display: Added material ShaderMap 0x00000295EBF33200 with Material 0x00000295EBF2E800 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.18:214][405]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x00000295EBF33200
+[2018.03.03-05.04.18:216][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_0, compiling. 
+[2018.03.03-05.04.18:222][405]LogTemp:Display: Added material ShaderMap 0x00000295EBF31D00 with Material 0x00000295EBF2DC00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.18:227][405]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionCustom_0, GameThreadShaderMap 0x00000295EBF31D00
+[2018.03.03-05.04.18:718][406]LogSlate: Took 0.018830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.03-05.04.20:052][426]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2018.03.03-05.04.20:053][426]LogTemp:Display: Added material ShaderMap 0x00000295F31C4B80 with Material 0x00000295C222B580 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.20:063][426]LogTemp:Display: Kicking off shader compilation for Material_1, GameThreadShaderMap 0x00000295F31C4B80
+[2018.03.03-05.04.21:163][429]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2018.03.03-05.04.21:168][429]LogTemp:Display: Added material ShaderMap 0x00000295C21E6080 with Material 0x00000295AC9ED480 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.21:177][429]LogTemp:Display: Kicking off shader compilation for Material_2, GameThreadShaderMap 0x00000295C21E6080
+[2018.03.03-05.04.56:058][ 53]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2018.03.03-05.04.56:064][ 53]LogTemp:Display: Added material ShaderMap 0x00000295B5D40800 with Material 0x00000295D3F7D480 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.56:071][ 53]LogTemp:Display: Kicking off shader compilation for Material_3, GameThreadShaderMap 0x00000295B5D40800
+[2018.03.03-05.04.58:559][ 68]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.03.03-05.04.58:564][ 68]LogTemp:Display: Added material ShaderMap 0x0000029602582780 with Material 0x0000029601FE3B00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:568][ 68]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x0000029602582780
+[2018.03.03-05.04.58:568][ 68]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.58:572][ 68]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2018.03.03-05.04.58:573][ 68]LogTemp:Display: Added material ShaderMap 0x0000029602580F00 with Material 0x00000295D3F7C700 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:581][ 68]LogTemp:Display: Kicking off shader compilation for Material_4, GameThreadShaderMap 0x0000029602580F00
+[2018.03.03-05.04.58:582][ 68]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.58:606][ 68]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.03.03-05.04.58:611][ 68]LogTemp:Display: Added material ShaderMap 0x000002960268D600 with Material 0x0000029601FE3B00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:616][ 68]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x000002960268D600
+[2018.03.03-05.04.58:616][ 68]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.58:629][ 68]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2018.03.03-05.04.58:631][ 68]LogTemp:Display: Added material ShaderMap 0x00000296024EA400 with Material 0x00000295D3F7C700 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:639][ 68]LogTemp:Display: Kicking off shader compilation for Material_4, GameThreadShaderMap 0x00000296024EA400
+[2018.03.03-05.04.58:639][ 68]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.04.58:694][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2018.03.03-05.04.58:699][ 68]LogTemp:Display: Added material ShaderMap 0x000002960239B900 with Material 0x00000296023F3D00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:705][ 68]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionFunctionOutput_0, GameThreadShaderMap 0x000002960239B900
+[2018.03.03-05.04.58:707][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.03-05.04.58:709][ 68]LogTemp:Display: Added material ShaderMap 0x000002960239A080 with Material 0x00000296023F1F00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:714][ 68]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_2, GameThreadShaderMap 0x000002960239A080
+[2018.03.03-05.04.58:716][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.03-05.04.58:717][ 68]LogTemp:Display: Added material ShaderMap 0x0000029602398B80 with Material 0x00000296023F1600 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:722][ 68]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_1, GameThreadShaderMap 0x0000029602398B80
+[2018.03.03-05.04.58:724][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.03.03-05.04.58:725][ 68]LogTemp:Display: Added material ShaderMap 0x00000295F2548480 with Material 0x00000296023F0A00 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:731][ 68]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x00000295F2548480
+[2018.03.03-05.04.58:753][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_0, compiling. 
+[2018.03.03-05.04.58:758][ 68]LogTemp:Display: Added material ShaderMap 0x0000029602336E80 with Material 0x00000295F2552500 to ShaderMapsBeingCompiled
+[2018.03.03-05.04.58:763][ 68]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionCustom_0, GameThreadShaderMap 0x0000029602336E80
+[2018.03.03-05.05.13:851][380]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.05.13:857][380]LogTemp:Display: Added material ShaderMap 0x000002960DB4F200 with Material 0x00000295C085FD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.05.13:906][380]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x000002960DB4F200
+[2018.03.03-05.05.13:907][380]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.05.23:942][483]LogTemp:Display: Removed shader map 0x00000295F1767C80 from material 0x00000295F183E500
+[2018.03.03-05.05.23:942][483]LogTemp:Display: Removed shader map 0x00000295F1766400 from material 0x00000295F183CA00
+[2018.03.03-05.05.23:942][483]LogTemp:Display: Removed shader map 0x00000295F1764F00 from material 0x00000295EBF2F100
+[2018.03.03-05.05.23:942][483]LogTemp:Display: Removed shader map 0x00000295EBF33200 from material 0x00000295EBF2E800
+[2018.03.03-05.05.23:942][483]LogTemp:Display: Removed shader map 0x00000295EBF31D00 from material 0x00000295EBF2DC00
+[2018.03.03-05.05.24:324][484]LogTemp:Display: Finished compile of shader map 0x00000295F197DD00
+[2018.03.03-05.05.24:324][484]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x00000295F197DD00, marking material PreviewMaterial_0 as finished
+[2018.03.03-05.05.24:324][484]LogTemp:Display: Marking material as finished 0x00000295EBC7BD80
+[2018.03.03-05.05.24:356][484]LogTemp:Display: Finished compile of shader map 0x00000295E7475980
+[2018.03.03-05.05.24:356][484]LogTemp:Display: Shader map SyrupRiverMat complete, GameThreadShaderMap 0x00000295E7475980, marking material SyrupRiverMat as finished
+[2018.03.03-05.05.24:356][484]LogTemp:Display: Marking material as finished 0x00000295C085FD80
+[2018.03.03-05.05.24:360][484]LogTemp:Display: Finished compile of shader map 0x00000295E70A6080
+[2018.03.03-05.05.24:360][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant_2 complete, GameThreadShaderMap 0x00000295E70A6080, marking material FMatExpressionPreview MaterialExpressionConstant_2 as finished
+[2018.03.03-05.05.24:360][484]LogTemp:Display: Marking material as finished 0x00000295E70CFA00
+[2018.03.03-05.05.24:364][484]LogTemp:Display: Finished compile of shader map 0x00000295E70A4800
+[2018.03.03-05.05.24:364][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x00000295E70A4800, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2018.03.03-05.05.24:364][484]LogTemp:Display: Marking material as finished 0x00000295E70CEB00
+[2018.03.03-05.05.24:366][484]LogTemp:Display: Finished compile of shader map 0x00000295E706B580
+[2018.03.03-05.05.24:366][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x00000295E706B580, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
+[2018.03.03-05.05.24:366][484]LogTemp:Display: Marking material as finished 0x00000295E70CE200
+[2018.03.03-05.05.24:369][484]LogTemp:Display: Finished compile of shader map 0x00000295E7069980
+[2018.03.03-05.05.24:369][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x00000295E7069980, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2018.03.03-05.05.24:369][484]LogTemp:Display: Marking material as finished 0x00000295E70CD600
+[2018.03.03-05.05.24:376][484]LogTemp:Display: Finished compile of shader map 0x00000295E7068100
+[2018.03.03-05.05.24:376][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_7 complete, GameThreadShaderMap 0x00000295E7068100, marking material FMatExpressionPreview MaterialExpressionTextureSample_7 as finished
+[2018.03.03-05.05.24:376][484]LogTemp:Display: Marking material as finished 0x00000295E70CCD00
+[2018.03.03-05.05.24:378][484]LogTemp:Display: Finished compile of shader map 0x00000295E6FFE780
+[2018.03.03-05.05.24:378][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureCoordinate_2 complete, GameThreadShaderMap 0x00000295E6FFE780, marking material FMatExpressionPreview MaterialExpressionTextureCoordinate_2 as finished
+[2018.03.03-05.05.24:378][484]LogTemp:Display: Marking material as finished 0x00000295D4323400
+[2018.03.03-05.05.24:380][484]LogTemp:Display: Finished compile of shader map 0x00000295E6FFD280
+[2018.03.03-05.05.24:381][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureCoordinate_3 complete, GameThreadShaderMap 0x00000295E6FFD280, marking material FMatExpressionPreview MaterialExpressionTextureCoordinate_3 as finished
+[2018.03.03-05.05.24:381][484]LogTemp:Display: Marking material as finished 0x00000295B5A40100
+[2018.03.03-05.05.24:383][484]LogTemp:Display: Finished compile of shader map 0x00000295EBD73C80
+[2018.03.03-05.05.24:383][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureCoordinate_4 complete, GameThreadShaderMap 0x00000295EBD73C80, marking material FMatExpressionPreview MaterialExpressionTextureCoordinate_4 as finished
+[2018.03.03-05.05.24:383][484]LogTemp:Display: Marking material as finished 0x00000295B5A42B00
+[2018.03.03-05.05.24:385][484]LogTemp:Display: Finished compile of shader map 0x00000295EBD72780
+[2018.03.03-05.05.24:385][484]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_2 complete, GameThreadShaderMap 0x00000295EBD72780, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_2 as finished
+[2018.03.03-05.05.24:385][484]LogTemp:Display: Marking material as finished 0x00000295D1493D00
+[2018.03.03-05.05.24:520][485]LogTemp:Display: Finished compile of shader map 0x000002960239A080
+[2018.03.03-05.05.24:520][485]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_2 complete, GameThreadShaderMap 0x000002960239A080, marking material FMatExpressionPreview MaterialExpressionVectorParameter_2 as finished
+[2018.03.03-05.05.24:520][485]LogTemp:Display: Marking material as finished 0x00000296023F1F00
+[2018.03.03-05.05.24:522][485]LogTemp:Display: Finished compile of shader map 0x00000295F1767C80
+[2018.03.03-05.05.24:523][485]LogTemp:Display: Finished compile of shader map 0x00000295F1766400
+[2018.03.03-05.05.24:523][485]LogTemp:Display: Finished compile of shader map 0x00000295F1764F00
+[2018.03.03-05.05.24:524][485]LogTemp:Display: Finished compile of shader map 0x00000295EBF33200
+[2018.03.03-05.05.24:524][485]LogTemp:Display: Finished compile of shader map 0x00000295EBF31D00
+[2018.03.03-05.05.24:525][485]LogTemp:Display: Finished compile of shader map 0x000002960268D600
+[2018.03.03-05.05.24:525][485]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x000002960268D600, marking material PreviewMaterial_1 as finished
+[2018.03.03-05.05.24:525][485]LogTemp:Display: Marking material as finished 0x0000029601FE3B00
+[2018.03.03-05.05.24:532][485]LogTemp:Display: Finished compile of shader map 0x000002960239B900
+[2018.03.03-05.05.24:532][485]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionFunctionOutput_0 complete, GameThreadShaderMap 0x000002960239B900, marking material FMatExpressionPreview MaterialExpressionFunctionOutput_0 as finished
+[2018.03.03-05.05.24:532][485]LogTemp:Display: Marking material as finished 0x00000296023F3D00
+[2018.03.03-05.05.25:529][504]LogTemp:Display: Finished compile of shader map 0x0000029602398B80
+[2018.03.03-05.05.25:529][504]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_1 complete, GameThreadShaderMap 0x0000029602398B80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_1 as finished
+[2018.03.03-05.05.25:529][504]LogTemp:Display: Marking material as finished 0x00000296023F1600
+[2018.03.03-05.05.26:337][518]LogTemp:Display: Finished compile of shader map 0x00000295F2548480
+[2018.03.03-05.05.26:337][518]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_3 complete, GameThreadShaderMap 0x00000295F2548480, marking material FMatExpressionPreview MaterialExpressionVectorParameter_3 as finished
+[2018.03.03-05.05.26:337][518]LogTemp:Display: Marking material as finished 0x00000296023F0A00
+[2018.03.03-05.05.27:468][538]LogTemp:Display: Finished compile of shader map 0x0000029602336E80
+[2018.03.03-05.05.27:468][538]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionCustom_0 complete, GameThreadShaderMap 0x0000029602336E80, marking material FMatExpressionPreview MaterialExpressionCustom_0 as finished
+[2018.03.03-05.05.27:468][538]LogTemp:Display: Marking material as finished 0x00000295F2552500
+[2018.03.03-05.07.13:719][389]LogTemp:Display: Finished compile of shader map 0x00000295F31C4B80
+[2018.03.03-05.07.13:719][389]LogTemp:Display: Shader map Material_1 complete, GameThreadShaderMap 0x00000295F31C4B80, marking material Material_1 as finished
+[2018.03.03-05.07.13:719][389]LogTemp:Display: Marking material as finished 0x00000295C222B580
+[2018.03.03-05.07.13:725][389]LogTemp:Display: Finished compile of shader map 0x00000295F17D6780
+[2018.03.03-05.07.13:725][389]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x00000295F17D6780, marking material Material_0 as finished
+[2018.03.03-05.07.13:725][389]LogTemp:Display: Marking material as finished 0x00000295ED92B880
+[2018.03.03-05.07.20:629][507]LogTemp:Display: Finished compile of shader map 0x00000296024EA400
+[2018.03.03-05.07.20:629][507]LogTemp:Display: Shader map Material_4 complete, GameThreadShaderMap 0x00000296024EA400, marking material Material_4 as finished
+[2018.03.03-05.07.20:629][507]LogTemp:Display: Marking material as finished 0x00000295D3F7C700
+[2018.03.03-05.07.23:513][556]LogTemp:Display: Finished compile of shader map 0x00000295B5D40800
+[2018.03.03-05.07.23:513][556]LogTemp:Display: Shader map Material_3 complete, GameThreadShaderMap 0x00000295B5D40800, marking material Material_3 as finished
+[2018.03.03-05.07.23:513][556]LogTemp:Display: Marking material as finished 0x00000295D3F7D480
+[2018.03.03-05.07.23:521][556]LogTemp:Display: Finished compile of shader map 0x00000295C21E6080
+[2018.03.03-05.07.23:522][556]LogTemp:Display: Shader map Material_2 complete, GameThreadShaderMap 0x00000295C21E6080, marking material Material_2 as finished
+[2018.03.03-05.07.23:522][556]LogTemp:Display: Marking material as finished 0x00000295AC9ED480
+[2018.03.03-05.07.25:841][596]LogTemp:Display: Finished compile of shader map 0x000002960DB4F200
+[2018.03.03-05.07.25:841][596]LogTemp:Display: Shader map SyrupRiverMat complete, GameThreadShaderMap 0x000002960DB4F200, marking material SyrupRiverMat as finished
+[2018.03.03-05.07.25:841][596]LogTemp:Display: Marking material as finished 0x00000295C085FD80
+[2018.03.03-05.07.25:925][597]MaterialEditorStats: Info Base pass shader with static lighting: 700 instructions
+[2018.03.03-05.07.25:925][597]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 670 instructions
+[2018.03.03-05.07.25:925][597]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 670 instructions
+[2018.03.03-05.07.25:925][597]MaterialEditorStats: Info Vertex shader: 80 instructions
+[2018.03.03-05.07.25:925][597]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.03.03-05.10.35:022][502]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.10.35:026][502]LogTemp:Display: Added material ShaderMap 0x000002960D591D00 with Material 0x00000295C085FD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.10.35:059][502]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x000002960D591D00
+[2018.03.03-05.10.35:059][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.10.35:120][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.03-05.10.35:122][502]LogTemp:Display: Added material ShaderMap 0x0000029601F57900 with Material 0x000002960D39C400 to ShaderMapsBeingCompiled
+[2018.03.03-05.10.35:127][502]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x0000029601F57900
+[2018.03.03-05.10.38:613][584]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.10.38:620][584]LogTemp:Display: Added material ShaderMap 0x00000295ED066E80 with Material 0x00000295C085FD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.10.38:668][584]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x00000295ED066E80
+[2018.03.03-05.10.38:668][584]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.10.38:718][584]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.03-05.10.38:719][584]LogTemp:Display: Added material ShaderMap 0x00000295E6FD2080 with Material 0x00000295EDD96200 to ShaderMapsBeingCompiled
+[2018.03.03-05.10.38:723][584]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x00000295E6FD2080
+[2018.03.03-05.10.38:750][584]LogTemp:Display: Finished compile of shader map 0x000002960D591D00
+[2018.03.03-05.10.38:750][584]LogTemp:Display: Shader map SyrupRiverMat complete, GameThreadShaderMap 0x000002960D591D00, marking material SyrupRiverMat as finished
+[2018.03.03-05.10.38:750][584]LogTemp:Display: Marking material as finished 0x00000295C085FD80
+[2018.03.03-05.10.39:828][608]LogTemp:Display: Finished compile of shader map 0x0000029601F57900
+[2018.03.03-05.10.39:829][608]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x0000029601F57900, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2018.03.03-05.10.39:829][608]LogTemp:Display: Marking material as finished 0x000002960D39C400
+[2018.03.03-05.10.40:947][635]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.10.40:953][635]LogTemp:Display: Added material ShaderMap 0x000002960D590480 with Material 0x00000295C085FD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.10.41:001][635]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x000002960D590480
+[2018.03.03-05.10.41:002][635]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.10.41:048][635]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.03.03-05.10.41:050][635]LogTemp:Display: Added material ShaderMap 0x00000295EEF3F200 with Material 0x00000295EF0C1300 to ShaderMapsBeingCompiled
+[2018.03.03-05.10.41:054][635]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_7, GameThreadShaderMap 0x00000295EEF3F200
+[2018.03.03-05.10.43:077][672]LogTemp:Display: Finished compile of shader map 0x00000295E6FD2080
+[2018.03.03-05.10.43:077][672]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x00000295E6FD2080, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
+[2018.03.03-05.10.43:077][672]LogTemp:Display: Marking material as finished 0x00000295EDD96200
+[2018.03.03-05.10.43:947][687]LogTemp:Display: Finished compile of shader map 0x00000295ED066E80
+[2018.03.03-05.10.43:948][687]LogTemp:Display: Shader map SyrupRiverMat complete, GameThreadShaderMap 0x00000295ED066E80, marking material SyrupRiverMat as finished
+[2018.03.03-05.10.43:948][687]LogTemp:Display: Marking material as finished 0x00000295C085FD80
+[2018.03.03-05.11.48:839][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GREYBOX_PATH1)
+[2018.03.03-05.11.57:648][201]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.03-05.12.00:271][246]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.03-05.12.17:210][559]LogTemp:Display: Finished compile of shader map 0x00000295EEF3F200
+[2018.03.03-05.12.17:211][559]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_7 complete, GameThreadShaderMap 0x00000295EEF3F200, marking material FMatExpressionPreview MaterialExpressionTextureSample_7 as finished
+[2018.03.03-05.12.17:211][559]LogTemp:Display: Marking material as finished 0x00000295EF0C1300
+[2018.03.03-05.12.22:384][646]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.03.03-05.12.22:392][646]LogTemp:Display: Added material ShaderMap 0x000002960DE11D00 with Material 0x0000029601FE3B00 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.22:397][646]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x000002960DE11D00
+[2018.03.03-05.12.22:397][646]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.12.22:409][646]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2018.03.03-05.12.22:411][646]LogTemp:Display: Added material ShaderMap 0x00000295E1852780 with Material 0x00000295D3F7C700 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.22:431][646]LogTemp:Display: Kicking off shader compilation for Material_4, GameThreadShaderMap 0x00000295E1852780
+[2018.03.03-05.12.22:431][646]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.12.23:694][668]LogMaterialEditor: Applying material SyrupWater
+[2018.03.03-05.12.26:203][668]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.03.03-05.12.26:208][668]LogTemp:Display: Added material ShaderMap 0x000002960D2FE780 with Material 0x0000029601FE3B00 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.26:217][668]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x000002960D2FE780
+[2018.03.03-05.12.26:218][668]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.12.26:235][668]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2018.03.03-05.12.26:236][668]LogTemp:Display: Added material ShaderMap 0x00000295E1322B00 with Material 0x00000295D3F7C700 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.26:248][668]LogTemp:Display: Kicking off shader compilation for Material_4, GameThreadShaderMap 0x00000295E1322B00
+[2018.03.03-05.12.26:248][668]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.12.26:314][668]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.12.26:319][668]LogTemp:Display: Added material ShaderMap 0x0000029601F56080 with Material 0x00000295C085FD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.26:420][668]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x0000029601F56080
+[2018.03.03-05.12.26:436][668]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.12.26:443][668]LogTemp:Display: Finished compile of shader map 0x000002960DE11D00
+[2018.03.03-05.12.26:443][668]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x000002960DE11D00, marking material PreviewMaterial_1 as finished
+[2018.03.03-05.12.26:443][668]LogTemp:Display: Marking material as finished 0x0000029601FE3B00
+[2018.03.03-05.12.26:444][668]LogTemp:Display: Finished compile of shader map 0x00000295E1852780
+[2018.03.03-05.12.26:444][668]LogTemp:Display: Shader map Material_4 complete, GameThreadShaderMap 0x00000295E1852780, marking material Material_4 as finished
+[2018.03.03-05.12.26:444][668]LogTemp:Display: Marking material as finished 0x00000295D3F7C700
+[2018.03.03-05.12.26:479][668]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2018.03.03-05.12.26:484][668]LogTemp:Display: Added material ShaderMap 0x000002960D2FF200 with Material 0x00000295EBC1CA00 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.26:492][668]LogTemp:Display: Kicking off shader compilation for Material_5, GameThreadShaderMap 0x000002960D2FF200
+[2018.03.03-05.12.27:148][669]LogTemp:Display: Finished compile of shader map 0x000002960D2FE780
+[2018.03.03-05.12.27:148][669]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x000002960D2FE780, marking material PreviewMaterial_1 as finished
+[2018.03.03-05.12.27:148][669]LogTemp:Display: Marking material as finished 0x0000029601FE3B00
+[2018.03.03-05.12.27:426][673]LogTemp:Display: Finished compile of shader map 0x000002960D590480
+[2018.03.03-05.12.27:426][673]LogTemp:Display: Shader map SyrupRiverMat complete, GameThreadShaderMap 0x000002960D590480, marking material SyrupRiverMat as finished
+[2018.03.03-05.12.27:426][673]LogTemp:Display: Marking material as finished 0x00000295C085FD80
+[2018.03.03-05.12.28:191][687]LogMaterialEditor: Applying material SyrupRiverMat
+[2018.03.03-05.12.29:463][687]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.12.29:468][687]LogTemp:Display: Added material ShaderMap 0x000002960D796780 with Material 0x00000295C085FD80 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.29:570][687]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x000002960D796780
+[2018.03.03-05.12.29:571][687]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2018.03.03-05.12.29:645][687]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.12.29:650][687]LogTemp:Display: Added material ShaderMap 0x00000295EEEAD280 with Material 0x00000295D24A6980 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.29:841][687]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x00000295EEEAD280
+[2018.03.03-05.12.29:878][687]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.12.29:884][687]LogTemp:Display: Added material ShaderMap 0x000002961981C800 with Material 0x00000295D24A6980 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.29:997][687]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x000002961981C800
+[2018.03.03-05.12.30:030][687]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.12.30:036][687]LogTemp:Display: Added material ShaderMap 0x000002961AC46080 with Material 0x00000295D244B700 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.30:262][687]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x000002961AC46080
+[2018.03.03-05.12.30:284][687]LogMaterial: Missing cached shader map for material SyrupRiverMat, compiling. 
+[2018.03.03-05.12.30:290][687]LogTemp:Display: Added material ShaderMap 0x000002961B769280 with Material 0x00000295D1855780 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.30:394][687]LogTemp:Display: Kicking off shader compilation for SyrupRiverMat, GameThreadShaderMap 0x000002961B769280
+[2018.03.03-05.12.30:397][687]LogMaterial: 0.40 seconds spent updating 1 materials, 1 interfaces, 0 instances, 2 with static permutations.
+[2018.03.03-05.12.30:565][687]LogTemp:Display: Removed shader map 0x00000295F1880F00 from material 0x00000295ED92B880
+[2018.03.03-05.12.30:585][687]LogTemp:Display: Removed shader map 0x00000295F1882780 from material 0x00000295EBC7BD80
+[2018.03.03-05.12.30:773][687]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SyrupRiverMat, compiling. 
+[2018.03.03-05.12.30:779][687]LogTemp:Display: Added material ShaderMap 0x000002961CC28B80 with Material 0x000002961CBBB700 to ShaderMapsBeingCompiled
+[2018.03.03-05.12.55:528][687]LogTemp:Display: Finished compile of shader map 0x000002961CC28B80
+[2018.03.03-05.12.55:528][687]LogTemp:Display: Shader map FDebugViewModeMaterialProxy SyrupRiverMat complete, GameThreadShaderMap 0x000002961CC28B80, marking material FDebugViewModeMaterialProxy SyrupRiverMat as finished
+[2018.03.03-05.12.55:528][687]LogTemp:Display: Marking material as finished 0x000002961CBBB700
+[2018.03.03-05.12.55:538][687]TextureStreamingBuild:Display: Compiling optional shaders took 24.778 seconds.
+[2018.03.03-05.12.55:639][687]LogTemp:Display: Finished compile of shader map 0x0000029601F56080
+[2018.03.03-05.12.55:639][687]LogTemp:Display: Shader map SyrupRiverMat complete, GameThreadShaderMap 0x0000029601F56080, marking material SyrupRiverMat as finished
+[2018.03.03-05.12.55:639][687]LogTemp:Display: Marking material as finished 0x00000295C085FD80
+[2018.03.03-05.12.55:641][687]LogTemp:Display: Finished compile of shader map 0x00000295E1322B00
+[2018.03.03-05.12.55:641][687]LogTemp:Display: Shader map Material_4 complete, GameThreadShaderMap 0x00000295E1322B00, marking material Material_4 as finished
+[2018.03.03-05.12.55:641][687]LogTemp:Display: Marking material as finished 0x00000295D3F7C700
+[2018.03.03-05.12.55:646][687]LogTemp:Display: Finished compile of shader map 0x000002960D2FF200
+[2018.03.03-05.12.55:646][687]LogTemp:Display: Shader map Material_5 complete, GameThreadShaderMap 0x000002960D2FF200, marking material Material_5 as finished
+[2018.03.03-05.12.55:646][687]LogTemp:Display: Marking material as finished 0x00000295EBC1CA00
+[2018.03.03-05.13.00:813][793]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape3)
+[2018.03.03-05.13.01:476][798]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape3)
+[2018.03.03-05.13.04:093][856]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.03-05.13.07:679][939]LogTexture:Display: Building textures: Texture2D_108_BaseColor (BGRA8, 8X8) - 132 MB total VRAM
+[2018.03.03-05.13.13:130][ 18]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 132 MB total VRAM
+[2018.03.03-05.13.17:039][133]LogTemp:Display: Finished compile of shader map 0x000002960D796780
+[2018.03.03-05.13.17:039][133]LogTemp:Display: Shader map SyrupRiverMat complete, GameThreadShaderMap 0x000002960D796780, marking material SyrupRiverMat as finished
+[2018.03.03-05.13.17:040][133]LogTemp:Display: Marking material as finished 0x00000295C085FD80
+[2018.03.03-05.13.22:517][299]LogTexture:Display: Building textures: Texture2D_108_BaseColor (BGRA8, 8X8) - 132 MB total VRAM
+[2018.03.03-05.13.47:648][952]LogTexture:Display: Building textures: Texture2D_6_BaseColor (BGRA8, 16X16) - 132 MB total VRAM
+[2018.03.03-05.13.47:955][953]LogTexture:Display: Building textures: Texture2D_13_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.48:237][954]LogTexture:Display: Building textures: Texture2D_14_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.48:354][955]LogTexture:Display: Building textures: Texture2D_15_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.48:499][956]LogTexture:Display: Building textures: Texture2D_16_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.48:611][957]LogTexture:Display: Building textures: Texture2D_17_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.48:717][958]LogTexture:Display: Building textures: Texture2D_18_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.48:811][959]LogTexture:Display: Building textures: Texture2D_19_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.53:924][ 69]LogTexture:Display: Building textures: Texture2D_6_BaseColor (BGRA8, 16X16) - 132 MB total VRAM
+[2018.03.03-05.13.54:032][ 70]LogTexture:Display: Building textures: Texture2D_13_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.54:198][ 71]LogTexture:Display: Building textures: Texture2D_14_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.54:315][ 72]LogTexture:Display: Building textures: Texture2D_15_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.54:501][ 73]LogTexture:Display: Building textures: Texture2D_16_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.54:621][ 74]LogTexture:Display: Building textures: Texture2D_17_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.54:709][ 75]LogTexture:Display: Building textures: Texture2D_20_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.54:846][ 76]LogTexture:Display: Building textures: Texture2D_21_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.54:970][ 77]LogTexture:Display: Building textures: Texture2D_22_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.55:086][ 78]LogTexture:Display: Building textures: Texture2D_23_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.13.55:549][ 79]LogTexture:Display: Building textures: Texture2D_6_BaseColor (BGRA8, 16X16) - 132 MB total VRAM
+[2018.03.03-05.13.55:635][ 80]LogTexture:Display: Building textures: Texture2D_0_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.14.04:336][268]LogTexture:Display: Building textures: Texture2D_6_BaseColor (BGRA8, 16X16) - 132 MB total VRAM
+[2018.03.03-05.14.04:532][269]LogTexture:Display: Building textures: Texture2D_19_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.14.04:785][270]LogTexture:Display: Building textures: Texture2D_20_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.14.04:889][271]LogTexture:Display: Building textures: Texture2D_21_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.14.05:027][272]LogTexture:Display: Building textures: Texture2D_23_BaseColor (BGRA8, 2X2) - 132 MB total VRAM
+[2018.03.03-05.14.06:016][273]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.971 s
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: === Handled ensure: ===
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: 
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\PrimitiveSceneProxy.cpp] [Line: 599]
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: PrimitiveComponent tried to render with Material MaterialInstanceDynamic_63, which was not present in the component's GetUsedMaterials results
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error:     Owner: Landscape_3, Resource: Landscape
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: Stack: 
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF8195E6
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF5C9B82
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF5DB666
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C851CC1D
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C84CA441
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Landscape.dll!0x00000000DF2552FD
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000C29FBF97
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000C29D4AA8
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000C2A08F39
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000C265BE8E
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000C2A264C2
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000C29F066E
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF49D84D
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF49DC6D
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x00000000FC2F0397
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x00000000FC2F1486
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF82A3D8
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF824C79
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: KERNEL32.DLL!0x0000000023CB1FE4
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: ntdll.dll!0x000000002641EFC1
+[2018.03.03-05.14.06:016][273]LogOutputDevice:Error: 
+[2018.03.03-05.14.06:016][273]LogStats:                SubmitErrorReport -  0.000 s
