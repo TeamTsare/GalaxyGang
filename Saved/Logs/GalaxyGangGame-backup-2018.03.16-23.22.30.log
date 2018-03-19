@@ -1,0 +1,856 @@
+﻿Log file open, 03/16/18 23:10:25
+LogInit:Display: Running engine for game: GalaxyGangGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-822817710) SRandInit(-822817710).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069708
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.17-04.10.27:141][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.17-04.10.27:141][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.17-04.10.27:150][  0]LogInit: Computer: DESKTOP-SSSFMAE
+[2018.03.17-04.10.27:150][  0]LogInit: User: Richa
+[2018.03.17-04.10.27:150][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.03.17-04.10.27:150][  0]LogInit: High frequency timer resolution =2.343747 MHz
+[2018.03.17-04.10.27:151][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.17-04.10.27:151][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.17-04.10.27:151][  0]LogMemory: Process Physical Memory: 262.54 MB used, 262.54 MB peak
+[2018.03.17-04.10.27:151][  0]LogMemory: Process Virtual Memory: 261.98 MB used, 261.98 MB peak
+[2018.03.17-04.10.27:151][  0]LogMemory: Physical Memory: 4938.21 MB used,  3158.45 MB free, 8096.66 MB total
+[2018.03.17-04.10.27:151][  0]LogMemory: Virtual Memory: 681.10 MB used,  3158.45 MB free, 134217728.00 MB total
+[2018.03.17-04.10.27:294][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.03.17-04.10.28:378][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.17-04.10.28:396][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.03.17-04.10.28:396][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.17-04.10.28:401][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.17-04.10.28:401][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.17-04.10.28:401][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.17-04.10.28:408][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.17-04.10.28:408][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.17-04.10.28:408][  0]LogWindows: EnumDisplayDevices:
+[2018.03.17-04.10.28:408][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.03.17-04.10.28:409][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.17-04.10.28:409][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.17-04.10.28:409][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.17-04.10.28:409][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.03.17-04.10.28:409][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.17-04.10.28:409][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.17-04.10.28:409][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.17-04.10.28:421][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.17-04.10.28:427][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.03.17-04.10.28:428][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Richa/Desktop/GalaxyGang/Intermediate/Shaders/WorkingDirectory/15744/).
+[2018.03.17-04.10.28:428][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Richa/AppData/Local/Temp/UnrealShaderWorkingDir/E28745C2454C783DD4E8AD886341A807/'.
+[2018.03.17-04.10.28:428][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.17-04.10.29:914][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.17-04.10.29:990][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.17-04.10.30:098][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.17-04.10.30:170][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.17-04.10.30:252][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.17-04.10.30:366][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.17-04.10.30:448][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.17-04.10.30:525][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.17-04.10.30:590][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.17-04.10.30:665][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.17-04.10.30:736][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.17-04.10.30:812][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.17-04.10.30:885][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.17-04.10.30:958][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.17-04.10.31:037][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.17-04.10.31:186][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.17-04.10.31:186][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.17-04.10.31:237][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.17-04.10.31:366][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.17-04.10.31:412][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.17-04.10.31:483][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.17-04.10.31:556][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.17-04.10.31:628][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.17-04.10.31:732][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.17-04.10.31:732][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.17-04.10.33:323][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.17-04.10.33:423][  0]LogDerivedDataCache: Loaded boot cache 0.08s 52MB C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.03.17-04.10.33:492][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.03.17-04.10.33:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Richa/Desktop/GalaxyGang/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.17-04.10.33:492][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.17-04.10.33:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Richa/Desktop/GalaxyGang/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.17-04.10.33:492][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.17-04.10.33:514][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.17-04.10.33:526][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Richa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.17-04.10.33:538][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.17-04.10.33:539][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.17-04.10.33:539][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.17-04.10.33:957][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.17-04.10.33:960][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.17-04.10.34:237][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.17-04.10.34:309][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.17-04.10.34:399][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.17-04.10.34:399][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.17-04.10.34:399][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.17-04.10.35:367][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: galaxyganggame, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3878788453
+[2018.03.17-04.10.35:423][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2018.03.17-04.10.35:538][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.081723 seconds
+[2018.03.17-04.10.35:546][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.03.17-04.10.35:546][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2018.03.17-04.10.35:546][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.17-04.10.35:637][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.17-04.10.37:811][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.17-04.10.37:888][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.17-04.10.38:707][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.17-04.10.39:245][  0]SourceControl: Info Source control is disabled
+[2018.03.17-04.10.39:309][  0]SourceControl: Info Source control is disabled
+[2018.03.17-04.10.39:374][  0]SourceControl: Info Source control is disabled
+[2018.03.17-04.10.39:440][  0]SourceControl: Info Source control is disabled
+[2018.03.17-04.10.41:723][  0]LogEngine: Initializing Engine...
+[2018.03.17-04.10.41:724][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.17-04.10.41:869][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.17-04.10.41:869][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.17-04.10.42:035][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.17-04.10.42:054][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-04.10.42:276][  0]LogInit: FAudioDevice initialized.
+[2018.03.17-04.10.42:883][  0]LogDerivedDataCache: Saved boot cache 0.61s 52MB C:/Users/Richa/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.03.17-04.10.42:894][  0]LogInit: Texture streaming: Enabled
+[2018.03.17-04.10.43:029][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.17-04.10.43:218][  0]LogInit: Transaction tracking system initialized
+[2018.03.17-04.10.43:720][  0]BlueprintLog: New page: Editor Load
+[2018.03.17-04.10.44:990][  0]LocalizationService: Info Localization service is disabled
+[2018.03.17-04.10.45:955][  0]LogConsoleResponse:Display: 
+[2018.03.17-04.10.46:298][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.17-04.10.46:298][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.17-04.10.47:917][  0]SourceControl: Info Source control is disabled
+[2018.03.17-04.10.47:917][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.17-04.10.47:918][  0]LightingResults: New page: Lighting Build
+[2018.03.17-04.10.47:977][  0]MapCheck: New page: Map Check
+[2018.03.17-04.10.47:977][  0]LightingResults: New page: Lighting Build
+[2018.03.17-04.10.48:250][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.17-04.10.48:272][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.17-04.10.48:278][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.17-04.10.48:289][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.17-04.10.48:344][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.745ms to complete.
+[2018.03.17-04.10.48:344][  0]LogFileHelpers: Loading map 'Template_Default' took 0.427
+[2018.03.17-04.10.49:111][  0]LogCollectionManager: Loaded 0 collections in 0.001944 seconds
+[2018.03.17-04.10.49:598][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.03.17-04.10.49:618][  0]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 2245 classes and 453 folders.
+[2018.03.17-04.10.49:808][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.17-04.10.53:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Saved/Collections/' took 1.38s
+[2018.03.17-04.10.53:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/Developers/Richa/Collections/' took 1.38s
+[2018.03.17-04.10.53:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/Collections/' took 1.38s
+[2018.03.17-04.10.53:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/' took 4.71s
+[2018.03.17-04.10.53:401][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.03.17-04.10.54:260][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.03.17-04.10.55:755][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.17-04.10.55:917][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.17-04.10.56:036][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.03.17-04.10.56:036][  0]LogLoad: (Engine Initialization) Total time: 33.71 seconds
+[2018.03.17-04.10.56:036][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2018.03.17-04.10.56:036][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.17-04.10.56:376][  0]LogOcInput: OculusInput pre-init called
+[2018.03.17-04.10.56:583][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.17-04.10.56:585][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.17-04.10.56:665][  0]LogSlate: Took 0.076785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.17-04.10.56:714][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.17-04.10.57:280][  0]LogRenderer: Reallocating scene render targets to support 740x708 NumSamples 1 (Frame:2).
+[2018.03.17-04.13.18:811][  1]LogSlate: Took 0.024157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.17-04.13.19:804][  4]LogAssetRegistry: Asset discovery search completed in 164.4031 seconds
+[2018.03.17-04.13.19:804][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2018.03.17-04.13.19:804][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2018.03.17-04.13.20:157][  5]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.17-04.13.39:676][ 63]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Richa/Desktop/GalaxyGang/Content/' took 163.29s
+[2018.03.17-04.14.14:879][502]AssetReimport: New page: Detailed File System Changes from 11:14:14 PM
+[2018.03.17-04.14.14:935][502]AssetReimport: Info 'C:/Users/Richa/Desktop/GalaxyGang/Content/Audio/EVO_050Q_10_Deep_Forests_Ayala_288456.wav' has been created.
+[2018.03.17-04.14.14:935][502]AssetReimport: Info 'C:/Users/Richa/Desktop/GalaxyGang/Content/Audio/NiGHTS_-_Dream_Gate.wav' has been created.
+[2018.03.17-04.14.23:613][717]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.17-04.14.39:949][ 92]LogSlate: Took 0.000996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.17-04.14.40:791][ 92]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.17-04.14.41:399][ 92]LogBlueprint:Warning: [CharacterDanny1_old] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:399][ 92]LogBlueprint:Warning: [CharacterDanny1_old] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:402][ 92]LogBlueprint:Warning: [CharacterDanny1_old] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:457][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.14.41:458][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.14.41:458][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.14.41:458][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.14.41:458][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.14.41:458][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.14.41:459][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.14.41:459][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.14.41:459][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.14.41:459][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.14.41:460][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.14.41:468][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning [0259.14] Compile of CharacterDanny1_old successful, but with 11 Warning(s) [in 40 ms] (/Game/GalaxyGangGame/Characters/Char_Danny/CharacterDanny1_old.CharacterDanny1_old)
+[2018.03.17-04.14.41:469][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning [0259.14] Compile of CharacterDanny1_old successful, but with 12 Warning(s) [in 0 ms] (/Game/GalaxyGangGame/Characters/Char_Danny/CharacterDanny1_old.CharacterDanny1_old)
+[2018.03.17-04.14.41:469][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning [0259.14] Compile of CharacterDanny1_old successful, but with 13 Warning(s) [in 0 ms] (/Game/GalaxyGangGame/Characters/Char_Danny/CharacterDanny1_old.CharacterDanny1_old)
+[2018.03.17-04.14.41:565][ 92]LogBlueprint:Warning: [CharacterDanny] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:565][ 92]LogBlueprint:Warning: [CharacterDanny] 'CurrentHealth' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:567][ 92]LogBlueprint:Warning: [CharacterDanny] 'Resume_Button' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:613][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.14.41:613][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.14.41:613][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.14.41:613][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.14.41:614][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'BetaTestKey' for  InputAction BetaTestKey
+[2018.03.17-04.14.41:614][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.14.41:615][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.14.41:615][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.14.41:615][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.14.41:616][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.14.41:616][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.14.41:616][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.14.41:627][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning [0259.30] Compile of CharacterDanny successful, but with 12 Warning(s) [in 54 ms] (/Game/Characters/Char_Danny/CharacterDanny.CharacterDanny)
+[2018.03.17-04.14.41:629][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning [0259.30] Compile of CharacterDanny successful, but with 13 Warning(s) [in 2 ms] (/Game/Characters/Char_Danny/CharacterDanny.CharacterDanny)
+[2018.03.17-04.14.41:629][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning [0259.30] Compile of CharacterDanny successful, but with 14 Warning(s) [in 0 ms] (/Game/Characters/Char_Danny/CharacterDanny.CharacterDanny)
+[2018.03.17-04.14.41:740][ 92]LogBlueprint:Warning: [MainHUD] 'Health' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:740][ 92]LogBlueprint:Warning: [MainHUD] 'Percentage' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:740][ 92]LogBlueprint:Warning: [MainHUD] 'MaxHealth' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:740][ 92]LogBlueprint:Warning: [MainHUD] 'DannyHealthImage' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:741][ 92]LogBlueprint:Warning: [MainHUD] 'GreenDot' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:841][ 92]LogBlueprint:Warning: [MainHUD] 'GreenDot' variable not found. Base class was probably changed.
+[2018.03.17-04.14.41:951][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.14.41:951][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.14.41:951][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.14.41:952][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.14.41:952][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'BetaTestKey' for  InputAction BetaTestKey
+[2018.03.17-04.14.41:952][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.14.41:953][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.14.41:954][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.14.41:954][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.14.41:954][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.14.41:954][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.14.41:955][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.14.41:965][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning [0259.64] Compile of CharacterDanny successful, but with 12 Warning(s) [in 33 ms] (/Game/Characters/Char_Danny/CharacterDanny.CharacterDanny)
+[2018.03.17-04.14.41:965][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning [0259.64] Compile of CharacterDanny successful, but with 13 Warning(s) [in 0 ms] (/Game/Characters/Char_Danny/CharacterDanny.CharacterDanny)
+[2018.03.17-04.14.41:970][ 92]LogBlueprint:Warning: [Compiler CharacterDanny] Warning [0259.64] Compile of CharacterDanny successful, but with 14 Warning(s) [in 4 ms] (/Game/Characters/Char_Danny/CharacterDanny.CharacterDanny)
+[2018.03.17-04.14.42:016][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.14.42:017][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.14.42:017][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.14.42:017][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.14.42:017][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.14.42:018][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.14.42:018][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.14.42:019][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.14.42:019][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.14.42:019][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.14.42:019][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.14.42:028][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning [0259.70] Compile of CharacterDanny1_old successful, but with 11 Warning(s) [in 28 ms] (/Game/GalaxyGangGame/Characters/Char_Danny/CharacterDanny1_old.CharacterDanny1_old)
+[2018.03.17-04.14.42:028][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning [0259.70] Compile of CharacterDanny1_old successful, but with 12 Warning(s) [in 0 ms] (/Game/GalaxyGangGame/Characters/Char_Danny/CharacterDanny1_old.CharacterDanny1_old)
+[2018.03.17-04.14.42:029][ 92]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning [0259.70] Compile of CharacterDanny1_old successful, but with 13 Warning(s) [in 0 ms] (/Game/GalaxyGangGame/Characters/Char_Danny/CharacterDanny1_old.CharacterDanny1_old)
+[2018.03.17-04.14.42:611][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat'
+[2018.03.17-04.14.42:611][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/Crystals/CrystalC_Cyan.uasset.
+[2018.03.17-04.14.42:611][ 92]LoadErrors:Error: Error /Game/Environments/GalaxyofDreams/Crystals/CrystalC_Cyan : Can't find file for asset. /Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat
+[2018.03.17-04.14.42:611][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal'
+[2018.03.17-04.14.42:611][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/Crystals/CrystalC_Cyan.uasset.
+[2018.03.17-04.14.42:611][ 92]LoadErrors:Error: Error /Game/Environments/GalaxyofDreams/Crystals/CrystalC_Cyan : Can't find file for asset. /Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal
+[2018.03.17-04.14.42:627][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat'
+[2018.03.17-04.14.42:627][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/Crystals/CrystalC_Cyan.uasset.
+[2018.03.17-04.14.42:627][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal'
+[2018.03.17-04.14.42:627][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/Crystals/CrystalC_Cyan.uasset.
+[2018.03.17-04.14.42:628][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat'
+[2018.03.17-04.14.42:628][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.42:628][ 92]LoadErrors:Error: Error /Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island : Can't find file for asset. /Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat
+[2018.03.17-04.14.42:628][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal'
+[2018.03.17-04.14.42:628][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.42:628][ 92]LoadErrors:Error: Error /Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island : Can't find file for asset. /Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal
+[2018.03.17-04.14.42:628][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat'
+[2018.03.17-04.14.42:628][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.42:628][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal'
+[2018.03.17-04.14.42:628][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.42:629][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat'
+[2018.03.17-04.14.42:629][ 92]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat.CyanGlow_Mat Referenced by StaticMesh_GEN_VARIABLE
+[2018.03.17-04.14.42:629][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/CyanGlow_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.42:630][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal'
+[2018.03.17-04.14.42:630][ 92]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal.OutsideCrystal Referenced by StaticMesh_GEN_VARIABLE
+[2018.03.17-04.14.42:630][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/OutsideCrystal' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.43:024][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow'
+[2018.03.17-04.14.43:024][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/Fountain.uasset.
+[2018.03.17-04.14.43:024][ 92]LoadErrors:Error: Error /Game/Environments/GalaxyofDreams/Fountain : Can't find file for asset. /Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow
+[2018.03.17-04.14.43:024][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23'
+[2018.03.17-04.14.43:024][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/Fountain.uasset.
+[2018.03.17-04.14.43:024][ 92]LoadErrors:Error: Error /Game/Environments/GalaxyofDreams/Fountain : Can't find file for asset. /Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23
+[2018.03.17-04.14.43:083][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Perlin_Noise_M'
+[2018.03.17-04.14.43:084][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Perlin_Noise_M' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Materials/PirateMats/M_Water_Ocean_MINE23.uasset.
+[2018.03.17-04.14.43:084][ 92]LoadErrors:Error: Error /Game/Materials/PirateMats/M_Water_Ocean_MINE23 : Can't find file for asset. /Game/Textures/StartUpTextures/T_Perlin_Noise_M
+[2018.03.17-04.14.43:084][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_M'
+[2018.03.17-04.14.43:084][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_M' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Materials/PirateMats/M_Water_Ocean_MINE23.uasset.
+[2018.03.17-04.14.43:084][ 92]LoadErrors:Error: Error /Game/Materials/PirateMats/M_Water_Ocean_MINE23 : Can't find file for asset. /Game/Textures/StartUpTextures/T_Water_M
+[2018.03.17-04.14.43:084][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_N'
+[2018.03.17-04.14.43:084][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_N' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Materials/PirateMats/M_Water_Ocean_MINE23.uasset.
+[2018.03.17-04.14.43:084][ 92]LoadErrors:Error: Error /Game/Materials/PirateMats/M_Water_Ocean_MINE23 : Can't find file for asset. /Game/Textures/StartUpTextures/T_Water_N
+[2018.03.17-04.14.43:084][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Perlin_Noise_M'
+[2018.03.17-04.14.43:084][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Perlin_Noise_M' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Materials/PirateMats/M_Water_Ocean_MINE23.uasset.
+[2018.03.17-04.14.43:085][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_M'
+[2018.03.17-04.14.43:085][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_M' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Materials/PirateMats/M_Water_Ocean_MINE23.uasset.
+[2018.03.17-04.14.43:085][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_N'
+[2018.03.17-04.14.43:085][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_N' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Materials/PirateMats/M_Water_Ocean_MINE23.uasset.
+[2018.03.17-04.14.43:088][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow'
+[2018.03.17-04.14.43:088][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/Fountain.uasset.
+[2018.03.17-04.14.43:089][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23'
+[2018.03.17-04.14.43:089][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/Fountain.uasset.
+[2018.03.17-04.14.43:090][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow'
+[2018.03.17-04.14.43:090][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.43:090][ 92]LoadErrors:Error: Error /Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island : Can't find file for asset. /Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow
+[2018.03.17-04.14.43:090][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23'
+[2018.03.17-04.14.43:090][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.43:090][ 92]LoadErrors:Error: Error /Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island : Can't find file for asset. /Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23
+[2018.03.17-04.14.43:090][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow'
+[2018.03.17-04.14.43:090][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.43:090][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23'
+[2018.03.17-04.14.43:091][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.43:092][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow'
+[2018.03.17-04.14.43:092][ 92]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow.WhiteGlow Referenced by Fountain_GEN_VARIABLE
+[2018.03.17-04.14.43:092][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/WhiteGlow' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.43:092][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23'
+[2018.03.17-04.14.43:092][ 92]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23.M_Water_Ocean_MINE23 Referenced by Fountain_GEN_VARIABLE
+[2018.03.17-04.14.43:092][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/PirateMats/M_Water_Ocean_MINE23' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap.
+[2018.03.17-04.14.44:635][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/Invisible_TX_Mat'
+[2018.03.17-04.14.44:636][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/Invisible_TX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/InvisibleWall_Round.uasset.
+[2018.03.17-04.14.44:636][ 92]LoadErrors:Error: Error /Game/Environments/GalaxyofDreams/InvisibleWall_Round : Can't find file for asset. /Game/GalaxyGangGame/Materials/DreamMats/Invisible_TX_Mat
+[2018.03.17-04.14.44:636][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/Invisible_TX_Mat'
+[2018.03.17-04.14.44:636][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/Invisible_TX_Mat' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/InvisibleWall_Round.uasset.
+[2018.03.17-04.14.44:754][ 92]LogLinker:Warning: Can't find file '/Game/Environments/GalaxyofDreams/LandPieces/Material__44'
+[2018.03.17-04.14.44:754][ 92]LogLinker:Warning: Can't find file for asset '/Game/Environments/GalaxyofDreams/LandPieces/Material__44' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/LandPieces/Inv_HomePlanet_Arena.uasset.
+[2018.03.17-04.14.44:754][ 92]LoadErrors:Error: Error /Game/Environments/GalaxyofDreams/LandPieces/Inv_HomePlanet_Arena : Can't find file for asset. /Game/Environments/GalaxyofDreams/LandPieces/Material__44
+[2018.03.17-04.14.44:755][ 92]LogLinker:Warning: Can't find file '/Game/Environments/GalaxyofDreams/LandPieces/Material__44'
+[2018.03.17-04.14.44:755][ 92]LogLinker:Warning: Can't find file for asset '/Game/Environments/GalaxyofDreams/LandPieces/Material__44' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/GalaxyofDreams/LandPieces/Inv_HomePlanet_Arena.uasset.
+[2018.03.17-04.14.44:851][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.17-04.14.44:851][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/Rocks/Rock5.uasset.
+[2018.03.17-04.14.44:851][ 92]LoadErrors:Error: Error /Game/Environments/Rocks/Rock5 : Can't find file for asset. /Game/GalaxyGangGame/Materials/RockMaterial
+[2018.03.17-04.14.44:852][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.17-04.14.44:852][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/Rocks/Rock5.uasset.
+[2018.03.17-04.14.44:882][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.17-04.14.44:882][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/Rocks/Rock6.uasset.
+[2018.03.17-04.14.44:882][ 92]LoadErrors:Error: Error /Game/Environments/Rocks/Rock6 : Can't find file for asset. /Game/GalaxyGangGame/Materials/RockMaterial
+[2018.03.17-04.14.44:883][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.17-04.14.44:883][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading ../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Environments/Rocks/Rock6.uasset.
+[2018.03.17-04.14.45:775][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Perlin_Noise_M'
+[2018.03.17-04.14.45:776][ 92]LoadErrors: Info Failed to load /Game/Textures/StartUpTextures/T_Perlin_Noise_M.T_Perlin_Noise_M Referenced by MaterialExpressionTextureSample_10
+[2018.03.17-04.14.45:776][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Perlin_Noise_M' while loading NULL.
+[2018.03.17-04.14.45:777][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_M'
+[2018.03.17-04.14.45:777][ 92]LoadErrors: Info Failed to load /Game/Textures/StartUpTextures/T_Water_M.T_Water_M Referenced by MaterialExpressionTextureSample_2
+[2018.03.17-04.14.45:777][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_M' while loading NULL.
+[2018.03.17-04.14.45:777][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_M'
+[2018.03.17-04.14.45:777][ 92]LoadErrors: Info Failed to load /Game/Textures/StartUpTextures/T_Water_M.T_Water_M Referenced by MaterialExpressionTextureSample_3
+[2018.03.17-04.14.45:777][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_M' while loading NULL.
+[2018.03.17-04.14.45:778][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_N'
+[2018.03.17-04.14.45:778][ 92]LoadErrors: Info Failed to load /Game/Textures/StartUpTextures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_7
+[2018.03.17-04.14.45:778][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_N' while loading NULL.
+[2018.03.17-04.14.45:778][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_N'
+[2018.03.17-04.14.45:778][ 92]LoadErrors: Info Failed to load /Game/Textures/StartUpTextures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_8
+[2018.03.17-04.14.45:778][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_N' while loading NULL.
+[2018.03.17-04.14.45:779][ 92]LogLinker:Warning: Can't find file '/Game/Textures/StartUpTextures/T_Water_N'
+[2018.03.17-04.14.45:779][ 92]LoadErrors: Info Failed to load /Game/Textures/StartUpTextures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_9
+[2018.03.17-04.14.45:779][ 92]LogLinker:Warning: Can't find file for asset '/Game/Textures/StartUpTextures/T_Water_N' while loading NULL.
+[2018.03.17-04.14.46:369][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.17-04.14.46:370][ 92]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/RockMaterial.RockMaterial Referenced by Rock6
+[2018.03.17-04.14.46:370][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading NULL.
+[2018.03.17-04.14.46:371][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/RockMaterial'
+[2018.03.17-04.14.46:371][ 92]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/RockMaterial.RockMaterial Referenced by Rock5
+[2018.03.17-04.14.46:371][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/RockMaterial' while loading NULL.
+[2018.03.17-04.14.46:375][ 92]LogLinker:Warning: Can't find file '/Game/Environments/GalaxyofDreams/LandPieces/Material__44'
+[2018.03.17-04.14.46:375][ 92]LoadErrors: Info Failed to load /Game/Environments/GalaxyofDreams/LandPieces/Material__44.Material__44 Referenced by Inv_HomePlanet_Arena
+[2018.03.17-04.14.46:375][ 92]LogLinker:Warning: Can't find file for asset '/Game/Environments/GalaxyofDreams/LandPieces/Material__44' while loading NULL.
+[2018.03.17-04.14.46:377][ 92]LogLinker:Warning: Can't find file '/Game/GalaxyGangGame/Materials/DreamMats/Invisible_TX_Mat'
+[2018.03.17-04.14.46:377][ 92]LoadErrors: Info Failed to load /Game/GalaxyGangGame/Materials/DreamMats/Invisible_TX_Mat.Invisible_TX_Mat Referenced by InvisibleWall_Round
+[2018.03.17-04.14.46:377][ 92]LogLinker:Warning: Can't find file for asset '/Game/GalaxyGangGame/Materials/DreamMats/Invisible_TX_Mat' while loading NULL.
+[2018.03.17-04.15.00:030][ 92]LogTexture:Display: Building textures: StarPad_3_Lines (BGRA8, 1447X1447) - 86 MB total VRAM
+[2018.03.17-04.15.03:391][ 92]LogMaterial: Missing cached shader map for material M_Water_Ocean_MINE23, compiling. 
+[2018.03.17-04.15.03:435][ 92]LogMaterial:Warning: Failed to compile Material /Game/Materials/PirateMats/M_Water_Ocean_MINE23.M_Water_Ocean_MINE23 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.17-04.15.03:435][ 92]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2018.03.17-04.15.06:936][ 92]LogAIModule: Creating AISystem for world Galaxy_Of_Dreams+Home_Fountain_Island
+[2018.03.17-04.15.07:633][ 92]Cmd: MAP LOAD FILE="../../../../../../Users/Richa/Desktop/GalaxyGang/Content/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.17-04.15.07:633][ 92]LightingResults: New page: Lighting Build
+[2018.03.17-04.15.07:635][ 92]LoadErrors: New page: Loading map: Galaxy_Of_Dreams+Home_Fountain_Island.umap
+[2018.03.17-04.15.07:636][ 92]MapCheck: New page: Map Check
+[2018.03.17-04.15.07:636][ 92]LightingResults: New page: Lighting Build
+[2018.03.17-04.15.07:944][ 92]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.17-04.15.07:972][ 92]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.17-04.15.08:071][ 92]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.525ms to complete.
+[2018.03.17-04.15.08:071][ 92]LogFileHelpers: Loading map 'Galaxy_Of_Dreams+Home_Fountain_Island' took 0.439
+[2018.03.17-04.15.44:484][273]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Dream_HomePlanet)
+[2018.03.17-04.15.46:855][276]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island' with GeneratedClass '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island_C' with ClassGeneratedBy '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island'
+[2018.03.17-04.15.46:855][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-04.15.46:911][276]PIE: New page: PIE session: Galaxy_Of_Dreams+Home_Fountain_Island (Mar 16, 2018, 6:15:46 PM)
+[2018.03.17-04.15.46:920][276]LogPlayLevel: Creating play world package: /Game/Levels/W01_GalaxyOfDreams/UEDPIE_0_Galaxy_Of_Dreams+Home_Fountain_Island
+[2018.03.17-04.15.47:002][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081211s)
+[2018.03.17-04.15.47:003][276]LogAIModule: Creating AISystem for world Galaxy_Of_Dreams+Home_Fountain_Island
+[2018.03.17-04.15.47:003][276]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2018.03.17-04.15.47:004][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island to /Game/Levels/W01_GalaxyOfDreams/UEDPIE_0_Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island (0.092530s)
+[2018.03.17-04.15.47:046][276]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-04.15.47:063][276]LogInit: FAudioDevice initialized.
+[2018.03.17-04.15.47:209][276]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-04.15.47:255][276]LogWorld: Bringing World /Game/Levels/W01_GalaxyOfDreams/UEDPIE_0_Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island up for play (max tick rate 60) at 2018.03.16-23.15.47
+[2018.03.17-04.15.47:330][276]LogWorld: Bringing up level for play took: 0.090024
+[2018.03.17-04.15.47:490][276]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.03.17-04.15.47:491][276]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.17-04.15.47:491][276]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.17-04.15.47:491][276]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.17-04.15.47:685][276]LogBlueprintUserMessages: [MainHUD_C_0] false
+[2018.03.17-04.15.47:686][276]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array K2Node_MakeArray_Array4 of length 3!
+[2018.03.17-04.15.47:686][276]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.MainHUD_C_0
+	Function /Game/Blueprints/Widgets/MainHUD.MainHUD_C:Starpad:098E
+[2018.03.17-04.15.47:687][276]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'Starpad' from node: Set Visibility in graph: Starpad in object: MainHUD with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2018.03.17-04.15.47:687][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.15.47:687][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.15.47:687][276]LogBlueprintUserMessages: [GreenJewel_20] Green Check Failed
+[2018.03.17-04.15.47:688][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.15.47:688][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.15.47:688][276]LogBlueprintUserMessages: [PurpleJewel_10] Purple Check Failed
+[2018.03.17-04.15.47:688][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.15.47:688][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.15.47:688][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.15.47:731][276]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.17-04.15.47:731][276]PIE: Info Play in editor start time for /Game/Levels/W01_GalaxyOfDreams/UEDPIE_0_Galaxy_Of_Dreams+Home_Fountain_Island 0.979
+[2018.03.17-04.15.47:742][276]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island' with GeneratedClass '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island_C' with ClassGeneratedBy '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island'
+[2018.03.17-04.16.13:681][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island' with GeneratedClass '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island_C' with ClassGeneratedBy '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island'
+[2018.03.17-04.16.14:126][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island' with GeneratedClass '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island_C' with ClassGeneratedBy '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island'
+[2018.03.17-04.16.21:056][436]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-04.16.21:081][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island' with GeneratedClass '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island_C' with ClassGeneratedBy '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island'
+[2018.03.17-04.16.21:082][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-04.16.21:083][436]PIE: New page: PIE session: Galaxy_Of_Dreams+Home_Fountain_Island (Mar 16, 2018, 6:16:21 PM)
+[2018.03.17-04.16.21:083][436]LogPlayLevel: Creating play world package: /Game/Levels/W01_GalaxyOfDreams/UEDPIE_0_Galaxy_Of_Dreams+Home_Fountain_Island
+[2018.03.17-04.16.21:201][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117283s)
+[2018.03.17-04.16.21:203][436]LogAIModule: Creating AISystem for world Galaxy_Of_Dreams+Home_Fountain_Island
+[2018.03.17-04.16.21:203][436]LogPlayLevel: PIE: World Init took: (0.002051s)
+[2018.03.17-04.16.21:204][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island to /Game/Levels/W01_GalaxyOfDreams/UEDPIE_0_Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island (0.120634s)
+[2018.03.17-04.16.21:279][436]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-04.16.21:330][436]LogInit: FAudioDevice initialized.
+[2018.03.17-04.16.21:368][436]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-04.16.21:390][436]LogWorld: Bringing World /Game/Levels/W01_GalaxyOfDreams/UEDPIE_0_Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island up for play (max tick rate 60) at 2018.03.16-23.16.21
+[2018.03.17-04.16.21:402][436]LogWorld: Bringing up level for play took: 0.033376
+[2018.03.17-04.16.21:404][436]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.17-04.16.21:404][436]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.17-04.16.21:404][436]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.17-04.16.21:422][436]LogBlueprintUserMessages: [MainHUD_C_1] false
+[2018.03.17-04.16.21:422][436]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array K2Node_MakeArray_Array4 of length 3!
+[2018.03.17-04.16.21:422][436]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.MainHUD_C_1
+	Function /Game/Blueprints/Widgets/MainHUD.MainHUD_C:Starpad:098E
+[2018.03.17-04.16.21:422][436]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'Starpad' from node: Set Visibility in graph: Starpad in object: MainHUD with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2018.03.17-04.16.21:423][436]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.16.21:423][436]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.16.21:423][436]LogBlueprintUserMessages: [GreenJewel_20] Green Check Failed
+[2018.03.17-04.16.21:423][436]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.16.21:423][436]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.16.21:423][436]LogBlueprintUserMessages: [PurpleJewel_10] Purple Check Failed
+[2018.03.17-04.16.21:423][436]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.16.21:423][436]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.16.21:423][436]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithTag_OutActors of length 0!
+[2018.03.17-04.16.21:425][436]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.17-04.16.21:426][436]PIE: Info Play in editor start time for /Game/Levels/W01_GalaxyOfDreams/UEDPIE_0_Galaxy_Of_Dreams+Home_Fountain_Island 0.673
+[2018.03.17-04.16.21:428][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island' with GeneratedClass '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island_C' with ClassGeneratedBy '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island'
+[2018.03.17-04.16.28:199][473]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island' with GeneratedClass '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island_C' with ClassGeneratedBy '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island'
+[2018.03.17-04.16.28:542][473]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island' with GeneratedClass '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island_C' with ClassGeneratedBy '/Game/Levels/W01_GalaxyOfDreams/Galaxy_Of_Dreams+Home_Fountain_Island.Galaxy_Of_Dreams+Home_Fountain_Island:PersistentLevel.Galaxy_Of_Dreams+Home_Fountain_Island'
+[2018.03.17-04.16.29:136][478]Cmd: SELECT NONE
+[2018.03.17-04.16.50:297][587]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2018.03.17-04.16.51:914][587]LogSlate: Took 0.027569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.17-04.16.53:030][588]LogSlate: Took 0.019109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.17-04.16.59:779][629]BlueprintLog: New page: Compile CharacterDanny
+[2018.03.17-04.17.00:075][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.17.00:076][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.17.00:076][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.17.00:076][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.17.00:076][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'BetaTestKey' for  InputAction BetaTestKey
+[2018.03.17-04.17.00:076][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.17.00:078][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.17.00:079][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.17.00:079][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.17.00:080][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.17.00:080][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.17.00:080][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.17.00:334][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.17.00:334][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.17.00:334][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.17.00:335][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.17.00:335][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.17.00:335][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.17.00:336][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.17.00:336][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.17.00:336][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.17.00:336][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.17.00:337][629]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'BetaTestKey' for  InputAction BetaTestKey
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.17.00:644][629]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.17.00:645][629]LogBlueprint:Warning: [Compiler CharacterDanny] Warning [0398.31] Compile of CharacterDanny successful, but with 12 Warning(s) [in 865 ms] (/Game/Characters/Char_Danny/CharacterDanny.CharacterDanny)
+[2018.03.17-04.17.58:505][932]BlueprintLog: New page: Compile CharacterDanny
+[2018.03.17-04.17.58:769][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.17.58:769][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.17.58:770][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.17.58:770][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.17.58:770][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'BetaTestKey' for  InputAction BetaTestKey
+[2018.03.17-04.17.58:770][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.17.58:773][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.17.58:773][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.17.58:773][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.17.58:774][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.17.58:774][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.17.58:776][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.17.58:983][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.17.58:983][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.17.58:983][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.17.58:984][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.17.58:984][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.17.58:984][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.17.58:985][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.17.58:985][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.17.58:985][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.17.58:985][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.17.58:986][932]LogBlueprint:Warning: [Compiler CharacterDanny1_old] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'BetaTestKey' for  InputAction BetaTestKey
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Menu_Left' for  InputAction Menu_Left
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Menu_Right' for  InputAction Menu_Right
+[2018.03.17-04.17.59:292][932]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.03.17-04.17.59:293][932]LogBlueprint:Warning: [Compiler CharacterDanny] Warning [0456.96] Compile of CharacterDanny successful, but with 12 Warning(s) [in 787 ms] (/Game/Characters/Char_Danny/CharacterDanny.CharacterDanny)
+[2018.03.17-04.18.35:873][109]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.17-04.18.36:202][112]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GalaxyGangGame
+
+[2018.03.17-04.18.36:202][112]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2018.03.17-04.18.36:202][112]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2018.03.17-04.18.36:202][112]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2018.03.17-04.18.36:212][112]LogTemp:Display: BranchPath = DESKTOP-SSSFMAE/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-SSSFMAE/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2018.03.17-04.18.36:761][116]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Richa\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2018.03.17-04.18.36:761][116]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2018.03.17-04.18.36:761][116]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2018.03.17-04.18.36:761][116]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2018.03.17-04.18.36:761][116]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2018.03.17-04.18.36:761][116]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2018.03.17-04.21.34:068][222]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.17-04.21.34:068][222]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.17-04.21.34:361][223]Cmd: QUIT_EDITOR
+[2018.03.17-04.21.35:376][223]LogExit: Preparing to exit.
+[2018.03.17-04.21.36:395][223]LogDirectoryWatcher: A directory notification for 'C:/Users/Richa/Desktop/GalaxyGang/Content/' was aborted.
+[2018.03.17-04.21.36:454][223]LogExit: Editor shut down
+[2018.03.17-04.21.36:454][223]LogExit: Transaction tracking system shut down
+[2018.03.17-04.21.36:591][223]LogObj: Freed 0b from 0 cluster array pools.
+[2018.03.17-04.21.36:591][223]LogExit: Object subsystem successfully closed.
+[2018.03.17-04.21.36:629][223]LogD3D11RHI: Shutdown
+[2018.03.17-04.21.36:629][223]LogD3D11RHI: CleanupD3DDevice
+[2018.03.17-04.21.37:130][223]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.17-04.21.37:180][223]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (506)
+[2018.03.17-04.21.37:180][223]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2018.03.17-04.21.37:180][223]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2018.03.17-04.21.37:190][223]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2018.03.17-04.21.37:190][223]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2018.03.17-04.21.37:190][223]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2018.03.17-04.21.37:190][223]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2018.03.17-04.21.37:190][223]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2018.03.17-04.21.37:190][223]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2018.03.17-04.21.37:191][223]LogDirectoryWatcher: A directory notification for 'C:/Users/Richa/Desktop/GalaxyGang/Content/Collections/' was aborted.
+[2018.03.17-04.21.37:191][223]LogDirectoryWatcher: A directory notification for 'C:/Users/Richa/Desktop/GalaxyGang/Content/Developers/Richa/Collections/' was aborted.
+[2018.03.17-04.21.37:191][223]LogDirectoryWatcher: A directory notification for 'C:/Users/Richa/Desktop/GalaxyGang/Saved/Collections/' was aborted.
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2018.03.17-04.21.37:191][223]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module Media (443)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2018.03.17-04.21.37:192][223]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2018.03.17-04.21.37:787][223]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2018.03.17-04.21.37:788][223]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2018.03.17-04.21.37:788][223]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2018.03.17-04.21.37:788][223]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2018.03.17-04.21.37:788][223]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2018.03.17-04.21.37:788][223]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2018.03.17-04.21.37:788][223]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2018.03.17-04.21.37:788][223]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2018.03.17-04.21.37:788][223]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2018.03.17-04.21.37:831][223]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2018.03.17-04.21.37:840][223]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2018.03.17-04.21.38:058][223]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2018.03.17-04.21.38:059][223]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2018.03.17-04.21.38:060][223]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2018.03.17-04.21.38:060][223]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2018.03.17-04.21.38:060][223]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2018.03.17-04.21.38:060][223]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.03.17-04.21.38:061][223]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2018.03.17-04.21.38:061][223]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2018.03.17-04.21.38:061][223]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2018.03.17-04.21.38:061][223]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2018.03.17-04.21.38:162][223]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2018.03.17-04.21.38:263][223]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2018.03.17-04.21.38:263][223]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2018.03.17-04.21.38:263][223]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.03.17-04.21.38:263][223]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2018.03.17-04.21.38:263][223]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2018.03.17-04.21.38:263][223]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2018.03.17-04.21.38:263][223]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2018.03.17-04.21.38:274][223]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2018.03.17-04.21.38:277][223]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2018.03.17-04.21.38:278][223]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2018.03.17-04.21.38:278][223]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2018.03.17-04.21.38:278][223]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2018.03.17-04.21.38:278][223]LogModuleManager: Shutting down and abandoning module Core (154)
+[2018.03.17-04.21.38:278][223]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2018.03.17-04.21.38:437][223]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.17-04.21.38:437][223]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Richa/Desktop/GalaxyGang/Content/' was aborted.
+[2018.03.17-04.21.38:437][223]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.17-04.21.38:437][223]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2018.03.17-04.21.38:438][223]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2018.03.17-04.21.38:438][223]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2018.03.17-04.21.38:438][223]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2018.03.17-04.21.38:438][223]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2018.03.17-04.21.38:438][223]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2018.03.17-04.21.38:438][223]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2018.03.17-04.21.38:438][223]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2018.03.17-04.21.38:438][223]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2018.03.17-04.21.38:488][223]LogDerivedDataCache: Shutdown
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2018.03.17-04.21.38:488][223]LogOnline:Display: Unloading online subsystem: NULL
+[2018.03.17-04.21.38:488][223]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.03.17-04.21.38:489][223]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.03.17-04.21.38:489][223]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.17-04.21.38:489][223]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC5A948E5-49DC-43CB-FC5B-5DA6D44AEFC4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=5b603b244070857be6e21db07fac4498%7C4e52399356044f1baac68bdb5a4ee55b%7C7ab93c02-ae7a-45b6-a8d9-e2cb6f613e2a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.17-04.21.38:500][223]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.03.17-04.21.38:501][223]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.03.17-04.21.38:501][223]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.03.17-04.21.38:501][223]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.03.17-04.21.38:501][223]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.03.17-04.21.38:501][223]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.17-04.21.38:505][223]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.17-04.21.38:507][223]LogExit: Exiting.
+[2018.03.17-04.21.38:517][223]Log file closed, 03/16/18 23:21:38
